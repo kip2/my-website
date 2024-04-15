@@ -1,9 +1,10 @@
 import './App.css'
+import Top from './Components/Page/Top/Top'
 
 function App() {
   return (
     <>
-      <h1>Hello My Page</h1>
+      <Top></Top>
     </>
   )
 }
