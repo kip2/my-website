@@ -1,10 +1,17 @@
 import './App.css'
+import Products from './Components/Page/Products/Products'
 import Top from './Components/Page/Top/Top'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
 function App() {
   return (
     <>
-      <Top></Top>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Top />}/>
+          <Route path="/products" element={<Products />}/>
+        </Routes>
+      </Router>
     </>
   )
 }
