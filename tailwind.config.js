@@ -5,8 +5,21 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      boxSizing: {
+        inherit: 'inherit',
+      }
+    },
   },
-  plugins: [],
+  plugins: [
+    function({ addUtilities }) {
+      const newUtilities = {
+        '.box-inherit': {
+          boxSizing: 'inherit',
+        },
+      };
+      addUtilities(newUtilities, ['responsive']);
+    }
+  ],
 }
 
