@@ -1,7 +1,7 @@
 function Top() {
     return (
         <>
-            <h1 className="text-3xl font-bold underline">My Top page!</h1>
+            <h1 className="text-6xl font-bold">My Top page!</h1>
         </>
     )
 }
