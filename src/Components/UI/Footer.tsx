@@ -1,8 +1,8 @@
 function Footer() {
     return (
-        <>
-            <h1>Footer</h1>
-        </>
+        <footer className="pt-10 flex justify-center">
+            <p className=" text-xl">© 2024 kip2 All rights reserved.</p>
+        </footer>
     )
 }
 
