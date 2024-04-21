@@ -27,10 +27,10 @@ const Quotes = () => {
                     <footer className='flex justify-end mr-10'>- {quote.author}</footer>
                 </blockquote>
             ) : (
-                <p>Loading quote...</p>
+                <p className='mx-auto w-144 text-center text-2xl'>Loading quote...</p>
             )}
         </div>
-        <div className="border-t border-white my-5 w-80 mx-auto"></div>
+        <div className="border-t border-white my-5 w-80 mx-auto my-10"></div>
         </>
     )
 }
