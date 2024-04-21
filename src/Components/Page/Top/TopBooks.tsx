@@ -4,7 +4,7 @@ import booksData from "../../../../public/json/BookData.json"
 function TopBooks() {
     return (
         <>
-            <div className="border-t border-white my-10 w-96 mx-auto"></div>
+            <div className="border-t border-white mb-20 mt-7 w-96 mx-auto"></div>
             <h1 className=" text-6xl mx-auto w-fit mb-7 max-md:text-4xl">
                 影響を受けた本
             </h1>
