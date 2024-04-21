@@ -4,6 +4,9 @@ import { faGithub, faXTwitter } from "@fortawesome/free-brands-svg-icons"
 function TopProfile() {
     return (
         <>
+            <h1 className=" text-6xl mx-auto w-fit mb-12 max-md:text-4xl">
+                My Profile
+            </h1>
             <div className="mx-auto flex justify-center gap-16 max-lg:flex-col max-lg:items-center">
                 <div className="grid place-content-center">
                     <img className="rounded-full w-60 h-60"
