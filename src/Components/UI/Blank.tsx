@@ -1,7 +1,7 @@
 function Blank() {
     return (
         <>
-            <span className="block h-16 box-inherit"/>
+            <span className="block h-12 box-inherit"/>
         </>
     )
 }
