@@ -11,19 +11,19 @@ function TopProfile() {
                 </div>
                 <div className="flex flex-col w-96">
                     <h2 className=" text-4xl pb-2">kip2 (@kip2)</h2>
-                    <p className=" py-2 mx-auto text-left">
+                    <p className=" py-2 mx-auto text-left leading-8">
                     プログラミングに魅せられてしまい沼に沈んだオタク<br/>
                     なんでもすぐに手を出すから何にも身についていない<br/>
                     vimとコンソールとパソカタと、プログラミング言語と名の付くものならなんでも好き<br/>
                     生涯をかけてコンピュータとお友達になりたい<br/>
                     </p>
-                    <p className="pt-2 text-xl">特筆して憧れている言語(2024年時点)</p>
-                    <p>
+                    <p className="pt-5 text-xl">特筆して憧れている言語(2024年時点)</p>
+                    <p className=" leading-9">
                     Rust<br/>
                     Lisp系言語(Common Lisp, Scheme, Gauche, Clojure)<br/>
                     関数型系統の言語(F#, Haskell, Scala, etc...)<br/>
                     </p>
-                    <div className="pt-5">
+                    <div className="pt-7">
                             <a href="https://github.com/kip2" className="text-4xl mx-1 px-2 border-2 border-gray-700 rounded-xl hover:text-blue-300">
                                 <FontAwesomeIcon icon={faGithub} />
                             </a>
