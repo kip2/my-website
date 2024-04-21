@@ -1,9 +1,9 @@
+import Book from "./Books/Book"
+
 function TopBooks() {
     return (
         <>
-            <div>
-                topbooks
-            </div>
+            <Book />
         </>
     )
 }
