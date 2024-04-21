@@ -30,7 +30,7 @@ const Quotes = () => {
                 <p className='mx-auto w-144 text-center text-2xl'>Loading quote...</p>
             )}
         </div>
-        <div className="border-t border-white my-5 w-80 mx-auto my-10"></div>
+        <div className="border-t border-white my-10 w-80 mx-auto"></div>
         </>
     )
 }
