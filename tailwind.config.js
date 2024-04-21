@@ -8,6 +8,11 @@ export default {
     extend: {
       boxSizing: {
         inherit: 'inherit',
+      },
+      width: {
+        '100': '25rem',
+        '128': '32rem',
+        '144': '36rem'
       }
     },
   },
