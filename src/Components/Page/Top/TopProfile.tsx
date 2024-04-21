@@ -9,11 +9,11 @@ function TopProfile() {
                     <img className="rounded-full w-60 h-60"
                             src="myimage.png" alt="my image"/>
                 </div>
-                <div className="flex flex-col w-96">
-                    <h2 className=" text-4xl pb-2">kip2 (@kip2)</h2>
-                    <p className=" py-2 mx-auto text-left leading-8">
-                    プログラミングに魅せられてしまい沼に沈んだオタク<br/>
-                    なんでもすぐに手を出すから何にも身についていない<br/>
+                <div className="flex flex-col items-center w-96 max-lg:w-100">
+                    <h2 className=" text-4xl pb-2 mx-auto">kip2 (@kip2)</h2>
+                    <p className="py-2 mx-auto text-left leading-8">
+                    プログラミングに魅せられてしまい、沼に沈んだオタク<br/>
+                    なんでもすぐに手を出すためなんにも身についていない<br/>
                     vimとコンソールとパソカタと、プログラミング言語と名の付くものならなんでも好き<br/>
                     生涯をかけてコンピュータとお友達になりたい<br/>
                     </p>
