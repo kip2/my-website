@@ -6,7 +6,7 @@ function TopBooks() {
         <>
             <div className="border-t border-white mb-20 mt-7 w-96 mx-auto"></div>
             <h1 className=" text-6xl mx-auto w-fit mb-7 max-md:text-4xl">
-                影響を受けた本
+                影響を受けたもの
             </h1>
             <div className="font-thin text-center text-xl mx-auto w-80 mb-2 italic">
                 <p>Books are the mirrors of the soul.</p>
