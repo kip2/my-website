@@ -1,6 +1,6 @@
 import Footer from "../../UI/Footer"
 import Header from "../../UI/Header"
-import History from "./History"
+import Histories from "./Histories"
 import Introduction from "./Introduction"
 import Qualifications from "./Qualifications"
 
@@ -10,7 +10,7 @@ function About() {
             <Header />
             <h1>About</h1>
             <Introduction />
-            <History />
+            <Histories />
             <Qualifications />
             <Footer />
         </>
