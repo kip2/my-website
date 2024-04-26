@@ -9,7 +9,7 @@ const Histories = () => {
                 History
             </h1>
             {historyData.map((history, index) => (
-                <History key={index} id={history.page_address} age={history.age} title={history.title} text={history.text}/>
+                <History key={index} data={history}/>
             ))}
         </>
     )

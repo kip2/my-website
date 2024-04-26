@@ -1,8 +1,12 @@
 [
     {
-        "page_address": 19,
+        "id": 19,
         "age": "19歳",
         "title": "聖典 Land of Lispに出会う",
-        "text": "lorem ipsum lorem ipsum"
+        "text": "lorem ipsum lorem ipsum",
+        "detail": {
+            "title": "副タイトルテスト",
+            "text": "サブテキストテスト"
+        }
     }
 ]
