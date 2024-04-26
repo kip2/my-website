@@ -1,4 +1,5 @@
 import About from './Components/Page/About/About'
+import HistoryDetail from './Components/Page/About/HistoryDetail'
 import NotFoundPage from './Components/Page/Error/NotFoundPage'
 import Products from './Components/Page/Products/Products'
 import Top from './Components/Page/Top/Top'
@@ -12,6 +13,7 @@ function App() {
           <Route path="/" element={<Top />}/>
           <Route path="/products" element={<Products />}/>
           <Route path="/about" element={<About />}/>
+          <Route path="/about/history/detail/:id" element={<HistoryDetail />} />
           <Route path="*" element={<NotFoundPage />}/>
         </Routes>
       </Router>
