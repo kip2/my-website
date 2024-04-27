@@ -4,5 +4,11 @@
         "age": "19歳",
         "title": "聖典 Land of Lispに出会う",
         "component": "LandOfLispPage"
+    },
+    {
+        "id": 19,
+        "age": "19歳",
+        "title": "聖典 Land of Lispに出会う",
+        "component": "LandOfLispPage"
     }
 ]

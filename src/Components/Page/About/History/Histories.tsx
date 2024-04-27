@@ -1,5 +1,6 @@
 import History from "./History"
 import historyData from "../../../../../public/json/HistoryData.json"
+import React from "react"
 
 const Histories = () => {
     return (
@@ -12,10 +13,10 @@ const Histories = () => {
                 index === 0 ?
                     <History key={index} data={history}/>
                     :
-                    <>
-                    <div className="border-r border-4 border-gray-600 mx-auto  h-11 my-1"></div>
-                    <History key={index} data={history}/>
-                    </>
+                    <React.Fragment key={index}>
+                        <div className="border-r border-4 border-gray-600 mx-auto  h-11 my-1"></div>
+                        <History key={index} data={history}/>
+                    </React.Fragment>
             ))}
             </div>
         </>
