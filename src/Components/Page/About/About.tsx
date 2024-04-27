@@ -1,6 +1,6 @@
 import Footer from "../../UI/Footer"
 import Header from "../../UI/Header"
-import Histories from "./Histories"
+import Histories from "./History/Histories"
 import Introduction from "./Introduction"
 import Qualifications from "./Qualifications"
 

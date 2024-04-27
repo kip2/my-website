@@ -1,5 +1,5 @@
 import About from './Components/Page/About/About'
-import HistoryDetail from './Components/Page/About/HistoryDetail'
+import HistoryDetail from './Components/Page/About/History/HistoryDetail'
 import NotFoundPage from './Components/Page/Error/NotFoundPage'
 import Products from './Components/Page/Products/Products'
 import Top from './Components/Page/Top/Top'
