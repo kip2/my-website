@@ -1,10 +1,14 @@
 import { Link } from "react-router-dom"
 
-const ReturnButton = () => {
+interface ReturnButtonProps  {
+    path: string,
+}
+
+const ReturnButton: React.FC<ReturnButtonProps> = ({ path }) => {
     return (
         <>
             <div className="flex justify-center">
-                <Link to="/about">
+                <Link to={path}>
                     <button className=" border-2 rounded-lg py-2 mt-5 text-xl w-48
                         flex justify-center
                         bg-gray-900

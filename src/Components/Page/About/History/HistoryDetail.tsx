@@ -1,4 +1,4 @@
-import { Link, useLocation } from "react-router-dom"
+import {  useLocation } from "react-router-dom"
 import { HistoryPageData } from "../interface"
 import Header from "../../../UI/Header"
 import Footer from "../../../UI/Footer"
@@ -19,7 +19,7 @@ const HistoryDetail = () => {
                 <h1 className="text-center text-4xl my-8">{data.age}、{data.title}</h1>
                 <PageName />
 
-                <ReturnButton/>
+                <ReturnButton path="/about"/>
             </div>
             <Footer />
         </div>
