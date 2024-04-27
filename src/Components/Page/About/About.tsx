@@ -10,8 +10,6 @@ function About() {
     return (
         <>
             <Header />
-            <h1>About</h1>
-
             <Introduction />
             <Line />
             <Histories />
