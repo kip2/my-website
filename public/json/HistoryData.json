@@ -3,18 +3,7 @@
         "id": 19,
         "age": "19歳",
         "title": "聖典 Land of Lispに出会う",
-        "text": "lorem ipsum lorem ipsum"
-    },
-    {
-        "id": 19,
-        "age": "19歳",
-        "title": "聖典 Land of Lispに出会う",
-        "text": "lorem ipsum lorem ipsum"
-    },
-    {
-        "id": 19,
-        "age": "19歳",
-        "title": "聖典 Land of Lispに出会う",
-        "text": "lorem ipsum lorem ipsum"
+        "text": "lorem ipsum lorem ipsum",
+        "component": "LandOfLispPage"
     }
 ]

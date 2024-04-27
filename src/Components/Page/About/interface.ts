@@ -3,5 +3,6 @@ export interface HistoryPageData {
     age: string,
     title: string,
     text: string,
+    component: string,
 }
 
