@@ -11,6 +11,8 @@ const LandOfLispPage = () => {
                 <BookCover isbn={"4873115876"}/>
             </div>
             <Blank />
+
+            <h2 className="text-2xl text-center mb-5">出会い</h2>
             <p>
                 「オライリー本と言えば動物の表紙じゃなかったっけ？」
             </p>
@@ -29,8 +31,9 @@ const LandOfLispPage = () => {
             </p>
 
             <Blank />
+            <h2 className="text-2xl text-center mb-5">学んだこと</h2>
             <p>
-                といった衝撃の出会いではあったが、かなりのことを学ばせてもらった思い出の本。
+                衝撃の出会いではあったが、かなりのことを学ばせてもらった思い出の本。
             </p>
             <p>
                 それまではプログラミングといえば、リッチなエディタを用いて作るゲーム制作、あるいはちょっとしたツールとして使用することで日常の業務を改善するもの、という狭い認識しか持っていなかった自分の認識を、いい意味で破壊してくれた。
@@ -62,6 +65,7 @@ const LandOfLispPage = () => {
                 （今読み返したらストリームの概念とかもあったのを知る。全然内容忘れてるから、この辺も読み返したい。）
             </p>
             <Blank />
+            <h2 className="text-2xl text-center mb-5">作る楽しみに目覚める</h2>
             <p>
                 学ぶことも学ばせてもらったが、それ以上にこの本はいろんなものを作りながら進んでいくので、進めていくのが楽しい。
             </p>
@@ -85,11 +89,13 @@ const LandOfLispPage = () => {
             </p>
 
             <Blank />
+            <h2 className="text-2xl text-center mb-5">我らがマスコット</h2>
             <p>
                 最初は奇妙な生物に感じたLispエイリアンも、読み進めるとだんだん可愛く思えてくる。実際可愛い。グッズとか超欲しいじゃんね。
             </p>
 
             <Blank />
+            <h2 className="text-2xl text-center mb-5">オライリー本なのにPV付き</h2>
             <p>
                 この本、なんと公式のPVもある(!?)。
             </p>
@@ -102,9 +108,7 @@ const LandOfLispPage = () => {
 
             <Blank />
 
-            <p>
-                最後に、
-            </p>
+            <h2 className="text-2xl text-center mb-5">最後に</h2>
             <p>
                 この聖典に示されているところに従えば、かなりのバグを退治して強力なプログラミングができることが、エピローグにて保証されている。
             </p>
