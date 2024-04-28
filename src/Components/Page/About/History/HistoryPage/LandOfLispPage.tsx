@@ -1,6 +1,6 @@
 import BookCover from "../../../../Functions/BookCover"
 import Blank from "../../../../UI/Blank"
-import ReactPlayer from "react-player"
+import Player from "../../../../UI/Player"
 
 const LandOfLispPage = () => {
     return (
@@ -93,19 +93,11 @@ const LandOfLispPage = () => {
             <p>
                 この本、なんと公式のPVもある(!?)。
             </p>
-            <div className="flex justify-center">
-                <div className=" max-w-2xl" style={{width:"100%"}}>
-                    <ReactPlayer
-                        url="https://youtu.be/HM1Zb3xmvMc?si=Yw8_vvcdn0p4BnhD"
-                        width="100%"
-                        height="100%"
-                        controls={true}
-                    />
-                    <div style={{ paddingTop: "55%"}} />
-                </div>
-            </div>
-            <p>
-                しかし、本当に変な本だ(褒め言葉)。
+            <Player
+                url="https://youtu.be/HM1Zb3xmvMc?si=Yw8_vvcdn0p4BnhD"
+            />
+            <p className=" text-sm text-center">
+                ※著者のConrad Barsk氏のチャンネルで公開されている。公開は2010年。
             </p>
 
             <Blank />
@@ -121,6 +113,10 @@ const LandOfLispPage = () => {
             </p>
             <p>
                 そして脳内にLispエイリアンを住まわせよう。
+            </p>
+            <Blank />
+            <p>
+                ...しかし、本当に変な本だ(褒め言葉)。
             </p>
         </>
     )
