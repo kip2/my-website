@@ -27,10 +27,14 @@ function TopProfile() {
                     関数型系統の言語(F#, Haskell, Scala, etc...)<br/>
                     </p>
                     <div className="pt-7">
-                            <a href="https://github.com/kip2" className="text-4xl mx-1 px-2 border-2 border-gray-700 rounded-xl hover:text-blue-300">
+                            <a href="https://github.com/kip2" className="text-4xl mx-1 px-2 border-2 border-gray-700 rounded-xl 
+                                hover:text-black hover:bg-slate-100 duration-300
+                            ">
                                 <FontAwesomeIcon icon={faGithub} />
                             </a>
-                            <a href="https://twitter.com/kip2_ret_0" className="text-4xl px-2 mx-1 border-2 border-gray-700 rounded-xl hover:text-blue-300">
+                            <a href="https://twitter.com/kip2_ret_0" className="text-4xl px-2 mx-1 border-2 border-gray-700 rounded-xl 
+                                hover:text-black hover:bg-slate-100 duration-300
+                            ">
                                 <FontAwesomeIcon icon={faXTwitter} />
                             </a>
                     </div>
