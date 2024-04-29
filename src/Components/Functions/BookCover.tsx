@@ -5,7 +5,7 @@ interface BookCoverProps {
 }
 
 const BookCover: React.FC<BookCoverProps> = ({ isbn }) => {
-    const [coverUrl, setCverUrl] = useState("")
+    const [coverUrl, setCoverUrl] = useState("")
     const apiKey = import.meta.env.VITE_GOOGLE_API_KEY
 
     useEffect(() => {
@@ -15,8 +15,11 @@ const BookCover: React.FC<BookCoverProps> = ({ isbn }) => {
                 const response = await fetch(url)
                 const data = await response.json()
                 if (data.items && data.items.length > 0) {
-                    const imageUrl = data.items[0].volumeInfo.imageLinks?.thumbnail
-                    setCverUrl(imageUrl)
+                    let imageUrl = data.items[0].volumeInfo.imageLinks?.thumbnail
+                    if (imageUrl && imageUrl.startsWith("http://")) {
+                        imageUrl = imageUrl.replace("http://", "https://")
+                    }
+                    setCoverUrl(imageUrl)
                 }
             } catch (e) {
                 console.error("Error fetching book data:", e)
