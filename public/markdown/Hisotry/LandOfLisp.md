@@ -1,6 +1,6 @@
 ## 出会ってしまった。
 
-<img src="/src/svg/lisplogo_alien.svg">
+<img src="/svg/lisplogo_alien.svg">
 
 
 ## 出会い
