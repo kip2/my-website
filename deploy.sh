@@ -1,5 +1,11 @@
 #!/bin/bash
 
+git pull origin main 
+if [ $? -ne 0 ]; then
+    echo "Error: Git pull failed"
+    exit 1
+fi
+
 docker build -t myapp-build .
 if [ $? -ne 0 ]; then
     echo "Error: Docker build failed"
