@@ -13,6 +13,12 @@ const MarkdownViewer: React.FC<MarkdownViewerProps> = ({ filepath }) => {
     const [content, setContent] = useState<React.ReactNode>(null);
 
     useEffect(() => {
+
+        marked.setOptions({
+            breaks: true,
+            gfm: true
+        })
+
         fetch(filepath)
             .then(response => {
                 if (!response.ok) {
@@ -20,7 +26,7 @@ const MarkdownViewer: React.FC<MarkdownViewerProps> = ({ filepath }) => {
                 }
                 return response.text();
             })
-            .then(marked)
+            .then(text => marked(text))
             .then(markdown => DOMPurify.sanitize(markdown))
             .then(sanitizedHtml => {
                 const parser = new DOMParser();
@@ -64,8 +70,10 @@ const MarkdownViewer: React.FC<MarkdownViewerProps> = ({ filepath }) => {
 
 
     return (
-        <div className="markdown-viewer">
-            {content}
+        <div className=" text-xl mx-auto w-fit mb-7 max-md:text-4xl">
+            <div className="markdown-viewer">
+                {content}
+            </div>
         </div>
     );
 };
