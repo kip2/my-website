@@ -1,14 +1,34 @@
-import {  useLocation } from "react-router-dom"
+import { useParams } from "react-router-dom"
 import { HistoryPageData } from "../interface"
 import Header from "../../../UI/Header"
 import Footer from "../../../UI/Footer"
 import Blank from "../../../UI/Blank"
 import componentMap from "../../../ComponentMap"
 import ReturnButton from "../../../UI/ReturnButton"
+import { useEffect, useState } from "react"
 
 const HistoryDetail = () => {
-    const location = useLocation()
-    const data = location.state as HistoryPageData
+    const {id} = useParams<{ id?: string }>()
+    const [data, setData] = useState<HistoryPageData | undefined>()
+
+    const fetchData = async (id: string) => {
+        const response = await fetch("../../../../../public/json/HistoryData.json")
+        const histories = await response.json() as HistoryPageData[]
+        const matchData = histories.find(history => history.id.toString() === id)
+        setData(matchData)
+    }
+
+    useEffect(() => {
+        if (id) {
+            fetchData(id)
+        }
+    }, [id])
+
+
+    if (!data) {
+        return <div>No data ...</div>
+    }
+
     const PageName = componentMap[data.component]
 
     return (

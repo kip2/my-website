@@ -5,7 +5,7 @@ const History: React.FC< {data: HistoryPageData}> = ({data}) => {
     const navigate = useNavigate()
     
     const goToDetailPage = (data: HistoryPageData) => {
-        navigate(`/about/history/detail/${data.id}`, { state:  data })
+        navigate(`/about/history/detail/${data.id}`)
     }
 
     return (
