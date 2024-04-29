@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { marked } from 'marked';
-// import DOMPurify from "dompurify";
+import DOMPurify from "dompurify";
 import parse, {Element} from 'html-react-parser';
 import Player from '../UI/Player';
+import "./MarkdownViewer.css"
 
 interface MarkdownViewerProps {
     filepath: string;
@@ -20,7 +21,25 @@ const MarkdownViewer: React.FC<MarkdownViewerProps> = ({ filepath }) => {
                 return response.text();
             })
             .then(marked)
-            // .then(markdown => DOMPurify.sanitize(markdown))
+            .then(markdown => DOMPurify.sanitize(markdown))
+            .then(sanitizedHtml => {
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(sanitizedHtml, 'text/html');
+
+                doc.querySelectorAll("p a[href*='youtube.com'], p a[href*='youtu.be']").forEach(a => {
+                    const p = a.parentElement;
+                    if (p?.tagName === 'P') {
+                        const div = doc.createElement('div');
+                        while (p.firstChild) {
+                            div.appendChild(p.firstChild);
+                        }
+                        p.parentNode?.replaceChild(div, p);
+                    }
+                });
+
+                const newHtml = doc.body.innerHTML;
+                return newHtml;
+            })
             .then(sanitizedHtml => {
                 const transformedContent = parse(sanitizedHtml, {
                     replace: (domNode) => {
@@ -45,7 +64,7 @@ const MarkdownViewer: React.FC<MarkdownViewerProps> = ({ filepath }) => {
 
 
     return (
-        <div>
+        <div className="markdown-viewer">
             {content}
         </div>
     );
