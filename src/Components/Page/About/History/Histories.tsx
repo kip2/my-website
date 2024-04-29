@@ -14,7 +14,7 @@ const Histories = () => {
                     <History key={index} data={data}/>
                     :
                     <React.Fragment key={index}>
-                        <div className="border-r border-4 border-gray-600 mx-auto  h-11 my-1"></div>
+                        <div className="border-r border-4 border-gray-600 mx-auto  h-5 my-1"></div>
                         <History key={index} data={data}/>
                     </React.Fragment>
             ))}
