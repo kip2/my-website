@@ -10,6 +10,8 @@ function Header() {
                 <div className="grid grid-cols-3 gap-4">
                     <Link to="/" className="grid justify-items-center text-xs 
                         hover:text-black hover:bg-slate-200 duration-300
+                        rounded-md
+                        px-1
                     ">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="40" height="40">
                             <rect width="256" height="256" fill="none"/>
@@ -19,6 +21,8 @@ function Header() {
                     </Link>
                     <Link to="/about" className="grid justify-items-center text-xs 
                         hover:text-black hover:bg-slate-200 duration-300
+                        rounded-md
+                        px-1
                     ">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="40" height="40">
                             <rect width="256" height="256" fill="none"/>
@@ -31,6 +35,8 @@ function Header() {
                     </Link>
                     <Link to="/products" className="grid justify-items-center text-xs 
                         hover:text-black hover:bg-slate-200 duration-300
+                        rounded-md
+                        px-1
                     ">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="40" height="40">
                             <rect width="256" height="256" fill="none"/>
