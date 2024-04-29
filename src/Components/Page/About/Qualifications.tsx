@@ -1,5 +1,5 @@
 import Qualification from "./Qualification"
-import qualificationData from "/src/json/Qualifications.json"
+import qualificationData from "../../../json/Qualifications.json"
 
 const Qualifications = () => {
     return (
