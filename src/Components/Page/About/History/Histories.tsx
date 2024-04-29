@@ -1,5 +1,5 @@
 import History from "./History"
-import historyData from "/src/json/HistoryData.json"
+import historyData from "../../../../json/HistoryData.json"
 import React from "react"
 
 const Histories = () => {

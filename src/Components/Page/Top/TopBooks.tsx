@@ -1,5 +1,5 @@
 import Book from "./Books/Book"
-import booksData from "/src/json/BookData.json"
+import booksData from "../../../json/BookData.json"
 
 function TopBooks() {
     return (
