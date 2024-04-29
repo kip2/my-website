@@ -10,9 +10,13 @@ const History: React.FC< {data: HistoryPageData}> = ({data}) => {
 
     return (
         <>
-            <section className="flex justify-center">
-                <div onClick={() => goToDetailPage(data)} className="flex justify-start w-210 max-lg:w-144 max-md:w-128 max-md:text-base text-2xl border-2 bg-gray-400/10  border-gray-700 rounded-md px-6 py-4
-                hover:bg-gray-600 transition duration-300 ease-in-out
+            <section className="grid items-center">
+                <div onClick={() => goToDetailPage(data)} className="flex justify-start 
+                    w-190 max-lg:w-144 max-md:w-128 max-sm:w-96
+                    text-xl 
+                    border-2 bg-gray-400/10  border-gray-700 rounded-md 
+                    px-6 py-4
+                    hover:bg-gray-600 transition duration-300 ease-in-out
                 ">
                     <p className="italic my-auto max-md:text-xs text-sm text-gray-400 mr-5">{data.age}</p>
                     <p className="my-auto italic">{data.title}</p>
