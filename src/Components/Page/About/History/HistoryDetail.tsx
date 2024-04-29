@@ -16,7 +16,7 @@ const HistoryDetail = () => {
             <Header />
             <Blank />
             <div className=" max-w-2xl mx-auto leading-8">
-                <h1 className="text-center text-4xl my-8">{data.age}　{data.title}</h1>
+                <h1 className="text-center text-4xl my-8">{data.age} {data.title}</h1>
                 <PageName />
 
                 <ReturnButton path="/about"/>
