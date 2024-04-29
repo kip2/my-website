@@ -12,7 +12,7 @@ const HistoryDetail = () => {
     const [data, setData] = useState<HistoryPageData | undefined>()
 
     const fetchData = async (id: string) => {
-        const response = await fetch("../../../../json/HistoryData.json")
+        const response = await fetch("/src/json/HistoryData.json")
         const histories = await response.json() as HistoryPageData[]
         const matchData = histories.find(history => history.id.toString() === id)
         setData(matchData)
