@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { marked } from 'marked';
-import DOMPurify from "dompurify";
+// import DOMPurify from "dompurify";
 import parse, {Element} from 'html-react-parser';
 import Player from '../UI/Player';
 
@@ -20,7 +20,7 @@ const MarkdownViewer: React.FC<MarkdownViewerProps> = ({ filepath }) => {
                 return response.text();
             })
             .then(marked)
-            .then(markdown => DOMPurify.sanitize(markdown))
+            // .then(markdown => DOMPurify.sanitize(markdown))
             .then(sanitizedHtml => {
                 const transformedContent = parse(sanitizedHtml, {
                     replace: (domNode) => {
@@ -45,7 +45,7 @@ const MarkdownViewer: React.FC<MarkdownViewerProps> = ({ filepath }) => {
 
 
     return (
-        <div className="markdown-viewer">
+        <div>
             {content}
         </div>
     );

@@ -12,10 +12,8 @@ const Player: React.FC<PlayerProps> = ({url}) => {
                     <ReactPlayer
                         url={url}
                         width="100%"
-                        height="100%"
                         controls={true}
                     />
-                    <div style={{ paddingTop: "55%"}} />
                 </div>
             </div>
         </>
