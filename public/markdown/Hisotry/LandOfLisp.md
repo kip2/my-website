@@ -69,13 +69,13 @@ https://youtu.be/HM1Zb3xmvMc?si=wcjyo72K4AkrfEKs
 
 LispエイリアンのSVGがパブリックドメインで配布されていた。
 
-https://www.lisperati.com/logo.html
+[Lisp Alian SVG](https://www.lisperati.com/logo.html)
 
 ## おまけ2
 
 以下の記事のリンク集がかなり良さそう
 
-https://qiita.com/mogamoga1337/items/a8fe542cd16be29dd657
+[Lisp Link集](https://qiita.com/mogamoga1337/items/a8fe542cd16be29dd657)
 
 </br>
 </br>
