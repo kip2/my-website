@@ -45,7 +45,7 @@ DSL、マクロ、遅延評価、などなど。
 
 この本、なんと公式のPVもある(!?)。
 
-<https://youtu.be/HM1Zb3xmvMc?si=wcjyo72K4AkrfEKs>
+https://youtu.be/HM1Zb3xmvMc?si=wcjyo72K4AkrfEKs
 
 ## 最後に
 

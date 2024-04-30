@@ -1,62 +1,62 @@
 [
     {
-        "id": "15",
+        "id": "game",
         "age": "15~18歳頃",
         "title": "友人とゲーム作ろうと色々画策。プログラミングへの興味の最初",
-        "path": "/markdown/Hisotry/LandOfLisp.md"
+        "path": "/markdown/Hisotry/GameProgramming.md"
     },
     {
-        "id": "20",
+        "id": "c-lang",
         "age": "20歳頃",
         "title": "ゲーム作りの野望忘れられず、C言語に入門と挫折",
-        "path": "/markdown/Hisotry/LandOfLisp.md"
+        "path": "/markdown/Hisotry/Clang.md"
     },
     {
-        "id": "28",
+        "id": "python",
         "age": "28歳",
         "title": "「退屈なことはPythonにやらせよう」と出会う",
-        "path": "/markdown/Hisotry/LandOfLisp.md"
+        "path": "/markdown/Hisotry/Python.md"
     },
     {
-        "id": "31",
+        "id": "computer",
         "age": "31歳",
         "title": "コンピュータ動作そのものに興味を持ち始める",
-        "path": "/markdown/Hisotry/LandOfLisp.md"
+        "path": "/markdown/Hisotry/Computer.md"
     },
     {
-        "id": "312",
+        "id": "Recursion",
         "age": "31歳",
         "title": "Recursionを始める",
-        "path": "/markdown/Hisotry/LandOfLisp.md"
+        "path": "/markdown/Hisotry/Recursion.md"
     },
     {
-        "id": "LandOfLisp",
+        "id": "Land-of-Lisp",
         "age": "32歳",
         "title": "聖典、「Land of Lisp」に出会う",
         "path": "/markdown/Hisotry/LandOfLisp.md"
     },
     {
-        "id": "322",
+        "id": "LPIC",
         "age": "32歳",
         "title": "Linuxを知りたいがためにLPICを取得",
-        "path": "/markdown/Hisotry/LandOfLisp.md"
+        "path": "/markdown/Hisotry/LPIC.md"
     },
     {
-        "id": "33",
+        "id": "Turing-complete",
         "age": "33歳",
         "title": "TuringCompleteに手をだす",
-        "path": "/markdown/Hisotry/LandOfLisp.md"
+        "path": "/markdown/Hisotry/TuringComplete.md"
     },
     {
-        "id": "332",
+        "id": "React",
         "age": "33歳",
         "title": "フロントを知りたいのでReactに手をだす",
-        "path": "/markdown/Hisotry/LandOfLisp.md"
+        "path": "/markdown/Hisotry/React.md"
     },
     {
-        "id": "333",
+        "id": "Rust",
         "age": "33歳",
         "title": "Rustに本格入門",
-        "path": "/markdown/Hisotry/LandOfLisp.md"
+        "path": "/markdown/Hisotry/Rust.md"
     }
 ]
