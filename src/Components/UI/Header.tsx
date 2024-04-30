@@ -4,9 +4,15 @@ function Header() {
     return (
         <>
             <section className="flex justify-between pt-5 pb-3">
-                <div className=" text-2xl my-auto font-mono font-bold">
-                    kip2.dev
-                </div>
+                <Link to="/" className="my-auto">
+                    <div className="overflow-hidden whitespace-nowrap border-r-3 pr-0 border-black animate-typing
+                        font-bold text-2xl font-mono
+                        text-slate-200
+                        hover:text-amber-400
+                    ">
+                        kip2.dev
+                    </div>
+                </Link>
                 <div className="grid grid-cols-3 gap-4">
                     <Link to="/" className="grid justify-items-center text-xs 
                         hover:text-black hover:bg-slate-200 duration-300

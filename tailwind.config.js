@@ -16,6 +16,24 @@ export default {
         '160': '40rem',
         '190': '48rem',
         '210': '54rem',
+      },
+      keyframes: {
+        typing: {
+          from: { width: '0'},
+          to: { width: '9ch'}
+        },
+        blink: {
+          '0%, 100%': { borderColor: 'currentColor' },
+          '50%': { borderColor: 'transparent' }
+        }
+      },
+      animation: {
+        typing: 'typing 3s steps(9) forwards, blink 0.2s step-end infinite alternate',
+      },
+      borderWidth: {
+        '3': '3px',
+        '4': '4px',
+        '5': '5px',
       }
     },
   },
