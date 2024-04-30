@@ -12,8 +12,10 @@ const ReturnButton: React.FC<ReturnButtonProps> = ({ path }) => {
                     <button className=" border-2 rounded-lg py-2 mt-5 text-xl w-48
                         flex justify-center
                         bg-gray-900
-                        hover:bg-gray-500 transition duration-300 ease-in-out
+                        hover:text-black hover:bg-slate-200 duration-300
+                        hover:border-black
                     ">
+                        {/* hover:bg-gray-500 transition duration-300 ease-in-out */}
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="32" height="32">
                             <rect width="256" height="256" fill="none"/>
                             <polyline points="80 120 32 168 80 216" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
