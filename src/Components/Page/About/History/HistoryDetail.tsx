@@ -14,7 +14,7 @@ const HistoryDetail = () => {
     const fetchData = async (id: string) => {
         const response = await fetch("/json/HistoryData.json")
         const histories = await response.json() as HistoryPageData[]
-        const matchData = histories.find(history => history.id.toString() === id)
+        const matchData = histories.find(history => history.id === id)
         setData(matchData)
     }
 
@@ -26,6 +26,7 @@ const HistoryDetail = () => {
 
 
     if (!data) {
+        console.log("id:", id)
         return <div>No data ...</div>
     }
 

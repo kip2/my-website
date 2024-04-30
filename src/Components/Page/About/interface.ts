@@ -1,5 +1,5 @@
 export interface HistoryPageData {
-    id: number,
+    id: string,
     age: string,
     title: string,
     path: string,
