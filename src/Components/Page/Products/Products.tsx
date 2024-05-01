@@ -9,7 +9,11 @@ function Products() {
             <Header />
             <h1>My Products!</h1>
             <Blank />
-            <ProductCard />
+            <ProductCard
+                imgUrl="/img/thumbnail/yume_t.png"
+                title="せっかち夢十夜"
+                caption="夢十夜が元ネタのクリッカーゲーム"
+            />
             <Footer />
         </>
     )
