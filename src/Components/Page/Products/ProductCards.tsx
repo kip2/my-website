@@ -1,5 +1,6 @@
 import ProductCard from "./ProductCard"
 import procudtData from "../../../../public/json/Products.json"
+import Line from "../../UI/Line"
 
 const ProductCards = () => {
     return (
