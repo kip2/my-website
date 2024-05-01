@@ -1,5 +1,6 @@
 import ProductCard from "./ProductCard"
 import procudtData from "../../../../public/json/Products.json"
+import Line from "../../UI/Line"
 
 const ProductCards = () => {
     return (
@@ -9,12 +10,23 @@ const ProductCards = () => {
                 max-sm:grid-cols-1 max-sm:justify-items-center
             ">
                 {procudtData.map((data, index) => (
-                    <ProductCard
-                        key={index}
-                        imgUrl={data.imgUrl}
-                        title={data.title}
-                        caption={data.caption}
-                    />
+                    index % 6 === 0 ?
+                        <>
+                            <div className=" col-span-3 border-t border-white mb-7 mt-7 w-96 mx-auto max-md:col-span-2 max-sm:hidden"></div>
+                            <ProductCard
+                                key={index}
+                                imgUrl={data.imgUrl}
+                                title={data.title}
+                                caption={data.caption}
+                            />
+                        </>
+                        :
+                            <ProductCard
+                                key={index}
+                                imgUrl={data.imgUrl}
+                                title={data.title}
+                                caption={data.caption}
+                            />
                 ))}
             </div>
         </>
