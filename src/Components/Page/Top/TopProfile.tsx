@@ -10,7 +10,7 @@ function TopProfile() {
             <div className="mx-auto flex justify-center gap-16 max-lg:flex-col max-lg:items-center">
                 <div className="grid place-content-center">
                     <img className="rounded-full w-60 h-60"
-                            src="myimage.png" alt="my image"/>
+                            src="/img/myimage.png" alt="my image"/>
                 </div>
                 <div className="flex flex-col items-center w-100 max-lg:w-100">
                     <h2 className=" text-4xl pb-2 mx-auto">kip2 (@kip2)</h2>
