@@ -1,10 +1,10 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub, faXTwitter } from "@fortawesome/free-brands-svg-icons"
 
-const TopProfile = () => {
+const Profile = () => {
     return (
         <>
-            <h1 className=" text-6xl mx-auto w-fit max-md:text-4xl">
+            <h1 className=" text-6xl mx-auto w-fit mb-8 max-md:text-4xl">
                 About Me
             </h1>
             <div className="mx-auto flex justify-center gap-16 max-lg:flex-col max-lg:items-center">
@@ -13,7 +13,7 @@ const TopProfile = () => {
                             src="/img/myimage.png" alt="my image"/>
                 </div>
                 <div className="flex flex-col items-center w-100 max-lg:w-100">
-                    <h2 className=" text-4xl pb-2 mx-auto">kip2 (@kip2)</h2>
+                    <h2 className=" text-5xl pb-2 mx-auto italic font-serif">kip2</h2>
                     <p className="py-2 mx-auto text-left leading-8">
                     プログラミングに魅せられてしまい、沼に沈んだオタク<br/>
                     なんでもすぐに手を出すためなんにも身についていない<br/>
@@ -44,4 +44,4 @@ const TopProfile = () => {
     )
 }
 
-export default TopProfile
+export default Profile

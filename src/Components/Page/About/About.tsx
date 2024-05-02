@@ -3,6 +3,7 @@ import Footer from "../../UI/Footer"
 import Header from "../../UI/Header"
 import Line from "../../UI/Line"
 import ScrollToTopButton from "../../UI/ScrollToTopButton"
+import Profile from "../Top/Profile"
 import AboutInPageLinks from "./AboutInPageLinks"
 import Histories from "./History/Histories"
 import Introduction from "./Introduction"
@@ -13,6 +14,9 @@ const About = () => {
     return (
         <>
             <Header />
+            <Blank/>
+            <Profile />
+            <Blank/>
             <AboutInPageLinks/>
             <Introduction />
             <Line />
