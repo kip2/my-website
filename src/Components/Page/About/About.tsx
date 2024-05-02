@@ -1,7 +1,9 @@
 import Blank from "../../UI/Blanks/Blank"
+import LittleBlank from "../../UI/Blanks/LittleBlank"
 import Footer from "../../UI/Footer"
 import Header from "../../UI/Header"
 import Line from "../../UI/Lines/Line"
+import LongLine from "../../UI/Lines/LongLine"
 import ScrollToTopButton from "../../UI/ScrollToTopButton"
 import Profile from "../Top/Profile"
 import AboutInPageLinks from "./AboutInPageLinks"
@@ -14,18 +16,39 @@ const About = () => {
     return (
         <>
             <Header />
-            <Blank/>
-            <Profile />
-            <Blank/>
-            <AboutInPageLinks/>
-            <Line />
-            <Introduction />
-            <Line />
-            <Histories />
-            <Blank/>
-            <Line />
-            <Qualifications />
-            <Blank/>
+
+            <section>
+                <Blank/>
+                <Profile />
+                <Blank/>
+                <AboutInPageLinks/>
+                <LittleBlank />
+            </section>
+
+            <section>
+                <LongLine />
+                <LongLine />
+                <Blank />
+                <Introduction />
+                <LittleBlank />
+            </section>
+
+            <section>
+                <LongLine />
+                <LongLine />
+                <Blank />
+                <Histories />
+                <Blank/>
+            </section>
+
+            <section>
+                <LongLine />
+                <LongLine />
+                <Blank />
+                <Qualifications />
+                <Blank/>
+            </section>
+
             <ScrollToTopButton/>
             <Footer />
         </>

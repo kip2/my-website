@@ -5,7 +5,6 @@ import ProductCards from "./ProductCards"
 import ScrollToTopButton from "../../UI/ScrollToTopButton"
 import Title from "../../UI/Title"
 import ProductsInPageLinks from "./ProductsInPageLinks"
-import Line from "../../UI/Lines/Line"
 import Tools from "./Tools"
 import Game from "./Game"
 import LongLine from "../../UI/Lines/LongLine"
@@ -16,30 +15,40 @@ const Products = () =>  {
     return(
         <>
             <Header />
-            <Blank />
-            <Title title="My Products" subTitle="つくったもの" linkId="Products" />
-            <ProductsInPageLinks/>
-            <LittleBlank />
 
-            <LongLine />
-            <LongLine />
-            <LittleBlank />
-            <Tools />
-            <ProductCards />
+            {/* title section */}
+            <section>
+                <Blank />
+                <Title title="My Products" subTitle="つくったもの" linkId="Products" />
+                <ProductsInPageLinks/>
+                <LittleBlank />
+            </section>
 
-            <Blank />
-            <LongLine />
-            <LongLine />
-            <LittleBlank />
-            <Game />
-            <ProductCards />
+            {/* Tool section */}
+            <section>
+                <LongLine />
+                <LongLine />
+                <LittleBlank />
+                <Tools />
+            </section>
 
-            <Blank />
-            <LongLine />
-            <LongLine />
-            <LittleBlank />
-            <Study />
-            <ProductCards />
+            {/* Game section */}
+            <section>
+                <Blank />
+                <LongLine />
+                <LongLine />
+                <LittleBlank />
+                <Game />
+            </section>
+
+            {/* Study section */}
+            <section>
+                <Blank />
+                <LongLine />
+                <LongLine />
+                <LittleBlank />
+                <Study />
+            </section>
 
             <ScrollToTopButton/>
             <Footer />
