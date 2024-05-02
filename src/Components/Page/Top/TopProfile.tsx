@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub, faXTwitter } from "@fortawesome/free-brands-svg-icons"
 
-function TopProfile() {
+const TopProfile = () => {
     return (
         <>
             <h1 className=" text-6xl mx-auto w-fit mb-12 max-md:text-4xl">

@@ -1,7 +1,7 @@
 import Book from "./Books/Book"
 import booksData from "../../../../public/json/BookData.json"
 
-function TopBooks() {
+const TopBooks = () => {
     return (
         <>
             <div className="border-t border-white mb-20 mt-7 w-96 mx-auto"></div>

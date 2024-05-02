@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import 'normalize.css'
 import ProductDetail from './Components/Page/Products/ProductDetail'
 
-function App() {
+const App = () => {
   return (
     <div className=' bg-neutral-800 min-h-screen md:h-auto text-white max-w-2x1 px-10 m-auto box-inherit block'>
       <Router>

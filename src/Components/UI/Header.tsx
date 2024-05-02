@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-function Header() {
+const Header = () => {
     return (
         <>
             <section className="flex justify-between pt-5 pb-3">

@@ -7,7 +7,7 @@ import Histories from "./History/Histories"
 import Introduction from "./Introduction"
 import Qualifications from "./Qualifications"
 
-function About() {
+const About = () => {
     
     return (
         <>

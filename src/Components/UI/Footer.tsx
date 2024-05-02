@@ -1,4 +1,4 @@
-function Footer() {
+const Footer = () => {
     return (
         <>
             <div className="border-t border-white my-10"></div>

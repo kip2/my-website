@@ -1,4 +1,4 @@
-function Blank() {
+const Blank = () => {
     return (
         <>
             <span className="block h-12 box-inherit"/>

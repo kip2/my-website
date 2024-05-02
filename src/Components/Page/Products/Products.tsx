@@ -3,7 +3,7 @@ import Footer from "../../UI/Footer"
 import Header from "../../UI/Header"
 import ProductCards from "./ProductCards"
 
-function Products() {
+const Products = () =>  {
     return(
         <>
             <Header />

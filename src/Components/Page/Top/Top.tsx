@@ -5,7 +5,7 @@ import Quotes from "../../UI/Quotes"
 import TopBooks from "./TopBooks"
 import TopProfile from "./TopProfile"
 
-function Top() {
+const Top = () => {
     return (
         <>
             <Header/>
