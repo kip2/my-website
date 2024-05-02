@@ -3,60 +3,60 @@
         "id": "game",
         "age": "15~18歳頃",
         "title": "友人とゲーム作ろうと色々画策。プログラミングへの興味の最初",
-        "path": "/markdown/Hisotry/GameProgramming.md"
+        "path": "/pages/Hisotry/GameProgramming.md"
     },
     {
         "id": "c-lang",
         "age": "20歳頃",
         "title": "ゲーム作りの野望忘れられず、C言語に入門と挫折",
-        "path": "/markdown/Hisotry/Clang.md"
+        "path": "/pages/Hisotry/Clang.md"
     },
     {
         "id": "python",
         "age": "28歳",
         "title": "「退屈なことはPythonにやらせよう」と出会う",
-        "path": "/markdown/Hisotry/Python.md"
+        "path": "/pages/Hisotry/Python.md"
     },
     {
         "id": "computer",
         "age": "31歳",
         "title": "コンピュータ動作そのものに興味を持ち始める",
-        "path": "/markdown/Hisotry/Computer.md"
+        "path": "/pages/Hisotry/Computer.md"
     },
     {
         "id": "Recursion",
         "age": "31歳",
         "title": "Recursionを始める",
-        "path": "/markdown/Hisotry/Recursion.md"
+        "path": "/pages/Hisotry/Recursion.md"
     },
     {
         "id": "Land-of-Lisp",
         "age": "32歳",
         "title": "聖典、「Land of Lisp」に出会う",
-        "path": "/markdown/Hisotry/LandOfLisp.md"
+        "path": "/pages/Hisotry/LandOfLisp.md"
     },
     {
         "id": "LPIC",
         "age": "32歳",
         "title": "Linuxを知りたいがためにLPICを取得",
-        "path": "/markdown/Hisotry/LPIC.md"
+        "path": "/pages/Hisotry/LPIC.md"
     },
     {
         "id": "Turing-complete",
         "age": "33歳",
         "title": "TuringCompleteに手をだす",
-        "path": "/markdown/Hisotry/TuringComplete.md"
+        "path": "/pages/Hisotry/TuringComplete.md"
     },
     {
         "id": "React",
         "age": "33歳",
         "title": "フロントを知りたいのでReactに手をだす",
-        "path": "/markdown/Hisotry/React.md"
+        "path": "/pages/Hisotry/React.md"
     },
     {
         "id": "Rust",
         "age": "33歳",
         "title": "Rustに本格入門",
-        "path": "/markdown/Hisotry/Rust.md"
+        "path": "/pages/Hisotry/Rust.md"
     }
 ]
