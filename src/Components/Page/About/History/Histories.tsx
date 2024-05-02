@@ -1,16 +1,16 @@
 import History from "./History"
 import historyData from "../../../../../public/json/HistoryData.json"
 import React from "react"
+import Title from "../../../UI/Title"
 
 const Histories = () => {
     return (
         <>
-            <h1 id="History" className=" text-6xl mx-auto w-fit max-md:text-4xl">
-                History
-            </h1>
-            <p className="text-sm text-center mt-3 mb-10">
-                〜 プログラミング遍歴 〜
-            </p>
+            <Title
+                title="History"
+                subTitle="プログラミング遍歴"
+                linkId="History"
+            />
             <div className="grid place-items-center">
             {historyData.map((data, index) => (
                 index === 0 ?

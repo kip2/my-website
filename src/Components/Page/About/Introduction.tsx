@@ -1,7 +1,13 @@
+import Title from "../../UI/Title"
+
 const Introduction = () => {
     return (
         <>
-            <h1>Introduction</h1>
+            <Title
+                title="Introduction"
+                subTitle="自己紹介"
+                linkId="Introduction"
+            />
         </>
     )
 }

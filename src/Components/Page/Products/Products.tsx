@@ -3,17 +3,19 @@ import Footer from "../../UI/Footer"
 import Header from "../../UI/Header"
 import ProductCards from "./ProductCards"
 import ScrollToTopButton from "../../UI/ScrollToTopButton"
+import Title from "../../UI/Title"
 
 const Products = () =>  {
     return(
         <>
             <Header />
-            <h1 className="text-5xl text-center mt-10">
-                My Products
-            </h1>
-            <p className="text-sm text-center mt-3 mb-3">
-                〜 つくったもの 〜
-            </p>
+            <Blank />
+            <Blank />
+            <Title
+                title="My Products"
+                subTitle="つくったもの"
+                linkId="Products"
+            />
             <Blank />
             <ProductCards />
             <ScrollToTopButton/>

@@ -18,6 +18,7 @@ const About = () => {
             <Profile />
             <Blank/>
             <AboutInPageLinks/>
+            <Line />
             <Introduction />
             <Line />
             <Histories />

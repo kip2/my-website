@@ -20,7 +20,12 @@ const Quotes = () => {
     return (
         <>
         <div>
-            <h1 className='mx-auto w-144 max-md:w-100 max-sm:w-96 text-center text-2xl'>本日の金言</h1>
+            <h1 className='mx-auto w-144 max-md:w-100 max-sm:w-96 text-center text-5xl font-serif italic'>
+                Maxim
+            </h1>
+            <p className="text-sm text-center mt-3 mb-5 italic">
+                〜 本日の金言 〜
+            </p>
             {quote ? (
                 <blockquote className=' font-thin mx-auto w-144 max-md:w-100 max-sm:w-80 text-xl mt-5 text-center italic'>
                     {quote.content}
