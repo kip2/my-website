@@ -10,13 +10,11 @@ const Products = () =>  {
         <>
             <Header />
             <Blank />
-            <Blank />
             <Title
                 title="My Products"
                 subTitle="つくったもの"
                 linkId="Products"
             />
-            <Blank />
             <ProductCards />
             <ScrollToTopButton/>
             <Footer />
