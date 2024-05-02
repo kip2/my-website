@@ -4,6 +4,7 @@ import Footer from "../../UI/Footer"
 import Header from "../../UI/Header"
 import LongLine from "../../UI/Lines/LongLine"
 import ScrollToTopButton from "../../UI/ScrollToTopButton"
+import Title from "../../UI/Title"
 import Profile from "../Top/Profile"
 import AboutInPageLinks from "./AboutInPageLinks"
 import Histories from "./History/Histories"
@@ -18,11 +19,19 @@ const About = () => {
 
             <section>
                 <Blank/>
-                <Profile />
-                <Blank/>
+                <Title title="About" linkId="About" subTitle="私について" />
                 <AboutInPageLinks/>
+                <LittleBlank/>
+                <LongLine />
+                <LongLine />
+            </section>
+
+            <section>
+                <LittleBlank/>
+                <Profile />
                 <LittleBlank />
             </section>
+
 
             <section>
                 <LongLine />
