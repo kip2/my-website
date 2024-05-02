@@ -7,6 +7,7 @@ import ScrollToTopButton from "../../UI/ScrollToTopButton"
 import Title from "../../UI/Title"
 import Profile from "../Top/Profile"
 import AboutInPageLinks from "./AboutInPageLinks"
+import Favorite from "./Favorite"
 import Histories from "./History/Histories"
 import Introduction from "./Introduction"
 import Qualifications from "./Qualifications"
@@ -38,6 +39,14 @@ const About = () => {
                 <LongLine />
                 <Blank />
                 <Introduction />
+                <LittleBlank />
+            </section>
+
+            <section>
+                <LongLine />
+                <LongLine />
+                <Blank />
+                <Favorite />
                 <LittleBlank />
             </section>
 
