@@ -4,6 +4,7 @@ import Header from "../../UI/Header"
 import Quotes from "../../UI/Quotes"
 import TopBooks from "./TopBooks"
 import TopProfile from "./TopProfile"
+import ScrollToTopButton from "../../UI/ScrollToTopButton"
 
 const Top = () => {
     return (
@@ -15,6 +16,7 @@ const Top = () => {
             <TopProfile/>
             <Blank />
             <TopBooks/>
+            <ScrollToTopButton />
             <Footer/>
         </>
     )
