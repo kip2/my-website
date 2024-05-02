@@ -13,6 +13,7 @@ const Profile = () => {
                             src="/img/myimage.png" alt="my image"/>
                 </div>
                 <div className="flex flex-col items-center w-100 max-lg:w-100">
+                    <p className="text-md font-serif mb-2"><span>[kʲippɯ]</span></p>
                     <h2 className=" text-5xl mb-3 mx-auto italic font-serif">kip2</h2>
                     <p className="py-2 mx-auto text-left leading-8">
                     プログラミングに魅せられてしまい、沼に沈んだオタク<br/>
