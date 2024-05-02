@@ -5,7 +5,7 @@ import React from "react"
 const Histories = () => {
     return (
         <>
-            <h1 className=" text-6xl mx-auto w-fit mb-14 max-md:text-4xl">
+            <h1 id="History" className=" text-6xl mx-auto w-fit mb-14 max-md:text-4xl">
                 History
             </h1>
             <div className="grid place-items-center">
