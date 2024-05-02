@@ -9,6 +9,7 @@ import Profile from "../Top/Profile"
 import AboutInPageLinks from "./AboutInPageLinks"
 import Favorite from "./Favorite"
 import Histories from "./History/Histories"
+import Influenced from "./Influenced"
 import Introduction from "./Introduction"
 import Qualifications from "./Qualifications"
 
@@ -47,6 +48,14 @@ const About = () => {
                 <LongLine />
                 <Blank />
                 <Favorite />
+                <LittleBlank />
+            </section>
+
+            <section>
+                <LongLine />
+                <LongLine />
+                <Blank />
+                <Influenced/>
                 <LittleBlank />
             </section>
 
