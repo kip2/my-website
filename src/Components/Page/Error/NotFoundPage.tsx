@@ -1,4 +1,4 @@
-import Blank from "../../UI/Blank"
+import Blank from "../../UI/Blanks/Blank"
 import ReturnButton from "../../UI/ReturnButton"
 
 const NotFoundPage = () => {

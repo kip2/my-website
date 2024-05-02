@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 import { ProductPageData } from "../../interface"
 import Header from "../../UI/Header"
 import Footer from "../../UI/Footer"
-import Blank from "../../UI/Blank"
+import Blank from "../../UI/Blanks/Blank"
 import MarkdownViewer from "../../Functions/MarkdownViewer"
 import ReturnButton from "../../UI/ReturnButton"
 

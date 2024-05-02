@@ -1,4 +1,4 @@
-import Blank from "../../UI/Blank"
+import Blank from "../../UI/Blanks/Blank"
 import Footer from "../../UI/Footer"
 import Header from "../../UI/Header"
 import Quotes from "../../UI/Quotes"
