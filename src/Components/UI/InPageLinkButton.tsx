@@ -11,10 +11,10 @@ const InPageLinkButton:React.FC<InPageLinkButtonProps> = ({ rootPath, linkId, te
     return (
         <>
             <a className="text-2xl p-4 italic text-center
+                    max-md:text-xl
                     block
-                    w-52
+                    w-52 px-6 py-3 
                     border-2 bg-gray-400/10  border-gray-500 rounded-md 
-                    px-6 py-3 
                     hover:bg-gray-600 transition duration-500 ease-in-out
                     hover:border-slate-200
                     "
