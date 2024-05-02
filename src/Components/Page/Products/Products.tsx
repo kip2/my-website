@@ -1,7 +1,6 @@
 import Blank from "../../UI/Blanks/Blank"
 import Footer from "../../UI/Footer"
 import Header from "../../UI/Header"
-import ProductCards from "./ProductCards"
 import ScrollToTopButton from "../../UI/ScrollToTopButton"
 import Title from "../../UI/Title"
 import ProductsInPageLinks from "./ProductsInPageLinks"
