@@ -25,7 +25,9 @@ const ScrollToTopButton = () => {
     return (
         <>
             <button onClick={scrollToTop} disabled={isTop}
-            className=' border-2 rounded-full border-white
+            className=' border-2 rounded-full
+             border-zinc-400
+             bg-indigo-900
                 bottom-5 right-5 z-50 fixed text-lg
                 py-2 px-5
                 shadow opacity-50
