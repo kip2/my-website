@@ -1,5 +1,6 @@
 import ProductCard from "./ProductCard"
-import procudtData from "../../../../public/json/Products.json"
+import procudtData from "../../../../public/json/ProductsData.json"
+
 
 const ProductCards = () => {
     return (
@@ -14,17 +15,13 @@ const ProductCards = () => {
                             <div className=" col-span-3 border-t border-white mb-7 mt-7 w-96 mx-auto max-md:col-span-2 max-sm:hidden"></div>
                             <ProductCard
                                 key={index}
-                                imgUrl={data.imgUrl}
-                                title={data.title}
-                                caption={data.caption}
+                                data={data}
                             />
                         </>
                         :
                             <ProductCard
                                 key={index}
-                                imgUrl={data.imgUrl}
-                                title={data.title}
-                                caption={data.caption}
+                                data={data}
                             />
                 ))}
             </div>

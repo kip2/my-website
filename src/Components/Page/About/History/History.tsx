@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom"
-import { HistoryPageData} from "../interface"
+import { HistoryPageData} from "../../../interface"
 
 const History: React.FC< {data: HistoryPageData}> = ({data}) => {
     const navigate = useNavigate()
