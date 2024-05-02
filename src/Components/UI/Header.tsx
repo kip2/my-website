@@ -8,7 +8,7 @@ const Header = () => {
                     <div className="overflow-hidden whitespace-nowrap border-r-3 pr-0 border-black animate-typing
                         font-bold text-2xl font-mono pl-2
                         text-slate-200
-                        hover:text-black hover:bg-slate-300 duration-300 hover:py-2
+                        hover:text-black hover:bg-slate-300 duration-500 hover:py-2
                     ">
                         kip2.dev
                     </div>
