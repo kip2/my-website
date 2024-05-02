@@ -10,14 +10,13 @@ const InPageLinkButton:React.FC<InPageLinkButtonProps> = ({ rootPath, linkId, te
 
     return (
         <>
-            <a className="text-2xl p-4 italic
+            <a className="text-2xl p-4 italic text-center
                     block
-                    w-fit
+                    w-52
                     border-2 bg-gray-400/10  border-gray-500 rounded-md 
                     px-6 py-3 
                     hover:bg-gray-600 transition duration-500 ease-in-out
                     hover:border-slate-200
-                    mx-5 my-2
                     "
                 href={path}
             >
