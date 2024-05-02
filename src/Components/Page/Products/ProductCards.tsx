@@ -11,13 +11,12 @@ const ProductCards = () => {
             ">
                 {producttData.map((data, index) => (
                     (index % 6 === 0) && (index !== 0)  ?
-                        <>
+                        <div key={index}>
                             <div className=" col-span-3 border-t border-white mb-7 mt-7 w-96 mx-auto max-md:col-span-2 max-sm:hidden"></div>
                             <ProductCard
-                                key={index}
                                 data={data}
                             />
-                        </>
+                        </div>
                         :
                             <ProductCard
                                 key={index}
