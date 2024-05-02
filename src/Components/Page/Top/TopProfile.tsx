@@ -4,7 +4,7 @@ import { faGithub, faXTwitter } from "@fortawesome/free-brands-svg-icons"
 const TopProfile = () => {
     return (
         <>
-            <h1 className=" text-6xl mx-auto w-fit mb-12 max-md:text-4xl">
+            <h1 className=" text-6xl mx-auto w-fit max-md:text-4xl">
                 About Me
             </h1>
             <div className="mx-auto flex justify-center gap-16 max-lg:flex-col max-lg:items-center">
