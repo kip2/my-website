@@ -16,7 +16,8 @@ const History: React.FC< {data: HistoryPageData}> = ({data}) => {
                     text-xl 
                     border-2 bg-gray-400/10  border-gray-700 rounded-md 
                     px-6 py-4
-                    hover:bg-gray-600 transition duration-300 ease-in-out
+                    hover:bg-gray-600 transition duration-500 ease-in-out
+                    hover:border-slate-200
                 ">
                     <p className="italic my-auto max-md:text-xs text-sm text-gray-400 mr-5">{data.age}</p>
                     <p className="my-auto italic">{data.title}</p>

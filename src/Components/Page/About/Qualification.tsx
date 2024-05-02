@@ -12,7 +12,8 @@ const Qualification: React.FC<QualificationProps> = ({ data, qualification, url}
                     text-2xl 
                     border-2 bg-gray-400/10  border-gray-700 rounded-md 
                     px-6 py-3 
-                    hover:bg-gray-600 transition duration-300 ease-in-out
+                    hover:bg-gray-600 transition duration-500 ease-in-out
+                    hover:border-slate-200
                 ">
                     <a href={url} className="flex items-center">
                         <p>🏆</p>
