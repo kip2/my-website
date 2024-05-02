@@ -16,6 +16,7 @@ const ProductDetail = () => {
         const products = await response.json() as ProductPageData[]
         const matchData = products.find(product => product.id === id)
         setProductData(matchData)
+        console.log("match data: ", matchData)
     }
 
     useEffect(() => {

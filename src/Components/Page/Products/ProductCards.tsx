@@ -1,5 +1,5 @@
 import ProductCard from "./ProductCard"
-import procudtData from "../../../../public/json/ProductsData.json"
+import producttData from "../../../../public/json/ProductsData.json"
 
 
 const ProductCards = () => {
@@ -9,7 +9,7 @@ const ProductCards = () => {
                 max-md:grid-cols-2 
                 max-sm:grid-cols-1 max-sm:justify-items-center
             ">
-                {procudtData.map((data, index) => (
+                {producttData.map((data, index) => (
                     index % 6 === 0 ?
                         <>
                             <div className=" col-span-3 border-t border-white mb-7 mt-7 w-96 mx-auto max-md:col-span-2 max-sm:hidden"></div>

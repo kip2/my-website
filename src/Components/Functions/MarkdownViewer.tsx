@@ -4,6 +4,7 @@ import DOMPurify from "dompurify";
 import parse, {Element} from 'html-react-parser';
 import Player from '../UI/Player';
 import "./MarkdownViewer.css"
+import {  useNavigate } from 'react-router-dom';
 
 interface MarkdownViewerProps {
     filepath: string;
@@ -11,6 +12,7 @@ interface MarkdownViewerProps {
 
 const MarkdownViewer: React.FC<MarkdownViewerProps> = ({ filepath }) => {
     const [content, setContent] = useState<React.ReactNode>(null);
+    const navigate = useNavigate()
 
     useEffect(() => {
 
@@ -26,9 +28,19 @@ const MarkdownViewer: React.FC<MarkdownViewerProps> = ({ filepath }) => {
                 }
                 return response.text();
             })
-            .then(text => marked(text))
-            .then(markdown => DOMPurify.sanitize(markdown))
+            .then(text => {
+                if (text.includes('<title>kip2.dev</title>')){
+                    navigate('/404', { replace: true })
+                    return null
+                }
+                return marked(text)})
+            .then(markdown => {
+                if (!markdown) return null
+                return DOMPurify.sanitize(markdown)
+            })
             .then(sanitizedHtml => {
+                if (!sanitizedHtml) return 
+
                 const parser = new DOMParser();
                 const doc = parser.parseFromString(sanitizedHtml, 'text/html');
 
@@ -47,6 +59,8 @@ const MarkdownViewer: React.FC<MarkdownViewerProps> = ({ filepath }) => {
                 return newHtml;
             })
             .then(sanitizedHtml => {
+                if (!sanitizedHtml) return
+
                 const transformedContent = parse(sanitizedHtml, {
                     replace: (domNode) => {
                         if (domNode instanceof Element && domNode.name === 'a') {
@@ -66,7 +80,7 @@ const MarkdownViewer: React.FC<MarkdownViewerProps> = ({ filepath }) => {
                 console.error("Markdown file could not be loaded or parsed", error);
                 setContent(<p>Error loading content...</p>);
             });
-    }, [filepath]);
+    }, [filepath, navigate]);
 
 
     return (
