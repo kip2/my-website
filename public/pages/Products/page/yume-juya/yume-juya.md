@@ -1,6 +1,6 @@
 
 
-![夢十夜](/pages/Products/img/yume-juya/yume-juya_top.jpg)
+![夢十夜](/pages/Products/page/yume-juya/img/yume-juya_top.jpg)
 
 </br>
 
