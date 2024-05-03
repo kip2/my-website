@@ -1,5 +1,6 @@
 import ProductCard from "./ProductCard"
 import producttData from "../../../../public/json/ProductsData.json"
+import React from "react"
 
 
 const ProductCards = () => {
@@ -11,12 +12,12 @@ const ProductCards = () => {
             ">
                 {producttData.map((data, index) => (
                     (index % 6 === 0) && (index !== 0)  ?
-                        <div key={index}>
+                        <React.Fragment key={index}>
                             <div className=" col-span-3 border-t border-white mb-7 mt-7 w-96 mx-auto max-md:col-span-2 max-sm:hidden"></div>
                             <ProductCard
                                 data={data}
                             />
-                        </div>
+                        </React.Fragment>
                         :
                             <ProductCard
                                 key={index}
