@@ -14,10 +14,10 @@
         "path": "/pages/Products/page/yume-juya/yume-juya.md"
     },
     {
-        "id": "clicker-yume-juya",
-        "imgUrl":"/pages/Products/page/yume-juya/img/yume-juya_t.jpg" ,
-        "title": "せっかち 夢十夜 第一夜",
-        "caption": "夢十夜が元ネタのクリッカーゲーム",
-        "path": "/pages/Products/page/yume-juya/yume-juya.md"
+        "id": "guess-the-number-game",
+        "imgUrl":"/pages/Products/page/guess-the-number-game/img/sample_t.jpg" ,
+        "title": "Guess the number game",
+        "caption": "CLIの簡単な数当てゲーム",
+        "path": "/pages/Products/page/guess-the-number-game/guess-the-number-game.md"
     }
 ]
