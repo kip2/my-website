@@ -1,7 +1,7 @@
 import InPageLinkButton from "../../UI/InPageLinkButton"
 
 const ProductsInPageLinks = () => {
-    const inPageLink = ["Tools", "Game", "Study",]
+    const inPageLink = ["Tool", "Game", "Study",]
 
     return(
         <div className="flex  justify-center items-center">

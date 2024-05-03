@@ -2,13 +2,13 @@ import Title from "../../UI/Title"
 import ProductCards from "./ProductCards"
 
 
-const Tools = () => {
+const Tool = () => {
     return(
         <>
-            <Title title="Tools" subTitle="ツール" linkId="Tools" />
+            <Title title="Tool" subTitle="ツール" linkId="Tool" />
             <ProductCards />
         </>
     )
 }
 
-export default Tools
+export default Tool

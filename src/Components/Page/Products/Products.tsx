@@ -4,7 +4,7 @@ import Header from "../../UI/Header"
 import ScrollToTopButton from "../../UI/ScrollToTopButton"
 import Title from "../../UI/Title"
 import ProductsInPageLinks from "./ProductsInPageLinks"
-import Tools from "./Tools"
+import Tool from "./Tool"
 import Game from "./Game"
 import LongLine from "../../UI/Lines/LongLine"
 import Study from "./Study"
@@ -28,7 +28,7 @@ const Products = () =>  {
                 <LongLine />
                 <LongLine />
                 <LittleBlank />
-                <Tools />
+                <Tool />
             </section>
 
             {/* Game section */}
