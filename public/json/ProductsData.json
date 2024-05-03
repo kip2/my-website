@@ -1,21 +1,21 @@
 [
     {
         "id": "markdown-to-html",
-        "imgUrl":"/pages/Products/page/markdown-to-html/img/thumbnail/markdown-to-html_t.jpg" ,
+        "imgUrl":"/pages/Products/page/markdown-to-html/img/markdown-to-html_t.jpg" ,
         "title": "Markdown to HTML",
         "caption": "マークダウンをhtmlに変換するwebアプリ",
         "path": "/pages/Products/page/markdown-to-html/markdown-to-html.md"
     },
     {
         "id": "clicker-yume-juya",
-        "imgUrl":"/pages/Products/page/yume-juya/img/thumbnail/yume-juya_t.jpg" ,
+        "imgUrl":"/pages/Products/page/yume-juya/img/yume-juya_t.jpg" ,
         "title": "せっかち 夢十夜 第一夜",
         "caption": "夢十夜が元ネタのクリッカーゲーム",
         "path": "/pages/Products/page/yume-juya/yume-juya.md"
     },
     {
         "id": "clicker-yume-juya",
-        "imgUrl":"/pages/Products/page/yume-juya/img/thumbnail/yume-juya_t.jpg" ,
+        "imgUrl":"/pages/Products/page/yume-juya/img/yume-juya_t.jpg" ,
         "title": "せっかち 夢十夜 第一夜",
         "caption": "夢十夜が元ネタのクリッカーゲーム",
         "path": "/pages/Products/page/yume-juya/yume-juya.md"
