@@ -8,7 +8,7 @@ const Qualification: React.FC<QualificationProps> = ({ data, qualification, url}
     return (
         <>
             <section className="flex justify-center mt-5">
-                <div className="grid max-md:grid-cols-2 grid-cols-3 w-190 max-lg:w-144 max-md:w-128 max-sm:w-96
+                <div className="grid max-md:grid-cols-2 grid-cols-3 w-190 max-lg:w-144 max-md:w-128 max-sm:w-96 max-[470px]:w-72
                     text-2xl 
                     border-2 bg-gray-400/10  border-gray-700 rounded-md 
                     px-6 py-3 

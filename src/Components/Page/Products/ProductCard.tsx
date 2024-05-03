@@ -16,13 +16,17 @@ const ProductCard: React.FC<{data: ProductPageData}> = ({ data }) => {
                 <div className="h-3/5 max-sm:h-2/3">
                     <img className="w-full h-full object-cover" src={data.imgUrl}></img>
                 </div>
-                <div className="h-2/5 max-sm:h-1/3 flex flex-col p-2 bg-slate-300/10 ">
-                    <h2 className="mx-auto text-sm font-semibold pb-1 overflow-hidden
+                <div className="h-2/5 max-sm:h-1/3 flex flex-col px-3 pt-3 pb-3 bg-slate-300/10
+                    max-[380px]:pb-2 max-[380px]:pt-2
+                ">
+                    <h2 className="mx-auto text-sm font-semibold pb-2 overflow-hidden
                         max-sm:pb-2
                     ">
                         {data.title}
                     </h2>
-                    <p className="mx-auto text-xs overflow-hidden whitespace-nowrap">
+                    <p className="mx-auto text-xs mt-2 mb-2 overflow-hidden whitespace-nowrap
+                        max-[380px]:mt-1 max-[380px]:mb-1
+                    ">
                         {/* 40 character limit */}
                         {data.caption}
                     </p>

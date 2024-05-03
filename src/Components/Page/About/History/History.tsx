@@ -12,7 +12,7 @@ const History: React.FC< {data: HistoryPageData}> = ({data}) => {
         <>
             <section className="grid items-center">
                 <div onClick={() => goToDetailPage(data)} className="flex justify-start 
-                    w-190 max-lg:w-144 max-md:w-128 max-sm:w-96
+                    w-190 max-lg:w-144 max-md:w-128 max-sm:w-96 max-[470px]:w-72
                     text-xl 
                     border-2 bg-gray-400/10  border-gray-700 rounded-md 
                     px-6 py-4
