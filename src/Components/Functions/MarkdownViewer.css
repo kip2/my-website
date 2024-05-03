@@ -1,5 +1,5 @@
 .markdown-viewer {
-    max-width: 42rem;
+    max-width: 38rem;
     margin-left: auto;
     margin-right: auto;
     line-height: 2rem;
@@ -15,6 +15,9 @@
     h2 {
         font-size: 1.5rem;
         text-align: center;
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+        text-underline-offset: 15px;
         margin-top: 3rem;
         margin-bottom: 1.25rem;
     }
@@ -22,12 +25,16 @@
     h3 {
         font-size: 1.25rem;
         text-align: center;
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 15px;
+        margin-bottom: 1.25rem;
     }
 
     img {
         margin-left: auto;
         margin-right: auto;
-        width: 300px;
+        width:fit-content;
     }
 
     p {
@@ -42,4 +49,19 @@
     a:hover {
         color: rgb(133, 224, 254);
     }
+
+    blockquote {
+        margin: 1em auto;
+        padding: 1em;
+        background-image: repeating-linear-gradient(-45deg, #4c4d50 0, #4c4d50 3px, transparent 3px, transparent 6px);
+        text-align: center;
+        border-left: 5px solid #ccc;
+    }
+
+    blockquote p {
+        margin: 0; 
+        color: #fffafa;
+        font-size: 1.15rem;
+    }
+
 }
