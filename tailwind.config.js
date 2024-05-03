@@ -20,7 +20,7 @@ export default {
       keyframes: {
         typing: {
           from: { width: '0'},
-          to: { width: '9ch'}
+          to: { width: '7.5ch'}
         },
         blink: {
           '0%, 100%': { borderColor: 'currentColor' },
@@ -28,7 +28,7 @@ export default {
         }
       },
       animation: {
-        typing: 'typing 3s steps(9) forwards, blink 0.2s step-end infinite alternate',
+        typing: 'typing 1s steps(8) forwards, blink 0.2s step-end infinite alternate',
       },
       borderWidth: {
         '3': '3px',
