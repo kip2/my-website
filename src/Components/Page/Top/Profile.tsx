@@ -1,11 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub, faXTwitter } from "@fortawesome/free-brands-svg-icons"
-import Title from "../../UI/Title"
 
 const Profile = () => {
     return (
         <>
-            <Title title="Me" linkId="Me" subTitle="私" />
             <div className="mx-auto flex justify-center gap-5 max-lg:flex-col max-lg:items-center">
                 <div className="grid place-content-center">
                     <img className="rounded-full w-60 h-60"

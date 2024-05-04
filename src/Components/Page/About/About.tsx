@@ -5,12 +5,11 @@ import Header from "../../UI/Header"
 import LongLine from "../../UI/Lines/LongLine"
 import ScrollToTopButton from "../../UI/ScrollToTopButton"
 import Title from "../../UI/Title"
-import Profile from "./Profile"
 import AboutInPageLinks from "./AboutInPageLinks"
 import Favorite from "./Favorite/Favorite"
 import Histories from "./History/Histories"
 import Influenced from "./Influenced/Influenced"
-import Introduction from "./Introduction"
+import Introduction from "./Introduction/Introduction"
 import Qualifications from "./Qualification/Qualifications"
 
 const About = () => {
@@ -24,16 +23,7 @@ const About = () => {
                 <Title title="About" linkId="About" subTitle="私について" />
                 <AboutInPageLinks/>
                 <LittleBlank/>
-                <LongLine />
-                <LongLine />
             </section>
-
-            <section>
-                <LittleBlank/>
-                <Profile />
-                <LittleBlank />
-            </section>
-
 
             <section>
                 <LongLine />
