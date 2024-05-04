@@ -1,5 +1,5 @@
-## Recursionと出会う
+## Recursionと出会う  
 
-Recursionとの出会い。 Recursionとの出会い。 Recursionとの出会い。 Recursionとの出会い。 Recursionとの出会い。 Recursionとの出会い。
+Recursionとの出会い。 Recursionとの出会い。 Recursionとの出会い。 Recursionとの出会い。 Recursionとの出会い。 Recursionとの出会い。  
 
-## コンピュータサイエンスをやるために
+## コンピュータサイエンスをやるために  
