@@ -10,7 +10,7 @@ const History: React.FC< {data: HistoryPageData}> = ({data}) => {
 
     return (
         <>
-            <section className="grid items-center">
+            <section className="grid items-center cursor-pointer">
                 <div onClick={() => goToDetailPage(data)} className="flex justify-start 
                     w-190 max-lg:w-144 max-md:w-128 max-sm:w-96 max-[470px]:w-72
                     text-xl 

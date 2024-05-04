@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontSize: {
+        'xl-custom':['1.25rem', '1rem']
+      },
       boxSizing: {
         inherit: 'inherit',
       },

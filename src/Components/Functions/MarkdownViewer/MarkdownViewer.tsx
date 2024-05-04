@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom'
 import Player from '../../UI/Player'
 import "./MarkdownViewer.css"
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter"
-import { coy } from "react-syntax-highlighter/dist/esm/styles/prism"
+import { xonokai } from "react-syntax-highlighter/dist/esm/styles/prism"
 import Blank from '../../UI/Blanks/Blank'
 
 interface MarkdownViewerProps {
@@ -62,7 +62,7 @@ const MarkdownViewer: React.FC<MarkdownViewerProps> = ({ filepath }) => {
     }
 
     return (
-        <div className="markdown-viewer text-xl mx-auto w-fit mb-7 max-md:text-4xl">
+        <div className="markdown-viewer text-xl-custom mx-auto w-fit mb-7 max-md:text-4xl">
             <ReactMarkdown 
                 remarkPlugins={[gfm]} 
                 children={markdown} 
@@ -72,7 +72,7 @@ const MarkdownViewer: React.FC<MarkdownViewerProps> = ({ filepath }) => {
                     return match ? (
                         <SyntaxHighlighter
                         children={String(children).replace(/\n$/,'')}
-                        style={coy}
+                        style={xonokai}
                         language={match[1]}
                         PreTag="div"
                         />
