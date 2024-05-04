@@ -50,6 +50,7 @@ const Products = () =>  {
             </section>
 
             <ScrollToTopButton/>
+            <Blank />
             <Footer />
         </>
     )
