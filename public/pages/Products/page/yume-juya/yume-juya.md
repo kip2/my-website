@@ -13,7 +13,7 @@
 総コミット数：248コミット  
 Access : [Play Link](https://clicker-game-yume-juya.vercel.app)  
 偉大なる元ネタ : [夏目漱石 夢十夜](https://www.aozora.gr.jp/cards/000148/files/799_14972.html)  
-Github : [GitHub - kip2/Clicker-game-Yume-Juya](https://github.com/kip2/Clicker-game-Yume-Juya)  
+Github : [GitHub - Clicker-game-Yume-Juya](https://github.com/kip2/Clicker-game-Yume-Juya)  
 
 ---  
 

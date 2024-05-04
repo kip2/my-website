@@ -30,6 +30,12 @@ const ProductCard: React.FC<{data: ProductPageData}> = ({ data }) => {
                         {/* 40 character limit */}
                         {data.caption}
                     </p>
+                    <p className="mx-auto text-xs mt-2 mb-2
+                        text-slate-400 opacity-80
+                        max-[380px]:mt-1 max-[380px]:mb-1
+                    ">
+                        {data.created}
+                    </p>
                 </div>
             </div>
         </>

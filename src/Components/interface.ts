@@ -11,4 +11,6 @@ export interface ProductPageData {
     title: string,
     caption: string,
     path: string,
+    genre: string,
+    created: string,
 }
