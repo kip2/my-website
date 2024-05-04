@@ -4,7 +4,7 @@ import { faGithub, faXTwitter } from "@fortawesome/free-brands-svg-icons"
 const Profile = () => {
     return (
         <>
-            <div className="mx-auto flex justify-center gap-5 max-lg:flex-col max-lg:items-center">
+            <div className="mx-auto flex justify-center gap-5 max-md:flex-col max-md:items-center">
                 <div className="grid place-content-center">
                     <img className="rounded-full w-60 h-60"
                             src="/img/myimage.png" alt="my image"/>
