@@ -6,7 +6,7 @@ const Tool = () => {
     return(
         <>
             <Title title="Tool" subTitle="ツール" linkId="Tool" />
-            <ProductCards />
+            <ProductCards genre="tool"/>
         </>
     )
 }

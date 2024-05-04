@@ -4,125 +4,143 @@
         "imgUrl": "/pages/Products/page/remote-procedure-call/img/remote-procedure-call_t.jpg",
         "title": "remote-procedure-call",
         "caption": "RPC学ぶための習作アプリ",
-        "path": "/pages/Products/page/remote-procedure-call/remote-procedure-call.md"
+        "path": "/pages/Products/page/remote-procedure-call/remote-procedure-call.md",
+        "genre": "study"
     },
     {
         "id": "EC-site-product-list",
         "imgUrl": "/pages/Products/page/EC-site-product-list/img/EC-site-product-list_t.jpg",
         "title": "EC-site-product-list",
         "caption": "Reactの習作モック2",
-        "path": "/pages/Products/page/EC-site-product-list/EC-site-product-list.md"
+        "path": "/pages/Products/page/EC-site-product-list/EC-site-product-list.md",
+        "genre": "study"
     },
     {
         "id": "sqcr",
         "imgUrl": "/pages/Products/page/sqcr/img/sqcr_t.jpg",
         "title": "sqcr",
         "caption": ".sqlファイルのクエリを実行するコマンドアプリ",
-        "path": "/pages/Products/page/sqcr/sqcr.md"
+        "path": "/pages/Products/page/sqcr/sqcr.md",
+        "genre": "tool"
     },
     {
         "id": "restaurant-chain-mockup",
         "imgUrl": "/pages/Products/page/restaurant-chain-mockup/img/restaurant-chain-mockup_t.jpg",
         "title": "restaurant-chain-mockup",
         "caption": "レストランチェーンのモックアップ作成アプリ",
-        "path": "/pages/Products/page/restaurant-chain-mockup/restaurant-chain-mockup.md"
+        "path": "/pages/Products/page/restaurant-chain-mockup/restaurant-chain-mockup.md",
+        "genre": "study"
     },
     {
         "id": "markdown-to-html-converter",
         "imgUrl": "/pages/Products/page/markdown-to-html-converter/img/markdown-to-html-converter_t.jpg",
         "title": "markdown-to-html-converter",
         "caption": "CLIでmarkdownからHTMLを生成するアプリ",
-        "path": "/pages/Products/page/markdown-to-html-converter/markdown-to-html-converter.md"
+        "path": "/pages/Products/page/markdown-to-html-converter/markdown-to-html-converter.md",
+        "genre": "study"
     },
     {
         "id": "migrate",
         "imgUrl": "/pages/Products/page/migrate/img/migrate_t.jpg",
         "title": "migrate",
         "caption": "DBのマイグレーションを行うコマンドアプリ",
-        "path": "/pages/Products/page/migrate/migrate.md"
+        "path": "/pages/Products/page/migrate/migrate.md",
+        "genre": "tool"
     },
     {
         "id": "file-manipulator",
         "imgUrl": "/pages/Products/page/file-manipulator/img/file-manipulator_t.jpg",
         "title": "file-manipulator",
         "caption": "システムコールを学ぶため、ファイル操作アプリを作成",
-        "path": "/pages/Products/page/file-manipulator/file-manipulator.md"
+        "path": "/pages/Products/page/file-manipulator/file-manipulator.md",
+        "genre": "study"
     },
     {
         "id": "restaurant-chain-mockup-site-version",
         "imgUrl": "/pages/Products/page/restaurant-chain-mockup-site-version/img/restaurant-chain-mockup-site-version_t.jpg",
         "title": "restaurant-chain-mockup-site-version",
         "caption": "レストランチェーン店のランダムなデータを作るWebアプリ",
-        "path": "/pages/Products/page/restaurant-chain-mockup-site-version/restaurant-chain-mockup-site-version.md"
+        "path": "/pages/Products/page/restaurant-chain-mockup-site-version/restaurant-chain-mockup-site-version.md",
+        "genre": "study"
     },
     {
         "id": "food-service-simulation",
         "imgUrl": "/pages/Products/page/food-service-simulation/img/food-service-simulation_t.jpg",
         "title": "food-service-simulation",
         "caption": "phpに慣れるための習作アプリ",
-        "path": "/pages/Products/page/food-service-simulation/food-service-simulation.md"
+        "path": "/pages/Products/page/food-service-simulation/food-service-simulation.md",
+        "genre": "study"
     },
     {
         "id": "fruit-list",
         "imgUrl": "/pages/Products/page/fruit-list/img/fruit-list_t.jpg",
         "title": "fruit-list",
         "caption": "Reactの習作モック1",
-        "path": "/pages/Products/page/fruit-list/fruit-list.md"
+        "path": "/pages/Products/page/fruit-list/fruit-list.md",
+        "genre": "study"
     },
     {
         "id": "consowrap",
         "imgUrl": "/pages/Products/page/consowrap/img/consowrap_t.jpg",
         "title": "consowrap",
         "caption": "コマンドアプリをまとめて扱うためのコマンドアプリ",
-        "path": "/pages/Products/page/consowrap/consowrap.md"
+        "path": "/pages/Products/page/consowrap/consowrap.md",
+        "genre": "tool"
     },
     {
         "id": "db-wipe",
         "imgUrl": "/pages/Products/page/db-wipe/img/db-wipe_t.jpg",
         "title": "db-wipe",
         "caption": "MySQLのデータのバックアップ/復元を行うコマンドアプリ",
-        "path": "/pages/Products/page/db-wipe/db-wipe.md"
+        "path": "/pages/Products/page/db-wipe/db-wipe.md",
+        "genre": "tool"
     },
     {
         "id": "video-compressor-service",
         "imgUrl": "/pages/Products/page/video-compressor-service/img/video-compressor-service_t.jpg",
         "title": "video-compressor-service",
         "caption": "mp4の変換や圧縮を行えるアプリ",
-        "path": "/pages/Products/page/video-compressor-service/video-compressor-service.md"
+        "path": "/pages/Products/page/video-compressor-service/video-compressor-service.md",
+        "genre": "tool"
     },
     {
         "id": "countdown-timer",
         "imgUrl": "/pages/Products/page/countdown-timer/img/countdown-timer_t.jpg",
         "title": "countdown-timer",
         "caption": "シンプルなカウントダウンタイマー",
-        "path": "/pages/Products/page/countdown-timer/countdown-timer.md"
+        "path": "/pages/Products/page/countdown-timer/countdown-timer.md",
+        "genre": "tool"
     },
     {
         "id": "local-chat-messenger",
         "imgUrl": "/pages/Products/page/local-chat-messenger/img/local-chat-messenger_t.jpg",
         "title": "local-chat-messenger",
         "caption": "ローカル環境内でのテキストチャットアプリ",
-        "path": "/pages/Products/page/local-chat-messenger/local-chat-messenger.md"
+        "path": "/pages/Products/page/local-chat-messenger/local-chat-messenger.md",
+        "genre": "study"
     },
     {
         "id": "markdown-to-html",
         "imgUrl":"/pages/Products/page/markdown-to-html/img/markdown-to-html_t.jpg" ,
         "title": "Markdown to HTML",
         "caption": "マークダウンをhtmlに変換するwebアプリ",
-        "path": "/pages/Products/page/markdown-to-html/markdown-to-html.md"
+        "path": "/pages/Products/page/markdown-to-html/markdown-to-html.md",
+        "genre": "tool"
     },
     {
         "id": "clicker-yume-juya",
         "imgUrl":"/pages/Products/page/yume-juya/img/yume-juya_t.jpg" ,
         "title": "せっかち 夢十夜 第一夜",
         "caption": "夢十夜が元ネタのクリッカーゲーム",
-        "path": "/pages/Products/page/yume-juya/yume-juya.md"
+        "path": "/pages/Products/page/yume-juya/yume-juya.md",
+        "genre": "game"
     },
     {
         "id": "guess-the-number-game",
         "imgUrl":"/pages/Products/page/guess-the-number-game/img/sample_t.jpg" ,
         "title": "Guess the number game",
         "caption": "CLIの簡単な数当てゲーム",
-        "path": "/pages/Products/page/guess-the-number-game/guess-the-number-game.md"
+        "path": "/pages/Products/page/guess-the-number-game/guess-the-number-game.md",
+        "genre": "game"
     }
 ]

@@ -5,7 +5,7 @@ const Study = () => {
     return(
         <>
             <Title title="Study" subTitle="習作" linkId="Study" />
-            <ProductCards />
+            <ProductCards genre="study"/>
         </>
     )
 }

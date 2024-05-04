@@ -5,7 +5,7 @@ const Game = () => {
     return(
         <>
             <Title title="Game" subTitle="ゲーム" linkId="Game" />
-            <ProductCards />
+            <ProductCards genre="game"/>
         </>
     )
 }
