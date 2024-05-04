@@ -63,6 +63,8 @@ increase more...
 
 ### 好きなマスコット  
 
+![Lisp Alien](/svg/lisplogo_alien.svg)
+
 パッと思いつく限りでは、  
 
 - Gopherくん  
@@ -71,12 +73,12 @@ increase more...
 - Lispエイリアン  
 - Denoくん  
 
+
 他にも可愛いマスコットいたら教えてください。  
 
 ### 好きなLispエイリアン  
 
 Lispエイリアン。
-![Lisp Alien](/svg/lisplogo_alien.svg)
 
 :::Blank
 
