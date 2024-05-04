@@ -129,7 +129,8 @@ Reactのコンポーネント分割による開発に魅せられており、Rea
 Lispが好き。  
 なかなか扱うことはできていないけれど、好きと言う気持ちと憧れがものすごくある。  
 なぜそんなにLispが好きかって？  
-[Land of Lisp](https://www.kip2.dev/about/history/Land-of-Lisp)を読めばわかるよ。  
+Land of Lispを読めばわかるよ。  
+[Land of Lispとの出会い](https://www.kip2.dev/about/history/Land-of-Lisp)  
 
 ### 低レイヤ  
 コンピュータそのものの動きに興味がものすごくあるので、低レイヤに興味がある。  
