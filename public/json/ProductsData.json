@@ -3,7 +3,7 @@
         "id": "remote-procedure-call",
         "imgUrl": "/pages/Products/page/remote-procedure-call/img/remote-procedure-call_t.jpg",
         "title": "remote-procedure-call",
-        "caption": "RPC学ぶための習作アプリ",
+        "caption": "RPCを学ぶための習作アプリ",
         "path": "/pages/Products/page/remote-procedure-call/remote-procedure-call.md",
         "genre": "study",
         "created": "2023/08/31"
@@ -21,7 +21,7 @@
         "id": "sqcr",
         "imgUrl": "/pages/Products/page/sqcr/img/sqcr_t.jpg",
         "title": "sqcr",
-        "caption": ".sqlファイルのクエリを実行するコマンドアプリ",
+        "caption": "sqlクエリを実行するアプリ",
         "path": "/pages/Products/page/sqcr/sqcr.md",
         "genre": "tool",
         "created": "2024/03/25"
@@ -30,7 +30,7 @@
         "id": "restaurant-chain-mockup",
         "imgUrl": "/pages/Products/page/restaurant-chain-mockup/img/restaurant-chain-mockup_t.jpg",
         "title": "restaurant-chain-mockup",
-        "caption": "レストランチェーンのモックアップ作成アプリ",
+        "caption": "レストランのモックアップ作成アプリ",
         "path": "/pages/Products/page/restaurant-chain-mockup/restaurant-chain-mockup.md",
         "genre": "study",
         "created": "2023/10/10"
@@ -39,7 +39,7 @@
         "id": "markdown-to-html-converter",
         "imgUrl": "/pages/Products/page/markdown-to-html-converter/img/markdown-to-html-converter_t.jpg",
         "title": "markdown-to-html-converter",
-        "caption": "CLIでmarkdownからHTMLを生成するアプリ",
+        "caption": "markdownのhtml変換アプリ(CLI)",
         "path": "/pages/Products/page/markdown-to-html-converter/markdown-to-html-converter.md",
         "genre": "study",
         "created": "2023/08/26"
@@ -48,7 +48,7 @@
         "id": "migrate",
         "imgUrl": "/pages/Products/page/migrate/img/migrate_t.jpg",
         "title": "migrate",
-        "caption": "DBのマイグレーションを行うコマンドアプリ",
+        "caption": "DBマイグレーションアプリ",
         "path": "/pages/Products/page/migrate/migrate.md",
         "genre": "tool",
         "created": "2024/04/13"
@@ -57,7 +57,7 @@
         "id": "file-manipulator",
         "imgUrl": "/pages/Products/page/file-manipulator/img/file-manipulator_t.jpg",
         "title": "file-manipulator",
-        "caption": "システムコールを学ぶため、ファイル操作アプリを作成",
+        "caption": "ファイル操作アプリ",
         "path": "/pages/Products/page/file-manipulator/file-manipulator.md",
         "genre": "study",
         "created": "2023/08/28"
@@ -66,7 +66,7 @@
         "id": "restaurant-chain-mockup-site-version",
         "imgUrl": "/pages/Products/page/restaurant-chain-mockup-site-version/img/restaurant-chain-mockup-site-version_t.jpg",
         "title": "restaurant-chain-mockup-site-version",
-        "caption": "レストランチェーン店のランダムなデータを作るWebアプリ",
+        "caption": "レストランのモックデータ作成アプリ",
         "path": "/pages/Products/page/restaurant-chain-mockup-site-version/restaurant-chain-mockup-site-version.md",
         "genre": "study",
         "created": "2023/10/30"
@@ -93,7 +93,7 @@
         "id": "consowrap",
         "imgUrl": "/pages/Products/page/consowrap/img/consowrap_t.jpg",
         "title": "consowrap",
-        "caption": "コマンドアプリをまとめて扱うためのコマンドアプリ",
+        "caption": "コマンドアプリの実行アプリ",
         "path": "/pages/Products/page/consowrap/consowrap.md",
         "genre": "tool",
         "created": "2024/04/13"
@@ -102,7 +102,7 @@
         "id": "db-wipe",
         "imgUrl": "/pages/Products/page/db-wipe/img/db-wipe_t.jpg",
         "title": "db-wipe",
-        "caption": "MySQLのデータのバックアップ/復元を行うコマンドアプリ",
+        "caption": "MySQLのバックアップ/復元アプリ",
         "path": "/pages/Products/page/db-wipe/db-wipe.md",
         "genre": "tool",
         "created": "2024/03/25"
@@ -111,7 +111,7 @@
         "id": "video-compressor-service",
         "imgUrl": "/pages/Products/page/video-compressor-service/img/video-compressor-service_t.jpg",
         "title": "video-compressor-service",
-        "caption": "mp4の変換や圧縮を行えるアプリ",
+        "caption": "mp4の変換/圧縮を行うアプリ",
         "path": "/pages/Products/page/video-compressor-service/video-compressor-service.md",
         "genre": "tool",
         "created": "2023/10/03"
@@ -129,7 +129,7 @@
         "id": "local-chat-messenger",
         "imgUrl": "/pages/Products/page/local-chat-messenger/img/local-chat-messenger_t.jpg",
         "title": "local-chat-messenger",
-        "caption": "ローカル環境内でのテキストチャットアプリ",
+        "caption": "テキストチャットアプリの習作",
         "path": "/pages/Products/page/local-chat-messenger/local-chat-messenger.md",
         "genre": "study",
         "created": "2023/08/27"
@@ -138,7 +138,7 @@
         "id": "markdown-to-html",
         "imgUrl":"/pages/Products/page/markdown-to-html/img/markdown-to-html_t.jpg" ,
         "title": "Markdown to HTML",
-        "caption": "マークダウンをhtmlに変換するwebアプリ",
+        "caption": "マークダウンのhtml変換webアプリ",
         "path": "/pages/Products/page/markdown-to-html/markdown-to-html.md",
         "genre": "tool",
         "created": "2023/11/05"

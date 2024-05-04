@@ -10,32 +10,36 @@ const ProductCard: React.FC<{data: ProductPageData}> = ({ data }) => {
 
     return (
         <>
-            <div onClick={() => goToProductPage(data)} className="h-50 rounded-md border-2 border-slate-500 overflow-hidden 
+            <div onClick={() => goToProductPage(data)} className=" h-80 rounded-md border-2 border-slate-500 overflow-hidden 
                     hover:bg-slate-200/10 duration-500 hover:border-slate-200
+                    max-sm:max-w-[368px]
                 ">
                 <div className="h-3/5 max-sm:h-2/3">
-                    <img className="w-full h-full object-cover" src={data.imgUrl}></img>
+                    <img className="h-full w-full object-cover overflow-hidden" src={data.imgUrl}></img>
                 </div>
-                <div className="h-2/5 max-sm:h-1/3 flex flex-col px-3 pt-3 pb-3 bg-slate-300/10
+                <div className="h-2/5 max-sm:h-1/3 flex flex-col px-3 pt-3 pb-4 bg-slate-300/10
                     max-[380px]:pb-2 max-[380px]:pt-2
                 ">
-                    <h2 className="mx-auto text-sm font-semibold pb-2 overflow-hidden
-                        max-sm:pb-2
-                    ">
-                        {data.title}
-                    </h2>
-                    <p className="mx-auto text-xs mt-2 mb-2 overflow-hidden whitespace-nowrap
-                        max-[380px]:mt-1 max-[380px]:mb-1
-                    ">
-                        {/* 40 character limit */}
-                        {data.caption}
-                    </p>
-                    <p className="mx-auto text-xs mt-2 mb-2
-                        text-slate-400 opacity-80
-                        max-[380px]:mt-1 max-[380px]:mb-1
-                    ">
-                        {data.created}
-                    </p>
+                    <div className="h-1/2 flex items-center justify-center">
+                        <h2 className="text-center text-lg font-bold 
+                            font-serif italic
+                        ">
+                            {data.title}
+                        </h2>
+                    </div>
+                    <div className="h-1/2 text-center">
+                        <p className="mx-auto text-xs mt-3 mb-2 
+                            max-[380px]:mt-1 max-[380px]:mb-1
+                        ">
+                            {/* 40 character limit */}
+                            {data.caption}
+                        </p>
+                        <p className="mx-auto text-xs
+                            text-slate-400 opacity-80
+                        ">
+                            {data.created}
+                        </p>
+                    </div>
                 </div>
             </div>
         </>
