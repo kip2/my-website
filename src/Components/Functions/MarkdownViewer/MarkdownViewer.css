@@ -19,7 +19,7 @@
         text-decoration-thickness: 3px;
         text-underline-offset: 15px;
         margin-top: 3rem;
-        margin-bottom: 1.25rem;
+        margin-bottom: 2rem;
     }
 
     h3 {
@@ -28,7 +28,8 @@
         text-decoration: underline;
         text-decoration-thickness: 1px;
         text-underline-offset: 15px;
-        margin-bottom: 1.25rem;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
     }
 
     img {
