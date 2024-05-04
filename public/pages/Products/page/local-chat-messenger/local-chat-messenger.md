@@ -2,6 +2,7 @@
 ---  
 
 使用言語：python  
+作成日 : 2023/08/27  
 作成期間：1日  
 総コミット数：11コミット  
 Github : [GitHub - Local-Chat-Messenger_RecursionCS](https://github.com/kip2/Local-Chat-Messenger_RecursionCS)  

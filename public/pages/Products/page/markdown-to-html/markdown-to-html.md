@@ -9,8 +9,8 @@
 ---  
 :::Blank  
 
-RecursionCS課題  
 使用言語：JavaScript(React.js) TypeScript  
+作成日 : 2023/11/05  
 作成期間：3日  
 総コミット数：66コミット  
 Access: [Markdown Playground](https://kip2.github.io/MarkdownToHTML/)  

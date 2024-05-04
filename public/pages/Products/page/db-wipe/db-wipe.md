@@ -4,6 +4,7 @@
 ---  
 
 使用言語：Rust  
+作成日 : 2024/03/25  
 作成期間 : 3日  
 総コミット数：27コミット  
 Github : [GitHub - db-wipe](https://github.com/kip2/db-wipe)  

@@ -2,6 +2,7 @@
 ---  
 
 使用言語：python  
+作成日 : 2023/08/26  
 作成期間：2日  
 総コミット数：6コミット  
 Github : [GitHub - Markdown-to-HTML-Converter_RecursionCS](https://github.com/kip2/Markdown-to-HTML-Converter_RecursionCS)  

@@ -2,6 +2,7 @@
 ---  
 
 使用言語：php  
+作成日 : 2023/10/30  
 作成期間：25日(うち、実作業時間は14日)  
 総コミット数：155コミット  
 Github : [GitHub - Restaurant_Chain_MockUp_Extension_RecursionCS](https://github.com/kip2/Restaurant_Chain_MockUp_Extension_RecursionCS)  

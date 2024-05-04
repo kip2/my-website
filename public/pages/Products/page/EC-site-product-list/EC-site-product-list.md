@@ -3,6 +3,7 @@
 ---  
 
 使用言語：JavaScript(React.js)  
+作成日 : 2023/10/28  
 作成期間：2日  
 総コミット数：40コミット  
 Github : [GitHub - EC-site-Product-List-RecursionCS](https://github.com/kip2/EC-site-Product-List-RecursionCS)  

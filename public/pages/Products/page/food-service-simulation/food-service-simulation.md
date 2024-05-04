@@ -1,8 +1,8 @@
 
 ---  
 
-RecursionCS課題  
 使用言語：php  
+作成日 : 2023/10/14  
 作成期間：3日(実作業は2日)  
 総コミット数：93コミット  
 Github : [GitHub - FoodServiceSimulation_RecursionCS](https://github.com/kip2/FoodServiceSimulation_RecursionCS)  

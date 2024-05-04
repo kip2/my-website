@@ -2,6 +2,7 @@
 ---  
 
 使用言語：JavaScript(React.js)  
+作成日 : 2023/10/30  
 作成期間：3日  
 総コミット数：74コミット  
 Github : [GitHub - Countdown-Timer](https://github.com/kip2/Countdown-Timer)  

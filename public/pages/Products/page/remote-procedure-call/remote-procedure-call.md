@@ -2,6 +2,7 @@
 ---  
 
 使用言語：JavaScript, python    
+作成日 : 2023/08/31  
 作成期間：4日（実作業は2日）    
 総コミット数：12コミット    
 Github : [GitHub - Remote-Procedure-Call_RecursionCS](https://github.com/kip2/Remote-Procedure-Call_RecursionCS)    
@@ -10,8 +11,8 @@ Github : [GitHub - Remote-Procedure-Call_RecursionCS](https://github.com/kip2/Re
 
 ## Remote Procedure Call  
 
-CLI動作のみ    
-RPCを学ぶための課題。    
+CLI動作のみ。  
+RPCを学ぶための課題。  
 
 :::Blank
 

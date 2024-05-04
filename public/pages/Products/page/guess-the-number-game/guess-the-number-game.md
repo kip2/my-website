@@ -6,6 +6,7 @@
 :::Blank  
 
 使用言語：python  
+作成日 : 2023/08/25  
 作成期間：3日(実作成期間は1日)  
 総コミット数：5コミット  
 Github : [GitHub - GuessTheNumberGame](https://github.com/kip2/GuessTheNumberGame_RecursionCS)  

@@ -2,6 +2,7 @@
 ---
 
 使用言語：Rust
+作成日 : 2024/03/25  
 作成期間：6日
 総コミット数：29コミット
 Github : [GitHub - sqcr](https://github.com/kip2/sqcr)

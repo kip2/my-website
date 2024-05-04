@@ -1,9 +1,9 @@
 
 ---  
 
-RecursionCS課題  
 使用言語：python, shell  
 作成期間：14日(うち、課題の範囲の作成は2日)  
+作成日 : 2023/08/28  
 総コミット数：54コミット  
 Github : [GitHub - File-Manipulator-Program_RecursionCS](https://github.com/kip2/File-Manipulator-Program_RecursionCS)  
 
@@ -11,6 +11,7 @@ Github : [GitHub - File-Manipulator-Program_RecursionCS](https://github.com/kip2
 
 ## File Manipulator Program  
 
+RecursionCS課題  
 CLI動作のみ  
 システムコールを学ぶためのRecursionCSの課題。  
 テストコードをシェルスクリプトで作成している。この辺りのシェルでテストする技法は植山類さんのコンパイラ作成時のスタイルから学んでいる。  

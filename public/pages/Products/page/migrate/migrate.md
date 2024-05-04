@@ -2,6 +2,7 @@
 ---  
 
 使用言語：Rust  
+作成日 : 2024/04/13  
 作成期間：12日(うち、実作業時間は8日)  
 総コミット数：42コミット  
 Github : [GitHub - migrate](https://github.com/kip2/migrate)  

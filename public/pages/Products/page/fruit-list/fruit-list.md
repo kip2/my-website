@@ -1,8 +1,8 @@
 
 ---  
 
-RecursionCS課題  
 使用言語：JavaScript(React.js)  
+作成日 : 2023/10/27  
 作成期間：3日  
 総コミット数：35コミット  
 Github : [GitHub - Fruit-List-RecursionCS](https://github.com/kip2/Fruit-List-RecursionCS)  

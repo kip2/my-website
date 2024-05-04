@@ -2,6 +2,7 @@
 ---  
 
 使用言語：python  
+作成日 : 2023/10/03  
 作成期間：5日(実作業は4日)  
 総コミット数：81コミット  
 Github : [GitHub - VideoCompressorService_RecursionCS](https://github.com/kip2/VideoCompressorService_RecursionCS)  
