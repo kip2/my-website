@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
 import ReactMarkdown, {Components} from 'react-markdown'
 import gfm from 'remark-gfm'
 import DOMPurify from 'dompurify'
-import { useNavigate } from 'react-router-dom'
 import Player from '../../UI/Player'
-import "./MarkdownViewer.css"
-import { Prism as SyntaxHighlighter } from "react-syntax-highlighter"
-import { xonokai } from "react-syntax-highlighter/dist/esm/styles/prism"
 import Blank from '../../UI/Blanks/Blank'
+import "./MarkdownViewer.css"
+import { LightAsync as SyntaxHighlighter } from 'react-syntax-highlighter'
+import { ocean } from 'react-syntax-highlighter/dist/esm/styles/hljs'
 
 interface MarkdownViewerProps {
     filepath: string
@@ -68,11 +68,12 @@ const MarkdownViewer: React.FC<MarkdownViewerProps> = ({ filepath }) => {
                 children={markdown} 
                 components={{
                     code({children, className, ...rest}) {
+                        console.log("className:", className)
                     const match = /language-(\w+)/.exec(className || '')
                     return match ? (
                         <SyntaxHighlighter
                         children={String(children).replace(/\n$/,'')}
-                        style={xonokai}
+                        style={ocean}
                         language={match[1]}
                         PreTag="div"
                         />
