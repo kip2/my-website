@@ -5,7 +5,7 @@ const ProductCard: React.FC<{data: ProductPageData}> = ({ data }) => {
     const navigate = useNavigate()
 
     const goToProductPage = (data: ProductPageData) => {
-        navigate(`/products/detail/${data.id}`)
+        navigate(`/products/${data.id}`)
     }
 
     return (
