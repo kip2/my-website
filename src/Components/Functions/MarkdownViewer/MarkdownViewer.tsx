@@ -8,6 +8,7 @@ import Blank from '../../UI/Blanks/Blank'
 import "./MarkdownViewer.css"
 import { LightAsync as SyntaxHighlighter } from 'react-syntax-highlighter'
 import { ocean } from 'react-syntax-highlighter/dist/esm/styles/hljs'
+import LittleBlank from '../../UI/Blanks/LittleBlank'
 
 interface MarkdownViewerProps {
     filepath: string
@@ -55,6 +56,9 @@ const MarkdownViewer: React.FC<MarkdownViewerProps> = ({ filepath }) => {
                             ''
             if (text.startsWith(":::Blank")) {
                 return <Blank />
+            }
+            if (text.startsWith(":::LittleBlank")) {
+                return <LittleBlank />
             }
             return <p {...props}>{props.children}</p>
 
