@@ -14,7 +14,7 @@ const ProductCard: React.FC<{data: ProductPageData}> = ({ data }) => {
                     hover:bg-slate-200/10 duration-500 hover:border-slate-200
                     max-sm:max-w-[368px]
                 ">
-                <div className="h-3/5 max-sm:h-2/3">
+                <div className="h-3/5 max-sm:h-2/3 overflow-clip">
                     <img className="h-full w-full object-cover overflow-hidden" src={data.imgUrl}></img>
                 </div>
                 <div className="h-2/5 max-sm:h-1/3 flex flex-col px-3 pt-3 pb-4 bg-slate-300/10
