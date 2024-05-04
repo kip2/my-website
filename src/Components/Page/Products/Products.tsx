@@ -9,6 +9,7 @@ import Game from "./Game"
 import LongLine from "../../UI/Lines/LongLine"
 import Study from "./Study"
 import LittleBlank from "../../UI/Blanks/LittleBlank"
+import RecentCreation from "./RecentCreation"
 
 const Products = () =>  {
     return(
@@ -21,6 +22,15 @@ const Products = () =>  {
                 <Title title="My Products" subTitle="つくったもの" linkId="Products" />
                 <ProductsInPageLinks/>
                 <LittleBlank />
+            </section>
+            
+            {/* Recent creation section */}
+            <section>
+                <LongLine />
+                <LongLine />
+                <LittleBlank />
+                <RecentCreation />
+                <Blank />
             </section>
 
             {/* Tool section */}
