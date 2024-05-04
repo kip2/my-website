@@ -1,5 +1,5 @@
-import Title from "../../UI/Title"
-import ProductCards from "./ProductCards"
+import Title from "../../../UI/Title"
+import ProductCards from "../ProductCards"
 
 const RecentCreation = () => {
     return (

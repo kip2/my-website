@@ -4,12 +4,12 @@ import Header from "../../UI/Header"
 import ScrollToTopButton from "../../UI/ScrollToTopButton"
 import Title from "../../UI/Title"
 import ProductsInPageLinks from "./ProductsInPageLinks"
-import Tool from "./Tool"
-import Game from "./Game"
+import Tool from "./Genre/Tool"
+import Game from "./Genre/Game"
 import LongLine from "../../UI/Lines/LongLine"
-import Study from "./Study"
+import Study from "./Genre/Study"
 import LittleBlank from "../../UI/Blanks/LittleBlank"
-import RecentCreation from "./RecentCreation"
+import RecentCreation from "./Genre/RecentCreation"
 
 const Products = () =>  {
     return(
