@@ -26,8 +26,6 @@ const Products = () =>  {
             
             {/* Recent creation section */}
             <section>
-                <LongLine />
-                <LongLine />
                 <LittleBlank />
                 <RecentCreation />
                 <Blank />

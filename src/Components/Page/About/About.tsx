@@ -7,11 +7,11 @@ import ScrollToTopButton from "../../UI/ScrollToTopButton"
 import Title from "../../UI/Title"
 import Profile from "./Profile"
 import AboutInPageLinks from "./AboutInPageLinks"
-import Favorite from "./Favorite"
+import Favorite from "./Favorite/Favorite"
 import Histories from "./History/Histories"
-import Influenced from "./Influenced"
+import Influenced from "./Influenced/Influenced"
 import Introduction from "./Introduction"
-import Qualifications from "./Qualifications"
+import Qualifications from "./Qualification/Qualifications"
 
 const About = () => {
     

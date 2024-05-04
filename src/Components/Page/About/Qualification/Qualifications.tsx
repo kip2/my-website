@@ -1,6 +1,6 @@
 import Qualification from "./Qualification"
-import qualificationData from "../../../../public/json/Qualifications.json"
-import Title from "../../UI/Title"
+import qualificationData from "../../../../../public/json/Qualifications.json"
+import Title from "../../../UI/Title"
 
 const Qualifications = () => {
     return (
