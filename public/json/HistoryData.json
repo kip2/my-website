@@ -3,60 +3,60 @@
         "id": "game",
         "age": "15~18歳頃",
         "title": "友人とゲーム作ろうと色々画策。プログラミングへの興味の最初",
-        "path": "/pages/Hisotry/GameProgramming.md"
+        "path": "/pages/Hisotry/game-programming/game-programming.md"
     },
     {
         "id": "c-lang",
         "age": "20歳頃",
         "title": "ゲーム作りの野望忘れられず、C言語に入門と挫折",
-        "path": "/pages/Hisotry/Clang.md"
+        "path": "/pages/Hisotry/c-lang/c-lang.md"
     },
     {
         "id": "python",
         "age": "28歳",
         "title": "「退屈なことはPythonにやらせよう」と出会う",
-        "path": "/pages/Hisotry/Python.md"
+        "path": "/pages/Hisotry/python/python.md"
     },
     {
         "id": "computer",
         "age": "31歳",
         "title": "コンピュータ動作そのものに興味を持ち始める",
-        "path": "/pages/Hisotry/Computer.md"
+        "path": "/pages/Hisotry/computer-science/computer-science.md"
     },
     {
         "id": "Recursion",
         "age": "31歳",
         "title": "Recursionを始める",
-        "path": "/pages/Hisotry/Recursion.md"
+        "path": "/pages/Hisotry/recursion/recursion.md"
     },
     {
         "id": "Land-of-Lisp",
         "age": "32歳",
         "title": "聖典、「Land of Lisp」に出会う",
-        "path": "/pages/Hisotry/LandOfLisp.md"
+        "path": "/pages/Hisotry/land-of-lisp/land-of-lisp.md"
     },
     {
         "id": "LPIC",
         "age": "32歳",
         "title": "Linuxを知りたいがためにLPICを取得",
-        "path": "/pages/Hisotry/LPIC.md"
+        "path": "/pages/Hisotry/lpic/lpic.md"
     },
     {
         "id": "Turing-complete",
         "age": "33歳",
         "title": "TuringCompleteに手をだす",
-        "path": "/pages/Hisotry/TuringComplete.md"
+        "path": "/pages/Hisotry/turing-complete/turing-complete.md"
     },
     {
         "id": "React",
         "age": "33歳",
         "title": "フロントを知りたいのでReactに手をだす",
-        "path": "/pages/Hisotry/React.md"
+        "path": "/pages/Hisotry/react/react.md"
     },
     {
         "id": "Rust",
         "age": "33歳",
         "title": "Rustに本格入門",
-        "path": "/pages/Hisotry/Rust.md"
+        "path": "/pages/Hisotry/rust/rust.md"
     }
 ]
