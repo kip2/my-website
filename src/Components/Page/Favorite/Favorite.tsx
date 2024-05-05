@@ -5,6 +5,7 @@ import ScrollToTopButton from "../../UI/ScrollToTopButton"
 import Title from "../../UI/Title"
 import LittleBlank from "../../UI/Blanks/LittleBlank"
 import FavoriteCards from "./FavoriteCards"
+import ReturnButton from "../../UI/ReturnButton"
 
 const Favorite = () =>  {
     return(
@@ -20,8 +21,10 @@ const Favorite = () =>  {
 
             <FavoriteCards />
 
+            <LittleBlank />
+            <ReturnButton path="/about#Favorites"/>
+
             <ScrollToTopButton/>
-            <Blank />
             <Footer />
         </>
     )
