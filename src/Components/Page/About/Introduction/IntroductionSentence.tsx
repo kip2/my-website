@@ -50,7 +50,7 @@ const IntroductionSentense = () => {
                 </ul>
                 <h3>その他触ったことのあるもの</h3>
                 <p>箇条書きにすると長すぎるので、一文にまとめる。</p>
-                <p>C, C++, C#, VBA, GO, Haskel, CommonLisp, Scheme, Clojure, scala, zig, elm<br/>
+                <p>C, C++, C#, VBA, GO, Haskell, CommonLisp, Scheme, Clojure, scala, zig, elm<br/>
                 increase more...</p>
                 <h3>触ってみたい言語・技術</h3>
                 <p>およそ、「プログラミング言語」と名のつくものならなんでも好き。<br/>
