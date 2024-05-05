@@ -35,7 +35,7 @@ const ProductCards:React.FC<ProductCardsProps> = ({ genre, limit }) => {
                     limitedProducts.map((data, index) => (
                         (index % 6 === 0) && (index !== 0)  ?
                             <React.Fragment key={index}>
-                                <div className=" col-span-3 border-t border-white mb-7 mt-7 w-96 mx-auto max-md:col-span-2 max-sm:hidden"></div>
+                                <div className=" col-span-3 border-t border-white mb-7 mt-7 w-96 mx-auto max-[920px]:col-span-2  max-sm:hidden"></div>
                                 <ProductCard data={data} />
                             </React.Fragment>
                             :
