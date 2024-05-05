@@ -1,16 +1,11 @@
-import { useNavigate } from "react-router-dom"
+import { Link } from "react-router-dom"
 import { FavoritePageData } from "../../interface"
 
 const FavoriteCard: React.FC<{data: FavoritePageData}> = ({ data }) => {
-    const navigate = useNavigate()
-
-    const goToFavoritePage = (data: FavoritePageData) => {
-        navigate(`/favorite/${data.id}`)
-    }
 
     return (
         <>
-            <div onClick={() => goToFavoritePage(data)} className=" h-60 rounded-md border-2 border-slate-500 overflow-hidden 
+            <Link to={`/favorite/${data.id}`} className=" h-60 rounded-md border-2 border-slate-500 overflow-hidden 
                     hover:bg-slate-200/10 duration-500 hover:border-slate-200
                     max-sm:max-w-[368px]
                 ">
@@ -27,7 +22,7 @@ const FavoriteCard: React.FC<{data: FavoritePageData}> = ({ data }) => {
                         {data.caption}
                     </p>
                 </div>
-            </div>
+            </Link>
         </>
     )
 }

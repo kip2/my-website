@@ -1,16 +1,10 @@
-import { useNavigate } from "react-router-dom"
+import { Link } from "react-router-dom"
 import { InfluencedPageData } from "../../interface"
 
 const InfluencedCard: React.FC<{data: InfluencedPageData}> = ({ data }) => {
-    const navigate = useNavigate()
-
-    const goToInfluencedPage = (data: InfluencedPageData) => {
-        navigate(`/influenced/${data.id}`)
-    }
-
     return (
         <>
-            <div onClick={() => goToInfluencedPage(data)} className=" h-60 rounded-md border-2 border-slate-500 overflow-hidden 
+            <Link to={`/influenced/${data.id}`} className=" h-60 rounded-md border-2 border-slate-500 overflow-hidden 
                     hover:bg-slate-200/10 duration-500 hover:border-slate-200
                     max-sm:max-w-[368px]
                 ">
@@ -27,7 +21,7 @@ const InfluencedCard: React.FC<{data: InfluencedPageData}> = ({ data }) => {
                         {data.caption}
                     </p>
                 </div>
-            </div>
+            </Link>
         </>
     )
 }

@@ -1,16 +1,11 @@
-import { useNavigate } from "react-router-dom"
+import { Link } from "react-router-dom"
 import { ProductPageData } from "../../interface"
 
 const ProductCard: React.FC<{data: ProductPageData}> = ({ data }) => {
-    const navigate = useNavigate()
-
-    const goToProductPage = (data: ProductPageData) => {
-        navigate(`/products/${data.id}`)
-    }
 
     return (
         <>
-            <div onClick={() => goToProductPage(data)} className=" h-80 rounded-md border-2 border-slate-500 overflow-hidden 
+            <Link to={`/products/${data.id}`} className=" h-80 rounded-md border-2 border-slate-500 overflow-hidden 
                     hover:bg-slate-200/10 duration-500 hover:border-slate-200
                     max-sm:max-w-[368px]
                 ">
@@ -41,7 +36,7 @@ const ProductCard: React.FC<{data: ProductPageData}> = ({ data }) => {
                         </p>
                     </div>
                 </div>
-            </div>
+            </Link>
         </>
     )
 }
