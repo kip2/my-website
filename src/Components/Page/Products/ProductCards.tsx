@@ -28,7 +28,7 @@ const ProductCards:React.FC<ProductCardsProps> = ({ genre, limit }) => {
     return (
         <>
             <div className="grid gap-4 grid-cols-3 mx-auto max-w-6xl 
-                max-md:grid-cols-2 
+                max-[920px]:grid-cols-2 
                 max-sm:grid-cols-1 max-sm:justify-items-center
             ">
                 {limitedProducts.length > 0 ? (
