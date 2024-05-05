@@ -1,3 +1,4 @@
+import useScrollToHash from "../../Hooks/ScrollToHash"
 import Blank from "../../UI/Blanks/Blank"
 import LittleBlank from "../../UI/Blanks/LittleBlank"
 import Footer from "../../UI/Footer"
@@ -13,6 +14,7 @@ import Introduction from "./Introduction/Introduction"
 import Qualifications from "./Qualification/Qualifications"
 
 const About = () => {
+    useScrollToHash()
     
     return (
         <>

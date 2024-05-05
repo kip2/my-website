@@ -36,7 +36,7 @@ const HistoryDetail = () => {
             <div className=" max-w-2xl mx-auto leading-8">
                 <h1 className="text-center text-4xl my-8">{historyData.age} {historyData.title}</h1>
                 <MarkdownViewer filepath={historyData.path} /> 
-                <ReturnButton path="/about"/>
+                <ReturnButton path="/about#History"/>
             </div>
             <Footer />
         </div>

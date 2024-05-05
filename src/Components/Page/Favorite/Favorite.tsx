@@ -6,8 +6,11 @@ import Title from "../../UI/Title"
 import LittleBlank from "../../UI/Blanks/LittleBlank"
 import FavoriteCards from "./FavoriteCards"
 import ReturnButton from "../../UI/ReturnButton"
+import useScrollToHash from "../../Hooks/ScrollToHash"
 
 const Favorite = () =>  {
+    useScrollToHash()
+
     return(
         <>
             <Header />

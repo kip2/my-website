@@ -10,8 +10,11 @@ import LongLine from "../../UI/Lines/LongLine"
 import Study from "./Genre/Study"
 import LittleBlank from "../../UI/Blanks/LittleBlank"
 import RecentCreation from "./Genre/RecentCreation"
+import useScrollToHash from "../../Hooks/ScrollToHash"
 
 const Products = () =>  {
+    useScrollToHash()
+
     return(
         <>
             <Header />
