@@ -1,30 +1,30 @@
 import FavoriteCard from "../../Favorite/FavoriteCard"
-import producttData from "../../../../../public/json/ProductsData.json"
+import favoriteData from "../../../../../public/json/FavoriteData.json"
 import React from "react"
 import SeeAllPageLinkCard from "../../../UI/SeeAllPageLinkCard"
 
-interface ProductCardsProps {
+interface FavoriteCardsProps {
     genre?: string,
     limit?: number
 }
 
-const FavoriteCards:React.FC<ProductCardsProps> = ({ genre, limit }) => {
+const FavoriteCards:React.FC<FavoriteCardsProps> = ({ genre, limit }) => {
 
-    const filterProducts = genre ?
-                        producttData.filter(product => product.genre === genre)
+    const filterFavorites = genre ?
+                        favoriteData.filter(favorite => favorite.genre === genre)
                         :
-                        producttData
+                        favoriteData
 
-    const sortedProducts = filterProducts.sort((a, b) => {
-        const dataA = new Date(a.created).getTime()
-        const dataB = new Date(b.created).getTime()
+    const sortedFavorites = filterFavorites.sort((a, b) => {
+        const dataA = new Date(a.published).getTime()
+        const dataB = new Date(b.published).getTime()
         return dataB - dataA
     })
 
-    const limitedProducts = limit ?
-                        sortedProducts.slice(0, limit)
+    const limitedFavorites = limit ?
+                        sortedFavorites.slice(0, limit)
                         :
-                        sortedProducts
+                        sortedFavorites
 
     return (
         <>
@@ -32,8 +32,8 @@ const FavoriteCards:React.FC<ProductCardsProps> = ({ genre, limit }) => {
                 max-[920px]:grid-cols-2 
                 max-sm:grid-cols-1 max-sm:justify-items-center
             ">
-                {limitedProducts.length > 0 ? (
-                    limitedProducts.map((data, index) => (
+                {limitedFavorites.length > 0 ? (
+                    limitedFavorites.map((data, index) => (
                         (index % 6 === 0) && (index !== 0)  ?
                             <React.Fragment key={index}>
                                 <div className=" col-span-3 border-t border-white mb-7 mt-7 w-96 mx-auto max-md:col-span-2 max-sm:hidden"></div>
@@ -43,7 +43,7 @@ const FavoriteCards:React.FC<ProductCardsProps> = ({ genre, limit }) => {
                                 <FavoriteCard key={index} data={data} />
                     )))
                     : (
-                        <p>No products found in the selected category.</p>
+                        <p>No Favorites found in the selected category.</p>
                     )}
                 <SeeAllPageLinkCard url="/favorite" title="See All Favorites" subtitle="すべてのお気に入りを見る"/>
             </div>

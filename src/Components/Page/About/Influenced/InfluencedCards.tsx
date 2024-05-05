@@ -1,30 +1,30 @@
 import InfluencedCard from "../../Influenced/InfluencedCard"
-import producttData from "../../../../../public/json/ProductsData.json"
+import influencedData from "../../../../../public/json/InfluencedData.json"
 import React from "react"
 import SeeAllPageLinkCard from "../../../UI/SeeAllPageLinkCard"
 
-interface ProductCardsProps {
+interface InfluencedCardsProps {
     genre?: string,
     limit?: number
 }
 
-const InfluencedCards:React.FC<ProductCardsProps> = ({ genre, limit }) => {
+const InfluencedCards:React.FC<InfluencedCardsProps> = ({ genre, limit }) => {
 
-    const filterProducts = genre ?
-                        producttData.filter(product => product.genre === genre)
+    const filterInfluenced = genre ?
+                        influencedData.filter(product => product.genre === genre)
                         :
-                        producttData
+                        influencedData
 
-    const sortedProducts = filterProducts.sort((a, b) => {
-        const dataA = new Date(a.created).getTime()
-        const dataB = new Date(b.created).getTime()
+    const sortedInfluenced = filterInfluenced.sort((a, b) => {
+        const dataA = new Date(a.published).getTime()
+        const dataB = new Date(b.published).getTime()
         return dataB - dataA
     })
 
-    const limitedProducts = limit ?
-                        sortedProducts.slice(0, limit)
+    const limitedInfluenced = limit ?
+                        sortedInfluenced.slice(0, limit)
                         :
-                        sortedProducts
+                        sortedInfluenced
 
     return (
         <>
@@ -32,8 +32,8 @@ const InfluencedCards:React.FC<ProductCardsProps> = ({ genre, limit }) => {
                 max-[920px]:grid-cols-2 
                 max-sm:grid-cols-1 max-sm:justify-items-center
             ">
-                {limitedProducts.length > 0 ? (
-                    limitedProducts.map((data, index) => (
+                {limitedInfluenced.length > 0 ? (
+                    limitedInfluenced.map((data, index) => (
                         (index % 6 === 0) && (index !== 0)  ?
                             <React.Fragment key={index}>
                                 <div className=" col-span-3 border-t border-white mb-7 mt-7 w-96 mx-auto max-md:col-span-2 max-sm:hidden"></div>
@@ -43,7 +43,7 @@ const InfluencedCards:React.FC<ProductCardsProps> = ({ genre, limit }) => {
                                 <InfluencedCard key={index} data={data} />
                     )))
                     : (
-                        <p>No products found in the selected category.</p>
+                        <p>No influenced found in the selected category.</p>
                     )}
                 <SeeAllPageLinkCard url="/influenced" title="See All Influenced" subtitle="すべての影響を受けたものを見る"/>
             </div>
