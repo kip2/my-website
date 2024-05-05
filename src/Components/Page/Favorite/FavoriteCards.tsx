@@ -15,8 +15,8 @@ const FavoriteCards:React.FC<FavoriteCardsProps> = ({ genre, limit }) => {
                         favoriteData
 
     const sortedFavorites = filterFavorites.sort((a, b) => {
-        const dataA = new Date(a.created).getTime()
-        const dataB = new Date(b.created).getTime()
+        const dataA = new Date(a.published).getTime()
+        const dataB = new Date(b.published).getTime()
         return dataB - dataA
     })
 

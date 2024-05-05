@@ -37,7 +37,7 @@ const FavoriteCard: React.FC<{data: FavoritePageData}> = ({ data }) => {
                         <p className="mx-auto text-xs
                             text-slate-400 opacity-80
                         ">
-                            {data.created}
+                            {data.published}
                         </p>
                     </div>
                 </div>

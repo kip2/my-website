@@ -22,7 +22,7 @@ export interface FavoritePageData {
     caption: string,
     path: string,
     genre: string,
-    created: string,
+    published: string,
 }
 
 export interface InfluencedPageData {
@@ -32,5 +32,5 @@ export interface InfluencedPageData {
     caption: string,
     path: string,
     genre: string,
-    created: string,
+    published: string,
 }
