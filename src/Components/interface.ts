@@ -24,3 +24,13 @@ export interface FavoritePageData {
     genre: string,
     created: string,
 }
+
+export interface InfluencedPageData {
+    id: string,
+    imgUrl: string,
+    title: string,
+    caption: string,
+    path: string,
+    genre: string,
+    created: string,
+}

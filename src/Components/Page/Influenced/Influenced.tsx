@@ -4,7 +4,7 @@ import Header from "../../UI/Header"
 import ScrollToTopButton from "../../UI/ScrollToTopButton"
 import Title from "../../UI/Title"
 import LittleBlank from "../../UI/Blanks/LittleBlank"
-import ProductCards from "../Products/ProductCards"
+import InfluencedCards from "./InfluencedCards"
 
 const Influenced = () =>  {
     return(
@@ -18,7 +18,7 @@ const Influenced = () =>  {
                 <LittleBlank />
             </section>
 
-            <ProductCards/>
+            <InfluencedCards />
 
             <ScrollToTopButton/>
             <Blank />

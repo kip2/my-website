@@ -1,4 +1,4 @@
-import InfluencedCard from "./InfluencedCard"
+import InfluencedCard from "../../Influenced/InfluencedCard"
 import producttData from "../../../../../public/json/ProductsData.json"
 import React from "react"
 import SeeAllPageLinkCard from "../../../UI/SeeAllPageLinkCard"

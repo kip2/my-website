@@ -9,6 +9,7 @@ import ProductDetail from './Components/Page/Products/ProductDetail'
 import Favorite from './Components/Page/Favorite/Favorite'
 import Influenced from './Components/Page/Influenced/Influenced'
 import FavoriteDetail from './Components/Page/Favorite/FavoriteDetail'
+import InfluencedDetail from './Components/Page/Influenced/InfluencedDetail'
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
           <Route path="/favorite" element={<Favorite />}/>
           <Route path="/favorite/:id" element={<FavoriteDetail />}/>
           <Route path="/influenced" element={<Influenced />}/>
+          <Route path="/influenced/:id" element={<InfluencedDetail />}/>
           <Route path="*" element={<NotFoundPage />}/>
         </Routes>
       </Router>
