@@ -45,7 +45,7 @@ const InfluencedCards:React.FC<ProductCardsProps> = ({ genre, limit }) => {
                     : (
                         <p>No products found in the selected category.</p>
                     )}
-                <SeeAllPageLinkCard url="/products" title="See All Influenced" subtitle="すべての影響を受けたものを見る"/>
+                <SeeAllPageLinkCard url="/influenced" title="See All Influenced" subtitle="すべての影響を受けたものを見る"/>
             </div>
         </>
     )

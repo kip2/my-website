@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import 'normalize.css'
 import ProductDetail from './Components/Page/Products/ProductDetail'
 import Favorite from './Components/Page/Favorite/Favorite'
+import Influenced from './Components/Page/Influenced/Influenced'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
           <Route path="/about" element={<About />}/>
           <Route path="/about/history/:id" element={<HistoryDetail />} />
           <Route path="/favorite" element={<Favorite />}/>
+          <Route path="/influenced" element={<Influenced />}/>
           <Route path="*" element={<NotFoundPage />}/>
         </Routes>
       </Router>
