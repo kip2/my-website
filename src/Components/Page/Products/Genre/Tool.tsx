@@ -1,4 +1,4 @@
-import Title from "../../../UI/Title"
+import Title from "../../../UI/Title/Title"
 import ProductCards from "../ProductCards"
 
 

@@ -1,5 +1,5 @@
 import LittleBlank from "../../../UI/Blanks/LittleBlank"
-import Title from "../../../UI/Title"
+import Title from "../../../UI/Title/Title"
 import InfluencedCards from "./InfluencedCards"
 
 const Influenced = () => {

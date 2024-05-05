@@ -1,7 +1,7 @@
 import History from "./History"
 import historyData from "../../../../../public/json/HistoryData.json"
 import React from "react"
-import Title from "../../../UI/Title"
+import Title from "../../../UI/Title/Title"
 
 const Histories = () => {
     return (

@@ -5,7 +5,7 @@ import Header from "../../UI/Header"
 import Line from "../../UI/Lines/Line"
 import ReturnButton from "../../UI/ReturnButton"
 import ScrollToTopButton from "../../UI/ScrollToTopButton"
-import Title from "../../UI/Title"
+import Title from "../../UI/Title/Title"
 import InfluencedCards from "./InfluencedCards"
 
 const Influenced = () =>  {

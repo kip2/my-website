@@ -1,5 +1,5 @@
 import Blank from "../../../UI/Blanks/Blank"
-import Title from "../../../UI/Title"
+import Title from "../../../UI/Title/Title"
 import IntroductionProfile from "./IntroductionProfile"
 import "../../../Functions/MarkdownViewer/MarkdownViewer.css"
 import IntroductionSentense from "./IntroductionSentence"
