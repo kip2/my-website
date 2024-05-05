@@ -1,4 +1,4 @@
-import FavoriteCard from "./FavoriteCard"
+import FavoriteCard from "../../Favorite/FavoriteCard"
 import producttData from "../../../../../public/json/ProductsData.json"
 import React from "react"
 import SeeAllPageLinkCard from "../../../UI/SeeAllPageLinkCard"

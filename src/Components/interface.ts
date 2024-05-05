@@ -14,3 +14,13 @@ export interface ProductPageData {
     genre: string,
     created: string,
 }
+
+export interface FavoritePageData {
+    id: string,
+    imgUrl: string,
+    title: string,
+    caption: string,
+    path: string,
+    genre: string,
+    created: string,
+}

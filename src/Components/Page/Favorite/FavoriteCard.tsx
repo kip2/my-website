@@ -1,16 +1,16 @@
 import { useNavigate } from "react-router-dom"
-import { ProductPageData } from "../../../interface"
+import { FavoritePageData } from "../../interface"
 
-const FavoriteCard: React.FC<{data: ProductPageData}> = ({ data }) => {
+const FavoriteCard: React.FC<{data: FavoritePageData}> = ({ data }) => {
     const navigate = useNavigate()
 
-    const goToProductPage = (data: ProductPageData) => {
-        navigate(`/products/${data.id}`)
+    const goToFavoritePage = (data: FavoritePageData) => {
+        navigate(`/favorite/${data.id}`)
     }
 
     return (
         <>
-            <div onClick={() => goToProductPage(data)} className=" h-80 rounded-md border-2 border-slate-500 overflow-hidden 
+            <div onClick={() => goToFavoritePage(data)} className=" h-80 rounded-md border-2 border-slate-500 overflow-hidden 
                     hover:bg-slate-200/10 duration-500 hover:border-slate-200
                     max-sm:max-w-[368px]
                 ">
