@@ -8,8 +8,8 @@ interface SeeAllPageLinkCardPProps {
 
 const SeeAllPageLinkCard:React.FC<SeeAllPageLinkCardPProps> = ({ url, title, subtitle }) => {
     return (
-        <>
-            <Link to={url} className=" h-80 rounded-md border-2 border-slate-500 overflow-hidden 
+        <div className="bg-slate-400/10">
+            <Link to={url} className=" h-80 rounded-md border-2 border-slate-500 overflow-hidden
                     hover:bg-slate-200/10 duration-500 hover:border-slate-200
                     max-sm:max-w-[368px] max-sm:h-32
                     flex flex-col items-center  justify-center
@@ -18,7 +18,7 @@ const SeeAllPageLinkCard:React.FC<SeeAllPageLinkCardPProps> = ({ url, title, sub
                 <p className="text-2xl font-serif italic">{title}</p>
                 <p className="text-sm m-1">〜 {subtitle} 〜</p>
             </Link>
-        </>
+        </div>
     )
 }
 
