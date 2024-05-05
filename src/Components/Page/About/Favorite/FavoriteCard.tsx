@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom"
 import { ProductPageData } from "../../../interface"
 
-const ProductCard: React.FC<{data: ProductPageData}> = ({ data }) => {
+const FavoriteCard: React.FC<{data: ProductPageData}> = ({ data }) => {
     const navigate = useNavigate()
 
     const goToProductPage = (data: ProductPageData) => {
@@ -46,4 +46,4 @@ const ProductCard: React.FC<{data: ProductPageData}> = ({ data }) => {
     )
 }
 
-export default ProductCard
+export default FavoriteCard
