@@ -46,7 +46,7 @@ const ProductDetail = () => {
                 <LongLine/>
                 <LittleBlank />
                 <MarkdownViewer filepath={productData.path} /> 
-                <ReturnButton path="/products"/>
+                <ReturnButton path="/products#Products"/>
             </div>
             <Footer />
         </div>
