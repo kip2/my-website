@@ -6,8 +6,8 @@ const Influenced = () => {
     return (
         <>
             <Title title="Influenced" linkId="Influenced" subTitle="影響を受けたもの" />
-            <LittleBlank />
             <InfluencedCards limit={5}/>
+            <LittleBlank />
         </>
     )
 }
