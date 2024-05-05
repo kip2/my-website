@@ -6,6 +6,7 @@ import Top from './Components/Page/Top/Top'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import 'normalize.css'
 import ProductDetail from './Components/Page/Products/ProductDetail'
+import Favorite from './Components/Page/Favorite/Favorite'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
           <Route path="/products/:id" element={<ProductDetail />} />
           <Route path="/about" element={<About />}/>
           <Route path="/about/history/:id" element={<HistoryDetail />} />
+          <Route path="/favorite" element={<Favorite />}/>
           <Route path="*" element={<NotFoundPage />}/>
         </Routes>
       </Router>

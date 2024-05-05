@@ -45,7 +45,7 @@ const FavoriteCards:React.FC<ProductCardsProps> = ({ genre, limit }) => {
                     : (
                         <p>No products found in the selected category.</p>
                     )}
-                <SeeAllPageLinkCard url="/products" title="See All Favorites" subtitle="すべてのお気に入りを見る"/>
+                <SeeAllPageLinkCard url="/favorite" title="See All Favorites" subtitle="すべてのお気に入りを見る"/>
             </div>
         </>
     )
