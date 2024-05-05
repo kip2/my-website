@@ -11,7 +11,7 @@ interface InfluencedCardsProps {
 const InfluencedCards:React.FC<InfluencedCardsProps> = ({ genre, limit }) => {
 
     const filterInfluenced = genre ?
-                        influencedData.filter(product => product.genre === genre)
+                        influencedData.filter(influenced => influenced.genre === genre)
                         :
                         influencedData
 
