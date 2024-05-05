@@ -1,7 +1,7 @@
 import FavoriteCard from "./FavoriteCard"
 import producttData from "../../../../../public/json/ProductsData.json"
 import React from "react"
-import GoAllFavoriteCard from "./GoAllFavoriteCard"
+import SeeAllPageLinkCard from "../../../UI/SeeAllPageLinkCard"
 
 interface ProductCardsProps {
     genre?: string,
@@ -45,7 +45,7 @@ const FavoriteCards:React.FC<ProductCardsProps> = ({ genre, limit }) => {
                     : (
                         <p>No products found in the selected category.</p>
                     )}
-                <GoAllFavoriteCard />
+                <SeeAllPageLinkCard url="/products" title="See All Favorites" subtitle="すべてのお気に入りを見る"/>
             </div>
         </>
     )
