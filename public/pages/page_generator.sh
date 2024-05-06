@@ -22,28 +22,28 @@ case $choice in
         echo ""
         echo "--- products_generator.sh run ---"
         echo ""
-        ./products_generator.sh
+        ./scripts/products_generator.sh
         echo ""
         ;;
     2)
         echo ""
         echo "--- favorite_generator.sh run ---"
         echo ""
-        ./favorite_generator.sh
+        ./scripts/favorite_generator.sh
         echo ""
         ;;
     3)
         echo ""
         echo "--- influenced_generator.sh run ---"
         echo ""
-        ./influenced_generator.sh
+        ./scripts/influenced_generator.sh
         echo ""
         ;;
     4)
         echo ""
         echo "--- history_generator.sh run ---"
         echo ""
-        ./history_generator.sh
+        ./scripts/history_generator.sh
         echo ""
         ;;
     *)
