@@ -1,11 +1,11 @@
 [
-    {
-        "id": "bloodborne",
-        "imgUrl": "/pages/Favorites/page/Bloodborne/img/Bloodborne_t.jpg",
-        "title": "Bloodborne",
-        "caption": "Bloodborne",
-        "path": "/pages/Favorites/page/Bloodborne/Bloodborne.md",
-        "genre": "game",
-        "published": "2024/05/05"
-	}
+  {
+    "id": "bloodborne",
+    "imgUrl": "/pages/Favorites/page/Bloodborne/img/Bloodborne_t.jpg",
+    "title": "Bloodborne",
+    "caption": "Bloodborne",
+    "path": "/pages/Favorites/page/Bloodborne/Bloodborne.md",
+    "genre": "game",
+    "published": "2024/05/05"
+  }
 ]
