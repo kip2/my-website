@@ -5,9 +5,8 @@ import Header from "../../UI/Header"
 import LongLine from "../../UI/Lines/LongLine"
 import Quotes from "../../UI/Quotes"
 import ScrollToTopButton from "../../UI/ScrollToTopButton"
-import SubTitle from "../../UI/Title/SubTitle"
+import RecentCreation from "../Products/Genre/RecentCreation"
 import Profile from "./Profile"
-import RecentProducts from "./RecentProducts"
 
 const Top = () => {
     return (
@@ -24,9 +23,8 @@ const Top = () => {
                 <Blank/>
                 <LongLine />
                 <Blank/>
-                <SubTitle title="Recent Creations" subTitle="最近作ったもの" linkId="TopRecent" />
-                <LittleBlank />
-                <RecentProducts />
+
+                <RecentCreation />
             </section>
 
             <ScrollToTopButton />
