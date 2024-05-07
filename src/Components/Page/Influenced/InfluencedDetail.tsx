@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom"
 import { useEffect, useState } from "react"
 import { InfluencedPageData } from "../../interface"
-import Header from "../../UI/Header"
+import Header from "../../UI/Header/Header"
 import Footer from "../../UI/Footer"
 import Blank from "../../UI/Blanks/Blank"
 import MarkdownViewer from "../../Functions/MarkdownViewer/MarkdownViewer"

@@ -1,6 +1,6 @@
 import Blank from "../../UI/Blanks/Blank"
 import Footer from "../../UI/Footer"
-import Header from "../../UI/Header"
+import Header from "../../UI/Header/Header"
 import LongLine from "../../UI/Lines/LongLine"
 import Quotes from "../../UI/Quotes"
 import ScrollToTopButton from "../../UI/ScrollToTopButton"

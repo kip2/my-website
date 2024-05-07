@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom"
 import { HistoryPageData } from "../../../interface"
-import Header from "../../../UI/Header"
+import Header from "../../../UI/Header/Header"
 import Footer from "../../../UI/Footer"
 import Blank from "../../../UI/Blanks/Blank"
 import ReturnButton from "../../../UI/ReturnButton"
