@@ -1,5 +1,4 @@
 import Blank from "../../UI/Blanks/Blank"
-import LittleBlank from "../../UI/Blanks/LittleBlank"
 import Footer from "../../UI/Footer"
 import Header from "../../UI/Header"
 import LongLine from "../../UI/Lines/LongLine"
