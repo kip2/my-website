@@ -19,7 +19,7 @@ const Header = () => {
                         kip2.dev
                     </div>
                 </Link>
-                <button onClick={() => setIsOpen(!isOpen)} className="md:hidden fixed right-7 top-4">
+                <button onClick={() => setIsOpen(!isOpen)} className={`md:hidden fixed right-7 top-4 transition-transform duration-300 ${isOpen ? 'rotate-180' : 'rotate-0'}`}>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width={40} height={40}>
                         <rect width="256" height="256" fill="none"/>
                         <line x1="40" y1="128" x2="216" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
