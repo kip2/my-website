@@ -26,9 +26,9 @@ export default {
           to: { width: '7.5ch'}
         },
         blink: {
-          '0%, 100%': { borderColor: 'currentColor' },
+          '0%, 100%': { borderColor: 'white' },
           '50%': { borderColor: 'transparent' }
-        }
+        },
       },
       animation: {
         typing: 'typing 1s steps(8) forwards, blink 0.2s step-end infinite alternate',

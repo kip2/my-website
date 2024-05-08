@@ -2,6 +2,7 @@ import { useState } from "react"
 import { Link } from "react-router-dom"
 import HeaderButton from "./HeaderButton"
 import HeaderHumbergerMenu from "./HeaderHumbergerMenu"
+import "./Header.css"
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -9,12 +10,11 @@ const Header = () => {
         <>
             <section className="flex justify-between max-md:justify-center pt-5 pb-3">
                 <Link to="/" className="my-auto">
-                    <div className="overflow-hidden whitespace-nowrap border-r-3 pr-0 border-black animate-typing
-                        font-serif font-black
-                        italic tracking-wide
-                        text-2xl pl-2
-                        text-slate-200
-                        hover:text-black hover:bg-slate-300 duration-500 hover:py-2
+                    <div className="logo
+                        overflow-hidden whitespace-nowrap border-r-3  border-black animate-typing
+                        font-serif font-black italic tracking-wide
+                        text-2xl pl-2 pr-2 
+                        text-slate-200 duration-500 hover:text-black
                     ">
                         kip2.dev
                     </div>
