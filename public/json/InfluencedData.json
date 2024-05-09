@@ -1,5 +1,14 @@
 [
   {
+    "id": "Introduction-C-compiler",
+    "imgUrl": "/pages/Influenced/page/Introduction-C-compiler/img/Introduction-C-compiler_t.jpg",
+    "title": "Introduction-C-compiler",
+    "caption": "Caption of Introduction-C-compiler",
+    "path": "/pages/Influenced/page/Introduction-C-compiler/Introduction-C-compiler.md",
+    "genre": "programming",
+    "published": "2024/05/09"
+  },
+  {
     "id": "bloodborne",
     "imgUrl": "/pages/Influenced/page/Bloodborne/img/Bloodborne_t.jpg",
     "title": "Bloodborne",
