@@ -13,9 +13,7 @@ const Header = () => {
                 setIsOpen(false)
             }
         }
-
         window.addEventListener("resize", handleResize)
-
         return () => {
             window.removeEventListener("resize", handleResize)
         }
@@ -31,7 +29,7 @@ const Header = () => {
                     <div className="logo
                         overflow-hidden whitespace-nowrap border-r-3  border-black animate-typing
                         font-serif font-black italic tracking-wide
-                        text-2xl pl-2 pr-2 
+                        text-2xl pl-3 pr-2 
                         text-slate-200 duration-500 hover:text-black
                     ">
                         kip2.dev

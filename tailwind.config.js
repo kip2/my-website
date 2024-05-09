@@ -26,7 +26,7 @@ export default {
       keyframes: {
         typing: {
           from: { width: '0'},
-          to: { width: '7.5ch'}
+          to: { width: '8ch'}
         },
         blink: {
           '0%, 100%': { borderColor: 'white' },
