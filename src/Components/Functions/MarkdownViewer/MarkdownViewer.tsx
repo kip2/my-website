@@ -66,7 +66,7 @@ const MarkdownViewer: React.FC<MarkdownViewerProps> = ({ filepath }) => {
     }
 
     return (
-        <div className="markdown-viewer text-xl-custom mx-auto w-fit mb-7 max-md:text-4xl">
+        <div className="markdown-viewer text-xl-custom mx-auto w-full mb-7 max-md:text-4xl">
             <ReactMarkdown 
                 remarkPlugins={[gfm]} 
                 children={markdown} 
