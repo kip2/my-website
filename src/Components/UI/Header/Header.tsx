@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
 import HeaderButton from "./HeaderButton"
 import HeaderHumbergerMenu from "./HeaderHumbergerMenu"
@@ -6,6 +6,20 @@ import "./Header.css"
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false)
+
+    useEffect(() => {
+        function handleResize() {
+            if (window.innerWidth > 768) {
+                setIsOpen(false)
+            }
+        }
+
+        window.addEventListener("resize", handleResize)
+
+        return () => {
+            window.removeEventListener("resize", handleResize)
+        }
+    }, [])
     
     return (
         <>
