@@ -9,6 +9,9 @@ export default {
       fontSize: {
         'xl-custom':['1.25rem', '1rem']
       },
+      fontFamily: {
+        'serif': ['ui-serif', 'DejaVu Serif', 'Liberation Serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif']
+      },
       boxSizing: {
         inherit: 'inherit',
       },
