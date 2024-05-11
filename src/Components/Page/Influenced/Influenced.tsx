@@ -1,3 +1,4 @@
+import useScrollToHash from "../../Hooks/ScrollToHash"
 import Blank from "../../UI/Blanks/Blank"
 import LittleBlank from "../../UI/Blanks/LittleBlank"
 import Footer from "../../UI/Footer"
@@ -11,6 +12,8 @@ import InfluencedCards from "./InfluencedCards"
 import InfluencedPageLinks from "./InfluencedPageLinks"
 
 const Influenced = () =>  {
+    useScrollToHash()
+
     return(
         <>
             <Header />
