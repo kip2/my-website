@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      fill: (theme) => ({
+        'white': theme('colors.white'),
+        'black': theme('colors.black')
+      }),
       fontSize: {
         'xl-custom':['1.25rem', '1rem']
       },

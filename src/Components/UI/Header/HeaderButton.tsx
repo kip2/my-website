@@ -1,9 +1,14 @@
 import { Link } from "react-router-dom"
 
-const HeaderButton = () => {
+interface HeaderButtonProps {
+    openModal: () => void
+}
+
+const HeaderButton:React.FC<HeaderButtonProps> = ({ openModal }) => {
+
     return (
         <>
-            <div className="grid grid-cols-5 gap-4 max-md:hidden">
+            <div className="grid grid-cols-6 gap-3 max-md:hidden">
                 <Link to="/" className="grid justify-items-center text-xs 
                     hover:text-black hover:bg-slate-200 duration-300
                     rounded-md
@@ -67,6 +72,20 @@ const HeaderButton = () => {
                     </svg>
                     <p>INFLUENCED</p>
                 </Link>
+                <div  onClick={openModal}
+                    className="grid justify-items-center text-xs 
+                    hover:text-black hover:bg-slate-200 duration-300
+                    rounded-md
+                    px-1
+                ">
+                    <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="35" height="35">
+                        <rect width="256" height="256" fill="none"/>
+                        <circle cx="128" cy="180" r="12" fill="currentColor" />
+                        <path d="M128,144v-8c17.67,0,32-12.54,32-28s-14.33-28-32-28S96,92.54,96,108v4" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+                        <circle cx="128" cy="128" r="96" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
+                    </svg>
+                    <p>SITE MAP</p>
+                </div>
             </div>
         </>
     )

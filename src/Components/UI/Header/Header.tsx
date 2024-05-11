@@ -3,9 +3,20 @@ import { Link } from "react-router-dom"
 import HeaderButton from "./HeaderButton"
 import HeaderHumbergerMenu from "./HeaderHumbergerMenu"
 import "./Header.css"
+import SiteMap from "../Modals/Sitemap/SiteMap"
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false)
+    const [modalOpen, setModalOpen] = useState(false)
+
+    const openModal = () => {
+        setModalOpen(true)
+    }
+
+    const closeModal = () => {
+        setModalOpen(false)
+    }
+
 
     useEffect(() => {
         function handleResize() {
@@ -43,7 +54,7 @@ const Header = () => {
                         <line x1="40" y1="192" x2="216" y2="192" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="16"/>
                     </svg>
                 </button>
-                <div className={`fixed-menu fixed top-0 left-0 h-full bg-slate-900 opacity-85 shadow-md px-3 transition-transform duration-300  ${isOpen ? "translate-x-0" : "-translate-x-full"}`}>
+                <div className={`fixed-menu fixed top-0 left-0 h-full bg-slate-900 opacity-85 shadow-md px-3 transition-transform duration-300 z-[9999]  ${isOpen ? "translate-x-0" : "-translate-x-full"}`}>
                     <div className="flex justify-center my-5">
                         <div onClick={() => setIsOpen(false)} className="hover:text-black hover:bg-slate-200 duration-500 px-10 py-1 rounded-md">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width={30} height={30}>
@@ -56,7 +67,13 @@ const Header = () => {
                     </div>
                     <HeaderHumbergerMenu />
                 </div>
-                <HeaderButton/>
+                <HeaderButton openModal={openModal}/>
+                {modalOpen && (
+                    <>
+                        <div className="modal-overlay" onClick={() => setModalOpen(false)}></div>
+                        <SiteMap closeModal={closeModal}/>
+                    </>
+                )}
             </section>
             <div className="border-t border-white mx-auto"></div>
         </>
