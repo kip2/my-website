@@ -7,6 +7,8 @@ import LittleBlank from "../../UI/Blanks/LittleBlank"
 import FavoriteCards from "./FavoriteCards"
 import ReturnButton from "../../UI/ReturnButton"
 import useScrollToHash from "../../Hooks/ScrollToHash"
+import FavoritePageLinks from "./FavoritePageLinks"
+import LongLine from "../../UI/Lines/LongLine"
 
 const Favorite = () =>  {
     useScrollToHash()
@@ -19,9 +21,16 @@ const Favorite = () =>  {
             <section>
                 <Blank />
                 <Title title="Favorite" subTitle="大好きなもの" linkId="Favorite" />
+                <FavoritePageLinks />
                 <LittleBlank />
             </section>
 
+            <section>
+                <LongLine />
+                <LongLine />
+                <LittleBlank />
+
+            </section>
             <FavoriteCards />
 
             <LittleBlank />
