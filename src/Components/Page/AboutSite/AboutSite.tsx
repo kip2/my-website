@@ -1,3 +1,4 @@
+import useScrollToHash from "../../Hooks/ScrollToHash"
 import Blank from "../../UI/Blanks/Blank"
 import LittleBlank from "../../UI/Blanks/LittleBlank"
 import Footer from "../../UI/Footer"
@@ -12,6 +13,8 @@ import SpecialThanks from "./SpecialThanks"
 import TechnologyStack from "./TechnologyStack"
 
 const AboutSite = () => {
+    useScrollToHash()
+
     return (
         <>
             <Header />
