@@ -9,6 +9,7 @@ import "./MarkdownViewer.css"
 import { LightAsync as SyntaxHighlighter } from 'react-syntax-highlighter'
 import { ocean } from 'react-syntax-highlighter/dist/esm/styles/hljs'
 import LittleBlank from '../../UI/Blanks/LittleBlank'
+import BookCover from '../BookCover'
 
 interface MarkdownViewerProps {
     filepath: string
@@ -61,6 +62,13 @@ const MarkdownViewer: React.FC<MarkdownViewerProps> = ({ filepath }) => {
             if (text.startsWith(":::LittleBlank")) {
                 return <LittleBlank />
             }
+
+            const bookCoverMatch = text.match(/^:::BookCover ([0-9X-]+)/)
+            if (bookCoverMatch) {
+                const isbn = bookCoverMatch[1]
+                return <BookCover isbn={isbn}/>
+            }
+
             return <p {...props}>{props.children}</p>
 
         }
