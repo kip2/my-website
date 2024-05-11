@@ -68,3 +68,4 @@ nand回路から始めてCPUを作り、最後にゲームを作れるところ�
 そのように蹉跌を得たが、この本をやり切ってコンピュータの動作を理解したいという思いは残り、これはこの後、別の形で日の目を見ることになる。  
 
 [Turing Completeとの出会い](https://www.kip2.dev/about/history/Turing-complete)  
+

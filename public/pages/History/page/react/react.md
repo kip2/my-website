@@ -37,20 +37,20 @@ Reactに精通しているわけではないので、個人的感想として現
 
 その時に作ったものは以下になる。
 
-https://www.kip2.dev/products/fruit-list
+[フルーツリスト](https://www.kip2.dev/products/fruit-list)
 
-https://www.kip2.dev/products/EC-site-product-list
+[ECサイトのモックアップ](https://www.kip2.dev/products/EC-site-product-list)
 
-https://www.kip2.dev/products/countdown-timer
+[カウントダウンタイマー](https://www.kip2.dev/products/countdown-timer) 
 
 そして、一部は別の課題(バックエンドでphpで作る課題)で、Reactを使ってみたいのでReactで作成した
 
-https://www.kip2.dev/products/markdown-to-html
+[マークダウン to html](https://www.kip2.dev/products/markdown-to-html)
 
 
 最終的には以下の作品を作成した。
 
-https://www.kip2.dev/products/clicker-yume-juya
+[せっかち夢十夜](https://www.kip2.dev/products/clicker-yume-juya)
 
 
 そして、このサイト自身も、Reactを用いて作成されている。
