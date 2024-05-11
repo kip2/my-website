@@ -2,6 +2,8 @@ import Blank from "../../UI/Blanks/Blank"
 import LittleBlank from "../../UI/Blanks/LittleBlank"
 import Footer from "../../UI/Footer"
 import Header from "../../UI/Header/Header"
+import Line from "../../UI/Lines/Line"
+import LongLine from "../../UI/Lines/LongLine"
 import ScrollToTopButton from "../../UI/ScrollToTopButton"
 import SubTitle from "../../UI/Title/SubTitle"
 import Title from "../../UI/Title/Title"
@@ -20,20 +22,31 @@ const AboutSite = () => {
             </section>
 
             <section>
-                <SubTitle title="Technology Stack" subTitle="技術スタック" linkId="TechnologyStack" />
+                <LongLine />
+                <LongLine />
+                <LittleBlank />
+                <LittleBlank />
+                <SubTitle title="Technology Stack" subTitle="技術スタック" 
+                linkId="TechnologyStack" />
                 <LittleBlank />
                 <TechnologyStack />
                 <LittleBlank />
             </section>
 
             <section>
+                <Line />
                 <SubTitle title="License" subTitle="ライセンス" linkId="License" />
+                <LittleBlank />
                 <License />
+                <LittleBlank />
             </section>
 
             <section>
+                <Line />
                 <SubTitle title="Special Thanks" subTitle="衷心からの感謝を！" linkId="SpecialThanks" />
+                <LittleBlank />
                 <SpecialThanks />
+                <LittleBlank />
             </section>
 
             <ScrollToTopButton />
