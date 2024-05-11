@@ -36,7 +36,7 @@ const Header = () => {
                 <div className="overlay" onClick={() => setIsOpen(false)}></div>
             )}
             <section className="flex justify-between max-md:justify-center pt-5 pb-3">
-                <Link to="/" className="my-auto">
+                <Link to="/about-site" className="my-auto">
                     <div className="logo
                         overflow-hidden whitespace-nowrap border-r-3  border-black animate-typing
                         font-serif font-black italic tracking-wide
