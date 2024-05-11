@@ -30,11 +30,11 @@ const BookCover: React.FC<BookCoverProps> = ({ isbn }) => {
     }, [isbn, apiKey])
 
     return (
-        <div>
+        <div className="w-full">
             {coverUrl ? (
-                <img className="w-72" src={coverUrl} alt="Book cover" />
+                <img className="h-96" style={{ width: "18rem !important"}} src={coverUrl} alt="Book cover" />
             ) : (
-                <p>No cover available</p>
+                <p className="text-center">No cover available</p>
             )}
         </div>
     )
