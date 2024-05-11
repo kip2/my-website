@@ -2,7 +2,9 @@ const SiteMapContent = () => {
     return (
         <>
             <h1 className="text-center text-3xl font-serif italic font-bold mb-3">SITE MAP</h1>
-            <div className="grid grid-cols-4">
+            <div className="grid grid-cols-4
+                    max-[400px]:grid-cols-1
+                ">
                 {/* top  */}
                 <div className="grid justify-items-center text-xs py-3">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="35" height="35">
@@ -11,7 +13,11 @@ const SiteMapContent = () => {
                     </svg>
                     <p>TOP</p>
                 </div>
-                <p className="col-span-3 flex items-center">サイトのトップページ</p>
+                <p className="col-span-3 flex items-center
+                max-[400px]:col-span-1 max-[400px]:justify-center
+                ">
+                    サイトのトップページ
+                </p>
                 
                 {/* about */}
                 <div className="grid justify-items-center text-xs py-3">
@@ -24,7 +30,11 @@ const SiteMapContent = () => {
                     </svg>
                     <p>ABOUT</p>
                 </div>
-                <p className="col-span-3 flex items-center">kip2について紹介するページ</p>
+                <p className="col-span-3 flex items-center
+                max-[400px]:col-span-1 max-[400px]:justify-center
+                ">
+                    kip2について紹介するページ
+                </p>
 
                 {/* products */}
                 <div className="grid justify-items-center text-xs my-5">
@@ -34,7 +44,11 @@ const SiteMapContent = () => {
                     </svg>
                     <p>PRODUCTS</p>
                 </div>
-                <p className="col-span-3 flex items-center">今まで作成してきたものを紹介するページ</p>
+                <p className="col-span-3 flex items-center
+                max-[400px]:col-span-1 max-[400px]:justify-center
+                ">
+                    今まで作成してきたものを紹介するページ
+                </p>
 
                 {/* favorite */}
                 <div className="grid justify-items-center text-xs py-3">
@@ -45,7 +59,11 @@ const SiteMapContent = () => {
                     </svg>
                     <p>FAVORITE</p>
                 </div>
-                <p className="col-span-3 flex items-center">好きなものについて紹介するページ</p>
+                <p className="col-span-3 flex items-center
+                max-[400px]:col-span-1 max-[400px]:justify-center
+                ">
+                    好きなものについて紹介するページ
+                </p>
 
                 {/* influenced */}
                 <div className="grid justify-items-center text-xs py-3">
@@ -59,7 +77,11 @@ const SiteMapContent = () => {
                     </svg>
                     <p>INFLUENCED</p>
                 </div>
-                <p className="col-span-3 flex items-center">プログラミングや人生において影響を受けてきたものの紹介ページ</p>
+                <p className="col-span-3 flex items-center
+                max-[400px]:col-span-1 max-[400px]:justify-center
+                ">
+                    プログラミングや人生において影響を受けてきたものの紹介ページ
+                </p>
             </div>
         </>
     )

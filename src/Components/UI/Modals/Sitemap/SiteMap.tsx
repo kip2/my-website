@@ -5,7 +5,8 @@ interface SiteMapProps {
 }
 const SiteMap: React.FC<SiteMapProps> = ({ closeModal }) => {
     return (
-            <div className="bg-slate-500 rounded-md p-5 min-h-[300px] min-w-[300px] max-w-[400px] m-auto" onClick={(e) => e.stopPropagation()}>
+            <div className="bg-slate-500 rounded-md p-5 pb-10 min-h-[300px] min-w-[300px] max-w-[400px] m-auto
+            " onClick={(e) => e.stopPropagation()}>
                 <div className="flex justify-end">
                     <svg onClick={closeModal} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="30" height="30" className="cursor-pointer">
                         <rect width="256" height="256" fill="none"/>
