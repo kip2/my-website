@@ -65,13 +65,14 @@ const Header = () => {
                             </svg>
                         </div>
                     </div>
-                    <HeaderHumbergerMenu />
+                    <HeaderHumbergerMenu openModal={openModal}/>
                 </div>
                 <HeaderButton openModal={openModal}/>
                 {modalOpen && (
                     <>
-                        <div className="modal-overlay" onClick={() => setModalOpen(false)}></div>
-                        <SiteMap closeModal={closeModal}/>
+                        <div className="modal-overlay flex items-center justify-center" onClick={() => setModalOpen(false)}>
+                            <SiteMap closeModal={closeModal}/>
+                        </div>
                     </>
                 )}
             </section>
