@@ -43,7 +43,6 @@ const MarkdownViewer: React.FC<MarkdownViewerProps> = ({ filepath }) => {
     const renderers: Partial<Components> = {
         a: ({ ...props}) => { 
             const href = props.href || ''
-            // const youtubeRegex = /(?:https?:\/\/)?(?:www\.)?(?:youtube\.com\/(?:watch|live)\?v=|youtu\.be\/)([a-zA-Z0-9_-]+)/i
             const youtubeRegex = /(?:https?:\/\/)?(?:www\.)?(?:youtube\.com\/(?:watch\?v=|live\/|live\?v=)|youtu\.be\/)([a-zA-Z0-9_-]+)/i
 
             if (href.match(youtubeRegex)) {
