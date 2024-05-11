@@ -31,7 +31,7 @@ Reactに精通しているわけではないので、個人的感想として現
 
 [O'Reilly Japan - Reactハンズオンラーニング 第2版](https://www.oreilly.co.jp/books/9784873119380/)
 
-服毒本として（逆では？）、RecursionのReactコースを行うようにした。
+副読本として（逆では？）、RecursionのReactコースを行うようにした。
 
 本を読んで把握し、それからReactコースの課題をやることでアウトプット、という流れで作成していった。
 
