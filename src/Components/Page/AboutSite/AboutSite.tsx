@@ -45,6 +45,7 @@ const AboutSite = () => {
                 <Line />
                 <SubTitle title="Special Thanks" subTitle="衷心からの感謝を！" linkId="SpecialThanks" />
                 <LittleBlank />
+                <LittleBlank />
                 <SpecialThanks />
                 <LittleBlank />
             </section>
