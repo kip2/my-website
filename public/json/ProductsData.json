@@ -11,7 +11,7 @@
   {
     "id": "EC-site-product-list",
     "imgUrl": "/pages/Products/page/EC-site-product-list/img/EC-site-product-list_t.jpg",
-    "title": "EC-site-product-list",
+    "title": "ECサイトのモックアップ",
     "caption": "Reactの習作モック2",
     "path": "/pages/Products/page/EC-site-product-list/EC-site-product-list.md",
     "genre": "study",
@@ -83,7 +83,7 @@
   {
     "id": "fruit-list",
     "imgUrl": "/pages/Products/page/fruit-list/img/fruit-list_t.jpg",
-    "title": "Fruit List",
+    "title": "フルーツのリスト(モック)",
     "caption": "Reactの習作モック1",
     "path": "/pages/Products/page/fruit-list/fruit-list.md",
     "genre": "study",

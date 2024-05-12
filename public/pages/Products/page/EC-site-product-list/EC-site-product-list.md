@@ -15,25 +15,30 @@ Access: [React App](https://kip2.github.io/EC-site-Product-List-RecursionCS/)
 
 ---  
 
-## EC-site Product List  
+:::LittleBlank
 
-RecursionCS Reactコースの課題。  
-EC-siteのモックアップページを作成する。  
+ECサイトのモックアップページを作成する、RecursionCS Reactコースの課題。  
 Reactのコンポーネントの扱いに慣れるための課題。  
 
-:::LittleBlank
+### 機能
+
+機能はなし。  
+用意されたモックと同じようなものを作成している。  
+
+### 学んだこと  
 
 Reactのコンポーネント分割して開発する手法になれることができた習作。  
 デザインやレイアウトが苦手だった割には、結構レイアウトの色合いなどにもこだわっている。  
+とはいえ、やっぱりCSS難しいなぁと思っている。  
 
 ### 素材について
 
-このプロジェクトで使用しているサンプル商品の、画像とテキストはchatGPT生成してもらったものを使用している。  
+このモックアップに並んでいるサンプル商品の画像とテキストは、chatGPT生成してもらったものを使用。  
 
-### おまけ
+### シェルスクリプトによるプロジェクトに作成  
 
-また、Fruit-Listの時の重複になるが、自作のcreate-react-appを使ってプロジェクトを作成している。  
+また、フルーツリストのモックアップの時に作った、自作のcreate-react-appを使ってプロジェクトを作成。  
 
 詳しくは以下のページを見てほしい。  
 
-[Fruit-List](https://www.kip2.dev/products/fruit-list)
+[フルーツリストのモックアップ](https://www.kip2.dev/products/fruit-list)
