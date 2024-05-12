@@ -83,7 +83,7 @@
   {
     "id": "fruit-list",
     "imgUrl": "/pages/Products/page/fruit-list/img/fruit-list_t.jpg",
-    "title": "fruit-list",
+    "title": "Fruit List",
     "caption": "Reactの習作モック1",
     "path": "/pages/Products/page/fruit-list/fruit-list.md",
     "genre": "study",

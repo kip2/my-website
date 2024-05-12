@@ -48,6 +48,11 @@
         font-size: 1rem;
         line-height: 1.85rem;
     }
+
+    p > strong:only-child {
+        display: block;
+        text-align: center;
+    }
     
     a {
         color:rgb(131, 141, 252);
