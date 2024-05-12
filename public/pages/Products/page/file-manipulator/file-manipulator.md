@@ -13,12 +13,40 @@ Github : [GitHub - File-Manipulator-Program_RecursionCS](https://github.com/kip2
 
 ---    
 
-## File Manipulator Program    
+### 機能
 
-システムコールを学ぶためのRecursionCSの課題。    
+Linuxのコマンドに似たコマンドをpythonで実装したコマンドラインアプリ。  
+
+:::LittleBlank
+
+- ファイルの文字列の反転
+- ファイルのコピーの作成
+- ファイルの内容を複製してマージ
+- ファイルの文字列を置換
+
+:::LittleBlank
+
+以上4つの機能を基本として、他にも以下のコマンドを実装した。
+Linuxコマンドと全く同じとは言えないが（オプションが足りないなど）、基本機能としては同じことができる。
+
+:::LittleBlank
+
+- pwd    
+- cd    
+- ls    
+- whoami    
+- exit    
+- cat    
+- rm    
+
+:::LittleBlank
+
+なお、REPLによる対話型処理を行っている。  
+
 ### 課題の要件  
 
-課題としては4つの関数を作成するものだった。    
+システムコールを学ぶためのRecursionCSの課題。    
+元々の課題としては、4つのコマンドを作成するものだった。    
 
 :::LittleBlank  
 
@@ -29,7 +57,7 @@ Github : [GitHub - File-Manipulator-Program_RecursionCS](https://github.com/kip2
 
 ### 拡張して開発した点  
 
-REPLのアプリを作る楽しさに抗えず、課題の4コマンドを完成した後に以下の点を拡張している。    
+REPLのアプリを作る楽しさに抗えず、課題の4コマンドを完成した後に以下の点を拡張。    
 
 :::LittleBlank
 
@@ -44,13 +72,18 @@ REPLのアプリを作る楽しさに抗えず、課題の4コマンドを完成
 	 - exit    
 	 - cat    
 	 - rm    
+
+:::LittleBlank
+
+本に影響されて、当時[オープン・クローズの原則](https://ja.wikipedia.org/wiki/%E9%96%8B%E6%94%BE/%E9%96%89%E9%8E%96%E5%8E%9F%E5%89%87)を意識して開発していたため、要件としてはなかったが、拡張が簡単なように工夫している。  
+大変ではあったが、ちゃんと開発時に苦労しておけば、後で拡張しやすいんだなーということが学べた点は良かったと思う。  
  
 ### テストコードについて  
 テストコードをシェルスクリプトで作成している。この辺りのシェルでテストする技法は植山類さんのコンパイラ作成時のスタイルから学んでいる。    
+その辺りの詳細は[こちら](https://www.kip2.dev/influenced/Introduction-C-compiler)を参照。  
 
-### 総評  
+### 感想  
 
- REPLを作るのはやっぱり楽しいなと思いました、まる    
+REPLを作るのはやっぱり楽しいなーってなりました。  
+はい。  
  
-
-
