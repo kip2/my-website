@@ -155,7 +155,7 @@
   {
     "id": "guess-the-number-game",
     "imgUrl": "/pages/Products/page/guess-the-number-game/img/guess-the-number-game_t.jpg",
-    "title": "Guess the number game",
+    "title": "数字あてゲーム",
     "caption": "CLIの簡単な数当てゲーム",
     "path": "/pages/Products/page/guess-the-number-game/guess-the-number-game.md",
     "genre": "game",
