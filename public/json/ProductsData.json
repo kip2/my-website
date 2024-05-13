@@ -119,7 +119,7 @@
   {
     "id": "countdown-timer",
     "imgUrl": "/pages/Products/page/countdown-timer/img/countdown-timer_t.jpg",
-    "title": "countdown-timer",
+    "title": "カウントダウンタイマー",
     "caption": "シンプルなカウントダウンタイマー",
     "path": "/pages/Products/page/countdown-timer/countdown-timer.md",
     "genre": "tool",
