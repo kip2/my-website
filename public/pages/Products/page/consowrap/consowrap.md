@@ -1,7 +1,6 @@
 
 ![consowrap](/pages/Products/page/consowrap/img/consowrap.jpg)  
 
-## 概要  
 
 :::LittleBlank  
 
@@ -19,20 +18,20 @@ Github : [GitHub consowrap](https://github.com/kip2/consowrap)
 
 ---    
 
-## consowrap    
+## 概要  
 
 Rust製のコンソールアプリ。    
 
-あるディレクトリに集めているコマンドを実行できるアプリ。  
-ディレクトリのパスは.envに設定する。  
-
-:::LittleBlank  
+コマンド用ディレクトリにあるコマンドを実行するアプリ。  
+なお、ディレクトリのパスは.envに設定する。  
 
 ### 使い方  
 
 用途としては、プロジェクト単位でコマンドラインアプリをまとめて扱いたい場合の、窓口として使う。    
 
-使う場合の書式としては以下になる。    
+:::LittleBlank  
+
+使用する場合のコマンド例は以下。
 
 :::LittleBlank  
 
@@ -49,12 +48,12 @@ Rust製のコンソールアプリ。
 
 :::LittleBlank  
 
-その他の詳しい使用法はGithubのREADMEを読んでほしい。  
+その他の詳しい使用法は[GithubのREADME](https://github.com/kip2/consowrap)を読んでほしい。  
 
 ### 目的  
 
-作成した目的としては、RecursionCSでのバックエンドプロジェクトでツールとして利用する目的がある。    
-ただ、利用の汎用性は高いと思うので、今後何かしらのプロジェクトでも使っていきたいと考えている。    
+RecursionCSでのバックエンドプロジェクトでツールとして利用する目的があって作成。    
+ただ、汎用性は高いと思うので、今後何かしらのプロジェクトでも使っていきたいと考えている。    
 
 ### 配布について  
 

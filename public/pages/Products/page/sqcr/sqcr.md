@@ -1,7 +1,8 @@
 
 ![sqcr](/pages/Products/page/sqcr/img/sqcr.jpg)  
 
-## 概要  
+:::LittleBlank
+
 ---  
 
 使用言語：Rust  
@@ -12,7 +13,7 @@ Github : [GitHub - sqcr](https://github.com/kip2/sqcr)
 
 ---  
 
-## sqcr  
+## 概要  
 
 sqlファイルから読み込んだSQLクエリを実行する、コマンドラインアプリケーション。  
 Rust製。  
