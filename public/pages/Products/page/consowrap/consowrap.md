@@ -6,15 +6,11 @@
 
 ---    
 
-:::LittleBlank  
-
 使用言語：Rust    
 作成日 : 2024/04/13    
 作成期間：3日    
 総コミット数：42コミット    
 Github : [GitHub consowrap](https://github.com/kip2/consowrap)    
-
-:::LittleBlank  
 
 ---    
 
