@@ -1,7 +1,7 @@
 
 ![fruit list](/pages/Products/page/fruit-list/img/fruit-list.jpg)  
 
-## 概要
+:::LittleBlank
 
 ---  
 
@@ -14,7 +14,8 @@ Access: [React App](https://kip2.github.io/Fruit-List-RecursionCS)
 
 ---  
 
-:::LittleBlank
+## 概要
+
 
 RecursionCSのReactコースの課題。  
 

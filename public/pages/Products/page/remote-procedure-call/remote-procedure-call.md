@@ -1,7 +1,7 @@
 
 ![remote-procedure-call](/pages/Products/page/remote-procedure-call/img/remote-procedure-call_t.jpg)    
 
-## 概要  
+:::LittleBlank
 
 ---    
 
@@ -13,7 +13,7 @@ Github : [GitHub - Remote-Procedure-Call_RecursionCS](https://github.com/kip2/Re
 
 ---    
 
-:::LittleBlank
+## 概要  
 
 サーバー側の関数をクライアントから呼び出すための、コマンドアプリ。  
 サーバーサイドにpython。  

@@ -1,7 +1,7 @@
 
 ![EC-site-product-list](/pages/Products/page/EC-site-product-list/img/EC-site-product-list.jpg)  
 
-## 概要
+:::LittleBlank
 
 ---  
 
@@ -15,7 +15,7 @@ Access: [React App](https://kip2.github.io/EC-site-Product-List-RecursionCS/)
 
 ---  
 
-:::LittleBlank
+## 概要
 
 ECサイトのモックアップページを作成する、RecursionCS Reactコースの課題。  
 Reactのコンポーネントの扱いに慣れるための課題。  

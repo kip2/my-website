@@ -1,6 +1,6 @@
 ![restaurant-chain-mockup](/pages/Products/page/restaurant-chain-mockup/img/restaurant-chain-mockup.jpg)  
 
-## 概要
+:::LittleBlank
 
 ---  
 
@@ -13,7 +13,7 @@ Github : [GitHub - RestaurantChainMockup_RecursionCS](https://github.com/kip2/Re
 
 ---  
 
-:::LittleBlank
+## 概要
 
 RecursionCSのバックエンドプロジェクトコースの課題。  
 レストランチェーン店のデータの、ランダムなモックアップを作成するwebアプリ  

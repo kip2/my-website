@@ -1,6 +1,6 @@
 ![local-chat-messenger](/pages/Products/page/local-chat-messenger/img/local-chat-messenger.jpg)    
 
-## 概要  
+:::LittleBlank
 
 ---    
 
@@ -12,7 +12,7 @@ Github : [GitHub - Local-Chat-Messenger_RecursionCS](https://github.com/kip2/Loc
  
 ---    
 
-## Local Chat Messenger    
+## 概要  
 
 ソケット通信とプロセスのフォークについて学ぶための、RecursionCSバックエンドプロジェクトの課題。  
 

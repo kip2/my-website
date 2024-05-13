@@ -1,7 +1,7 @@
 
 ![restaurant-chain-mockup web app](/pages/Products/page/restaurant-chain-mockup-site-version/img/restaurant-chain-mockup-site-version.jpg)  
 
-## 概要
+:::LittleBlank
 
 ---  
 
@@ -13,7 +13,7 @@ Github : [GitHub - Restaurant_Chain_MockUp_Extension_RecursionCS](https://github
 
 ---  
 
-:::LittleBlank
+## 概要
 
 ReacursionCSのバックエンドプロジェクトの課題。  
 

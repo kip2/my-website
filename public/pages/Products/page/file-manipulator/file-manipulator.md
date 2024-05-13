@@ -1,7 +1,7 @@
 
 ![file-manipulator](/pages/Products/page/file-manipulator/img/file-manipulator_t.jpg)    
 
-## 概要  
+:::LittleBlank
 
 ---    
 
@@ -13,11 +13,13 @@ Github : [GitHub - File-Manipulator-Program_RecursionCS](https://github.com/kip2
 
 ---    
 
-### 機能
+## 概要  
 
 Linuxのコマンドに似たコマンドをpythonで実装したコマンドラインアプリ。  
 
-:::LittleBlank
+### 機能
+
+以下4つの機能を基本として、他にもコマンドを実装した。
 
 - ファイルの文字列の反転
 - ファイルのコピーの作成
@@ -26,7 +28,7 @@ Linuxのコマンドに似たコマンドをpythonで実装したコマンドラ
 
 :::LittleBlank
 
-以上4つの機能を基本として、他にも以下のコマンドを実装した。
+以下は拡張して実装したコマンド。
 Linuxコマンドと全く同じとは言えないが（オプションが足りないなど）、基本機能としては同じことができる。
 
 :::LittleBlank

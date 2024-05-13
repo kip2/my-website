@@ -1,7 +1,7 @@
 
 ![food-service-simulation](/pages/Products/page/food-service-simulation/img/food-service-simulation_t.jpg)    
 
-## 概要  
+:::LittleBlank
 
 ---    
 
@@ -13,7 +13,7 @@ Github : [GitHub - FoodServiceSimulation_RecursionCS](https://github.com/kip2/Fo
 
 ---    
 
-:::LittleBlank
+## 概要  
 
 RecursionCSのバックエンドプロジェクトコースの課題。    
 

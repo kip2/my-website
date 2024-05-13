@@ -1,6 +1,6 @@
 ![markdown-to-html-converter](/pages/Products/page/markdown-to-html-converter/img/markdown-to-html-converter_t.jpg)  
 
-## 概要  
+:::LittleBlank
 
 ---    
 
@@ -12,9 +12,7 @@ Github : [GitHub - Markdown-to-HTML-Converter_RecursionCS](https://github.com/ki
 
 ---    
 
-:::LittleBlank
-
-### 機能  
+## 概要  
 
 markdownファイルをhtmlファイルに変換するコマンドラインアプリ。  
 RecursionCSの課題で作成。
