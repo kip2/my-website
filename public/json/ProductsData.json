@@ -110,7 +110,7 @@
   {
     "id": "video-compressor-service",
     "imgUrl": "/pages/Products/page/video-compressor-service/img/video-compressor-service_t.jpg",
-    "title": "video-compressor-service",
+    "title": "Video Compressor Service",
     "caption": "mp4の変換/圧縮を行うアプリ",
     "path": "/pages/Products/page/video-compressor-service/video-compressor-service.md",
     "genre": "tool",
