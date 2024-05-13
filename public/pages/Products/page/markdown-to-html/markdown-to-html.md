@@ -5,7 +5,6 @@
 :::LittleBlank  
 
 ---    
-:::Blank    
 
 使用言語：JavaScript(React.js) TypeScript    
 作成日 : 2023/11/05    
