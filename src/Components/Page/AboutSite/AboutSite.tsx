@@ -5,7 +5,6 @@ import Footer from "../../UI/Footer"
 import Header from "../../UI/Header/Header"
 import Line from "../../UI/Lines/Line"
 import LongLine from "../../UI/Lines/LongLine"
-import ScrollToTopButton from "../../UI/ScrollToTopButton"
 import SubTitle from "../../UI/Title/SubTitle"
 import Title from "../../UI/Title/Title"
 import License from "./License"
@@ -53,7 +52,6 @@ const AboutSite = () => {
                 <LittleBlank />
             </section>
 
-            <ScrollToTopButton />
             <Footer />
         </>
     )

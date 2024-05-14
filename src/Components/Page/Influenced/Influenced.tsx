@@ -6,7 +6,6 @@ import Header from "../../UI/Header/Header"
 import Line from "../../UI/Lines/Line"
 import LongLine from "../../UI/Lines/LongLine"
 import ReturnButton from "../../UI/ReturnButton"
-import ScrollToTopButton from "../../UI/ScrollToTopButton"
 import Title from "../../UI/Title/Title"
 import InfluencedCards from "./InfluencedCards"
 import InfluencedPageLinks from "./InfluencedPageLinks"
@@ -41,7 +40,6 @@ const Influenced = () =>  {
 
             <LittleBlank />
             <ReturnButton path="/about#Influenced"/>
-            <ScrollToTopButton/>
             <Footer />
         </>
     )

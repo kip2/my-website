@@ -1,7 +1,6 @@
 import Blank from "../../UI/Blanks/Blank"
 import Footer from "../../UI/Footer"
 import Header from "../../UI/Header/Header"
-import ScrollToTopButton from "../../UI/ScrollToTopButton"
 import Title from "../../UI/Title/Title"
 import ProductsInPageLinks from "./ProductsInPageLinks"
 import Tool from "./Genre/Tool"
@@ -60,7 +59,6 @@ const Products = () =>  {
                 <Study />
             </section>
 
-            <ScrollToTopButton/>
             <Blank />
             <Footer />
         </>

@@ -1,7 +1,6 @@
 import Blank from "../../UI/Blanks/Blank"
 import Footer from "../../UI/Footer"
 import Header from "../../UI/Header/Header"
-import ScrollToTopButton from "../../UI/ScrollToTopButton"
 import Title from "../../UI/Title/Title"
 import LittleBlank from "../../UI/Blanks/LittleBlank"
 import FavoriteCards from "./FavoriteCards"
@@ -36,7 +35,6 @@ const Favorite = () =>  {
             <LittleBlank />
             <ReturnButton path="/about#Favorites"/>
 
-            <ScrollToTopButton/>
             <Footer />
         </>
     )

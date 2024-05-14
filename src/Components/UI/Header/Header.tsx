@@ -4,6 +4,7 @@ import HeaderButton from "./HeaderButton"
 import HeaderHumbergerMenu from "./HeaderHumbergerMenu"
 import "./Header.css"
 import SiteMap from "../Modals/Sitemap/SiteMap"
+import ScrollToTopButton from "../ScrollToTopButton"
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -77,6 +78,7 @@ const Header = () => {
                 )}
             </section>
             <div className="border-t border-white mx-auto"></div>
+            <ScrollToTopButton/>
         </>
     )
 }

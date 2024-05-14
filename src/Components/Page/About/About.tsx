@@ -4,7 +4,6 @@ import LittleBlank from "../../UI/Blanks/LittleBlank"
 import Footer from "../../UI/Footer"
 import Header from "../../UI/Header/Header"
 import LongLine from "../../UI/Lines/LongLine"
-import ScrollToTopButton from "../../UI/ScrollToTopButton"
 import Title from "../../UI/Title/Title"
 import AboutInPageLinks from "./AboutInPageLinks"
 import Favorite from "./Favorite/Favorite"
@@ -67,7 +66,6 @@ const About = () => {
                 <Blank/>
             </section>
 
-            <ScrollToTopButton/>
             <Footer />
         </>
     )

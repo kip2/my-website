@@ -3,7 +3,6 @@ import Footer from "../../UI/Footer"
 import Header from "../../UI/Header/Header"
 import LongLine from "../../UI/Lines/LongLine"
 import Quotes from "../../UI/Quotes"
-import ScrollToTopButton from "../../UI/ScrollToTopButton"
 import RecentCreation from "../Products/Genre/RecentCreation"
 import Profile from "./Profile"
 
@@ -26,7 +25,6 @@ const Top = () => {
                 <RecentCreation />
             </section>
 
-            <ScrollToTopButton />
             <Footer/>
         </>
     )
