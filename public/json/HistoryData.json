@@ -2,13 +2,13 @@
   {
     "id": "game",
     "age": "15~18歳頃",
-    "title": "友人とゲーム作ろうと色々画策。プログラミングへの興味の最初",
+    "title": "友人とゲームを作ろうと画策する。プログラミングというものへの最初の興味",
     "path": "/pages/History/page/game-programming/game-programming.md"
   },
   {
     "id": "c-lang",
     "age": "20歳頃",
-    "title": "ゲーム作りの野望忘れられず、C言語に入門と挫折",
+    "title": "ゲーム作りへの野望を忘れられず、C言語に入門。そして挫折",
     "path": "/pages/History/page/c-lang/c-lang.md"
   },
   {
