@@ -1,11 +1,29 @@
 [
   {
+    "id": "UNIX-philosophy",
+    "imgUrl": "/pages/Influenced/page/UNIX-philosophy/img/UNIX-philosophy_t.jpg",
+    "title": "UNIX-philosophy",
+    "caption": "Caption of UNIX-philosophy",
+    "path": "/pages/Influenced/page/UNIX-philosophy/UNIX-philosophy.md",
+    "genre": "book",
+    "published": "2024/05/15"
+  },
+  {
+    "id": "Turing-complete-FM",
+    "imgUrl": "/pages/Influenced/page/Turing-complete-FM/img/Turing-complete-FM_t.jpg",
+    "title": "Turing-complete-FM",
+    "caption": "Caption of Turing-complete-FM",
+    "path": "/pages/Influenced/page/Turing-complete-FM/Turing-complete-FM.md",
+    "genre": "podcast",
+    "published": "2024/05/15"
+  },
+  {
     "id": "Introduction-C-compiler",
     "imgUrl": "/pages/Influenced/page/Introduction-C-compiler/img/Introduction-C-compiler_t.jpg",
     "title": "低レイヤを知りたい人のためのCコンパイラ作成入門",
     "caption": "C言語を使ってC言語のコンパイラを作るチュートリアル",
     "path": "/pages/Influenced/page/Introduction-C-compiler/Introduction-C-compiler.md",
-    "genre": "programming",
+    "genre": "website",
     "published": "2024/05/09"
   }
 ]

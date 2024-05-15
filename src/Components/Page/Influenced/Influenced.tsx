@@ -7,7 +7,9 @@ import Line from "../../UI/Lines/Line"
 import LongLine from "../../UI/Lines/LongLine"
 import ReturnButton from "../../UI/ReturnButton"
 import Title from "../../UI/Title/Title"
-import InfluencedCards from "./InfluencedCards"
+import Book from "./Genre/Book"
+import Podcast from "./Genre/Podcast"
+import WebSite from "./Genre/WebSite"
 import InfluencedPageLinks from "./InfluencedPageLinks"
 
 const Influenced = () =>  {
@@ -34,7 +36,24 @@ const Influenced = () =>  {
                 <LongLine/>
                 <LongLine/>
                 <LittleBlank />
-                <InfluencedCards />
+                <Book />
+                <LittleBlank />
+            </section>
+            
+            <section>
+                <LongLine/>
+                <LongLine/>
+                <LittleBlank />
+                <WebSite />
+                <LittleBlank />
+            </section>
+            
+            <section>
+                <LongLine/>
+                <LongLine/>
+                <LittleBlank />
+                <Podcast />
+                <LittleBlank />
             </section>
 
 
