@@ -1,5 +1,32 @@
 [
   {
+    "id": "Record-of-LIN-CHI",
+    "imgUrl": "/pages/Favorites/page/Record-of-LIN-CHI/img/Record-of-LIN-CHI_t.jpg",
+    "title": "Record-of-LIN-CHI",
+    "caption": "Caption of Record-of-LIN-CHI",
+    "path": "/pages/Favorites/page/Record-of-LIN-CHI/Record-of-LIN-CHI.md",
+    "genre": "philosophy",
+    "published": "2024/05/15"
+  },
+  {
+    "id": "JOJO",
+    "imgUrl": "/pages/Favorites/page/JOJO/img/JOJO_t.jpg",
+    "title": "JOJO",
+    "caption": "Caption of JOJO",
+    "path": "/pages/Favorites/page/JOJO/JOJO.md",
+    "genre": "manga",
+    "published": "2024/05/15"
+  },
+  {
+    "id": "Tractatus-logico-philosophicus",
+    "imgUrl": "/pages/Favorites/page/Tractatus-logico-philosophicus/img/Tractatus-logico-philosophicus_t.jpg",
+    "title": "Tractatus-logico-philosophicus",
+    "caption": "Caption of Tractatus-logico-philosophicus",
+    "path": "/pages/Favorites/page/Tractatus-logico-philosophicus/Tractatus-logico-philosophicus.md",
+    "genre": "philosophy",
+    "published": "2024/05/15"
+  },
+  {
     "id": "bloodborne",
     "imgUrl": "/pages/Favorites/page/Bloodborne/img/Bloodborne_t.jpg",
     "title": "Bloodborne",
