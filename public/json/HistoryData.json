@@ -20,14 +20,8 @@
   {
     "id": "computer",
     "age": "31歳",
-    "title": "コンピュータの内部動作に興味を持ち始める",
+    "title": "コンピュータサイエンスに興味を持つ",
     "path": "/pages/History/page/computer-science/computer-science.md"
-  },
-  {
-    "id": "Recursion",
-    "age": "31歳",
-    "title": "Recursionを始める",
-    "path": "/pages/History/page/recursion/recursion.md"
   },
   {
     "id": "Land-of-Lisp",
