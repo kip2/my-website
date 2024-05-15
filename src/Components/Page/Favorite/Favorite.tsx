@@ -8,6 +8,9 @@ import ReturnButton from "../../UI/ReturnButton"
 import useScrollToHash from "../../Hooks/ScrollToHash"
 import FavoritePageLinks from "./FavoritePageLinks"
 import LongLine from "../../UI/Lines/LongLine"
+import Game from "./Genre/Game"
+import Manga from "./Genre/Manga"
+import Philosophy from "./Genre/Philosophy"
 
 const Favorite = () =>  {
     useScrollToHash()
@@ -28,9 +31,27 @@ const Favorite = () =>  {
                 <LongLine />
                 <LongLine />
                 <LittleBlank />
-
+                <Game />
+                <LittleBlank />
             </section>
-            <FavoriteCards />
+
+            <section>
+                <LittleBlank />
+                <LongLine />
+                <LongLine />
+                <LittleBlank />
+                <Manga />
+                <LittleBlank />
+            </section>
+
+            <section>
+                <LittleBlank />
+                <LongLine />
+                <LongLine />
+                <LittleBlank />
+                <Philosophy />
+                <LittleBlank />
+            </section>
 
             <LittleBlank />
             <ReturnButton path="/about#Favorites"/>
