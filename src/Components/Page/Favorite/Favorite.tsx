@@ -32,6 +32,7 @@ const Favorite = () =>  {
                 <LongLine />
                 <LittleBlank />
                 <Game />
+                <LittleBlank />
             </section>
 
             <section>
@@ -40,6 +41,7 @@ const Favorite = () =>  {
                 <LongLine />
                 <LittleBlank />
                 <Manga />
+                <LittleBlank />
             </section>
 
             <section>
@@ -48,6 +50,7 @@ const Favorite = () =>  {
                 <LongLine />
                 <LittleBlank />
                 <Philosophy />
+                <LittleBlank />
             </section>
 
             <LittleBlank />
