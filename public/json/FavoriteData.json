@@ -1,5 +1,14 @@
 [
   {
+    "id": "VA-11_HALL-A",
+    "imgUrl": "/pages/Favorites/page/VA-11_HALL-A/img/VA-11_HALL-A_t.jpg",
+    "title": "VA-11_HALL-A",
+    "caption": "Caption of VA-11_HALL-A",
+    "path": "/pages/Favorites/page/VA-11_HALL-A/VA-11_HALL-A.md",
+    "genre": "game",
+    "published": "2024/05/15"
+  },
+  {
     "id": "Record-of-LIN-CHI",
     "imgUrl": "/pages/Favorites/page/Record-of-LIN-CHI/img/Record-of-LIN-CHI_t.jpg",
     "title": "Record-of-LIN-CHI",
