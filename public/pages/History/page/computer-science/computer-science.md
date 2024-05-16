@@ -48,7 +48,7 @@
 
 そうやって別の方向に手を出した結果、本来学びたいコンピュータサイエンスから横道に迷い込んで（身辺が忙しくなったのもあったが）、何もできずに、ただただ、時が過ぎる日々だった。    
 
-なお、この頃に[「コンピュータシステムの理論と実装」を実践していた模様](https://www.kip2.dev/influenced/The-Elements-of-Computer-Systems)。  
+[なお、この頃に「コンピュータシステムの理論と実装」を実践していた模様](https://www.kip2.dev/influenced/The-Elements-of-Computer-Systems)。  
 
 ## コンピュータサイエンスをやるために    
 
