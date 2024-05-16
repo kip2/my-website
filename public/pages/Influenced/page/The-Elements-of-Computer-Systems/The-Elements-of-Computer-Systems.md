@@ -42,7 +42,7 @@ https://youtu.be/qAF4kkUFU9I?si=TRY8I4gmaqh_JX22
 
 :::LittleBlank  
 
-読んた本の内容は理解できる。  
+読んだ本の内容は理解できる。  
 コンピュータは0と1で動いているんだな、ということが本に書いてあり、「そうなんだなぁ」と理解はできる。  
 
 :::LittleBlank  
