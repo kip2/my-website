@@ -14,10 +14,10 @@ const InfluencedCard: React.FC<{data: InfluencedPageData}> = ({ data }) => {
                 <div className="h-1/2 flex flex-col items-center px-3 pt-3 pb-4 bg-slate-300/10
                     max-[380px]:pb-2 max-[380px]:pt-2
                 ">
-                    <p className="text-lg font-bold font-serif italic mb-2">
+                    <p className="text-lg font-bold font-serif mb-2">
                         {data.title}
                     </p>
-                    <p className=" text-xs font-bold font-serif italic">
+                    <p className=" text-xs font-bold ">
                         {data.caption}
                     </p>
                 </div>

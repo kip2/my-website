@@ -17,7 +17,7 @@ const ProductCard: React.FC<{data: ProductPageData}> = ({ data }) => {
                 ">
                     <div className="h-1/2 flex items-center justify-center">
                         <h2 className="text-center text-lg font-bold 
-                            font-serif italic
+                            font-serif
                         ">
                             {data.title}
                         </h2>
@@ -26,7 +26,6 @@ const ProductCard: React.FC<{data: ProductPageData}> = ({ data }) => {
                         <p className="mx-auto text-xs mt-3 mb-2 
                             max-[380px]:mt-1 max-[380px]:mb-1
                         ">
-                            {/* 40 character limit */}
                             {data.caption}
                         </p>
                         <p className="mx-auto text-xs
