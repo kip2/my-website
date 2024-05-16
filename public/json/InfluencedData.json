@@ -11,8 +11,8 @@
   {
     "id": "UNIX-philosophy",
     "imgUrl": "/pages/Influenced/page/UNIX-philosophy/img/UNIX-philosophy_t.jpg",
-    "title": "UNIX-philosophy",
-    "caption": "Caption of UNIX-philosophy",
+    "title": "UNIXという考え方",
+    "caption": "UNIXの思想はどういうものかを教えてくれる本",
     "path": "/pages/Influenced/page/UNIX-philosophy/UNIX-philosophy.md",
     "genre": "book",
     "published": "2024/05/15"
@@ -20,8 +20,8 @@
   {
     "id": "Turing-complete-FM",
     "imgUrl": "/pages/Influenced/page/Turing-complete-FM/img/Turing-complete-FM_t.jpg",
-    "title": "Turing-complete-FM",
-    "caption": "Caption of Turing-complete-FM",
+    "title": "Turing Complete FM",
+    "caption": "低レイヤのすごい人たちが集まって雑談するPodcast",
     "path": "/pages/Influenced/page/Turing-complete-FM/Turing-complete-FM.md",
     "genre": "podcast",
     "published": "2024/05/15"
