@@ -143,9 +143,16 @@ Rustに関しても同様で、コンパイラと喧嘩しているうちにコ�
 
 :::LittleBlank    
 
----
+:::LittleBlank    
 
 :::LittleBlank    
+
+---  
+
+---  
+
+---  
+
 
 ### Rustのロゴについて    
 
