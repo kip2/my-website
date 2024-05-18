@@ -1,6 +1,5 @@
 #!/bin/zsh
 
-COPY_SOURCE_PATH="./History/sample"
 COPY_PATH="./History/page/"
 JSON_FILE="../json/HistoryData.json"
 
@@ -25,18 +24,16 @@ if [[ -z "$title" ]]; then
     exit 1
 fi
 
-COPY_PATH=$COPY_PATH$new_id
+NEW_ARTICLE_PATH="${COPY_PATH}${new_id}"
 
-if [[ -d "$COPY_PATH" ]]; then
-    echo "Directory $COPY_PATH already exists. Exiting the script."
+if [[ -d "$NEW_ARTICLE_PATH" ]]; then
+    echo "Directory $NEW_ARTICLE_PATH already exists. Exiting the script."
     exit 1
 fi
 
-cp -r $COPY_SOURCE_PATH $COPY_PATH
+mkdir -p "${NEW_ARTICLE_PATH}/img"
 
-touch "$COPY_PATH/$new_id.md"
-
-mv "$COPY_PATH/img/sample_t.jpg" "$COPY_PATH/img/${new_id}_t.jpg" 
+touch "${NEW_ARTICLE_PATH}/${new_id}.md"
 
 # ADD data in JSON 
 NEW_ENTRY=$(jq -n \

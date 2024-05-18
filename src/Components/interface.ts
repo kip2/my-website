@@ -17,7 +17,6 @@ export interface ProductPageData {
 
 export interface FavoritePageData {
     id: string,
-    imgUrl: string,
     title: string,
     caption: string,
     path: string,
@@ -27,7 +26,6 @@ export interface FavoritePageData {
 
 export interface InfluencedPageData {
     id: string,
-    imgUrl: string,
     title: string,
     caption: string,
     path: string,

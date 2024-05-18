@@ -1,6 +1,5 @@
 #!/bin/zsh
 
-COPY_SOURCE_PATH="./Favorites/sample"
 COPY_PATH="./Favorites/page/"
 JSON_FILE="../json/FavoriteData.json"
 
@@ -18,29 +17,26 @@ if [[ -z "$genre" ]]; then
     exit 1
 fi
 
-COPY_PATH=$COPY_PATH$new_name
+NEW_ARTICLE_PATH="${COPY_PATH}${new_name}"
 
-if [[ -d "$COPY_PATH" ]]; then
-    echo "Directory $COPY_PATH already exists. Exiting the script."
+if [[ -d "$NEW_ARTICLE_PATH" ]]; then
+    echo "Directory $NEW_ARTICLE_PATH already exists. Exiting the script."
     exit 1
 fi
 
-cp -r $COPY_SOURCE_PATH $COPY_PATH
+mkdir -p "${NEW_ARTICLE_PATH}/img"
 
-touch "$COPY_PATH/$new_name.md"
-
-mv "$COPY_PATH/img/sample_t.jpg" "$COPY_PATH/img/${new_name}_t.jpg" 
+touch "${NEW_ARTICLE_PATH}/${new_name}.md"
 
 # ADD data in JSON 
 NEW_ENTRY=$(jq -n \
     --arg id "$new_name" \
-    --arg imgUrl "/pages/Favorites/page/$new_name/img/${new_name}_t.jpg" \
     --arg title "$new_name" \
     --arg caption "Caption of $new_name" \
     --arg path "/pages/Favorites/page/$new_name/$new_name.md" \
     --arg genre "$genre" \
     --arg published "$(date +%Y/%m/%d)" \
-    '{id: $id, imgUrl: $imgUrl, title: $title, caption: $caption, path: $path, genre: $genre, published: $published}')
+    '{id: $id, title: $title, caption: $caption, path: $path, genre: $genre, published: $published}')
 
 jq --argjson newEntry "$NEW_ENTRY" '. | [$newEntry] + .' "$JSON_FILE" > tmp.json && mv tmp.json "$JSON_FILE"
 
