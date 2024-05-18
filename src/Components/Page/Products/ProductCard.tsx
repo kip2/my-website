@@ -7,7 +7,8 @@ const ProductCard: React.FC<{data: ProductPageData}> = ({ data }) => {
         <>
             <Link to={`/products/${data.id}`} className=" h-80 rounded-md border-2 border-slate-500 overflow-hidden 
                     hover:bg-slate-200/10 duration-500 hover:border-slate-200
-                    max-sm:max-w-[368px]
+                    max-sm:max-w-[368px] max-sm:min-w-[368px]
+                    max-[390px]:min-w-[260px]
                 ">
                 <div className="h-3/5 max-sm:h-2/3 overflow-clip">
                     <img className="h-full w-full object-cover overflow-hidden" src={data.imgUrl}></img>
