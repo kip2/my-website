@@ -9,9 +9,10 @@ interface SeeAllPageLinkCardPProps {
 const SeeAllPageLinkCard:React.FC<SeeAllPageLinkCardPProps> = ({ url, title, subtitle }) => {
     return (
         <div className="bg-slate-400/10">
-            <Link to={url} className=" h-60 rounded-md border-2 border-slate-500 overflow-hidden
+            <Link to={url} className=" h-40 rounded-md border-2 border-slate-500 overflow-hidden
                     hover:bg-slate-200/10 duration-500 hover:border-slate-200
-                    max-sm:max-w-[368px] max-sm:h-32
+                    max-sm:max-w-[368px] max-sm:h-32 max-sm:min-w-[368px]
+                    max-[390px]:min-w-[260px]
                     flex flex-col items-center  justify-center
                     w-full
                 ">
