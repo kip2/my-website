@@ -65,6 +65,12 @@ https://youtu.be/WDuVK4J2hE8?si=dKfU_JlNp-q8EIeJ
 
 やっぱり、リメイク出るのを待つのではなく、実機で持っておくべきかな？  
 
+:::LittleBlank  
+
+---
+
+:::LittleBlank  
+
 ## このゲームの素晴らしいところ  
 
 ここからは、このゲームの推しポイントについて語っていこう。  
@@ -124,6 +130,10 @@ https://youtu.be/WDuVK4J2hE8?si=dKfU_JlNp-q8EIeJ
 ストーリーが究極的には不明であるが、この魅力的な世界観の深淵を知りたくもある。  
 だから君、設定資料集を販売したまえよ......  
 
+:::LittleBlank
+
+---
+
 ## 唯一の欠点  
 
 続編が出ないこと。  
@@ -136,5 +146,14 @@ https://youtu.be/WDuVK4J2hE8?si=dKfU_JlNp-q8EIeJ
 
 なんなら、PCリメイクでも可ですぞ〜。  
 TUSHIMAもsteamに出したことだし、Bloodborneも出してくれるといいんだけどなぁ(チラッチラッ)。  
+
+:::LittleBlank
+
+---
+
+:::LittleBlank
+
+> どこもかしこも獣ばかりだ。  
+> どうせ貴様もそうなるのだろう？  
 
 
