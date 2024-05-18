@@ -1,7 +1,6 @@
 [
   {
     "id": "The-Elements-of-Computer-Systems",
-    "imgUrl": "/pages/Influenced/page/The-Elements-of-Computer-Systems/img/The-Elements-of-Computer-Systems_t.jpg",
     "title": "コンピュータシステムの理論と実装",
     "caption": "コンピュータの動作を肌感覚として知ることができる本",
     "path": "/pages/Influenced/page/The-Elements-of-Computer-Systems/The-Elements-of-Computer-Systems.md",
@@ -10,7 +9,6 @@
   },
   {
     "id": "UNIX-philosophy",
-    "imgUrl": "/pages/Influenced/page/UNIX-philosophy/img/UNIX-philosophy_t.jpg",
     "title": "UNIXという考え方",
     "caption": "UNIXの思想はどういうものかを教えてくれる本",
     "path": "/pages/Influenced/page/UNIX-philosophy/UNIX-philosophy.md",
@@ -19,7 +17,6 @@
   },
   {
     "id": "Turing-complete-FM",
-    "imgUrl": "/pages/Influenced/page/Turing-complete-FM/img/Turing-complete-FM_t.jpg",
     "title": "Turing Complete FM",
     "caption": "低レイヤのすごい人たちが集まって雑談するPodcast",
     "path": "/pages/Influenced/page/Turing-complete-FM/Turing-complete-FM.md",
@@ -28,7 +25,6 @@
   },
   {
     "id": "Introduction-C-compiler",
-    "imgUrl": "/pages/Influenced/page/Introduction-C-compiler/img/Introduction-C-compiler_t.jpg",
     "title": "低レイヤを知りたい人のためのCコンパイラ作成入門",
     "caption": "C言語を使ってC言語のコンパイラを作るチュートリアル",
     "path": "/pages/Influenced/page/Introduction-C-compiler/Introduction-C-compiler.md",

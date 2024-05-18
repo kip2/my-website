@@ -1,7 +1,6 @@
 [
   {
     "id": "VA-11_HALL-A",
-    "imgUrl": "/pages/Favorites/page/VA-11_HALL-A/img/VA-11_HALL-A_t.jpg",
     "title": "VA-11_HALL-A",
     "caption": "どこか懐かしい、近未来が舞台のバーテンゲーム",
     "path": "/pages/Favorites/page/VA-11_HALL-A/VA-11_HALL-A.md",
@@ -10,7 +9,6 @@
   },
   {
     "id": "Record-of-LIN-CHI",
-    "imgUrl": "/pages/Favorites/page/Record-of-LIN-CHI/img/Record-of-LIN-CHI_t.jpg",
     "title": "臨済録",
     "caption": "スラップスティック禅語録",
     "path": "/pages/Favorites/page/Record-of-LIN-CHI/Record-of-LIN-CHI.md",
@@ -19,7 +17,6 @@
   },
   {
     "id": "JOJO",
-    "imgUrl": "/pages/Favorites/page/JOJO/img/JOJO_t.jpg",
     "title": "ジョジョの奇妙な冒険",
     "caption": "魂のマンガ",
     "path": "/pages/Favorites/page/JOJO/JOJO.md",
@@ -28,7 +25,6 @@
   },
   {
     "id": "Tractatus-logico-philosophicus",
-    "imgUrl": "/pages/Favorites/page/Tractatus-logico-philosophicus/img/Tractatus-logico-philosophicus_t.jpg",
     "title": "論理哲学論考",
     "caption": "ウィトゲンシュタインの挫折と魂の作品",
     "path": "/pages/Favorites/page/Tractatus-logico-philosophicus/Tractatus-logico-philosophicus.md",
@@ -37,7 +33,6 @@
   },
   {
     "id": "bloodborne",
-    "imgUrl": "/pages/Favorites/page/Bloodborne/img/Bloodborne_t.jpg",
     "title": "Bloodborne",
     "caption": "「知ってるかい？人は皆獣なんだぜ...」",
     "path": "/pages/Favorites/page/Bloodborne/Bloodborne.md",
