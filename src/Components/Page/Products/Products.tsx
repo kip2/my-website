@@ -10,6 +10,7 @@ import Study from "./Genre/Study"
 import LittleBlank from "../../UI/Blanks/LittleBlank"
 import RecentCreation from "./Genre/RecentCreation"
 import useScrollToHash from "../../Hooks/ScrollToHash"
+import Other from "./Genre/Other"
 
 const Products = () =>  {
     useScrollToHash()
@@ -48,6 +49,15 @@ const Products = () =>  {
                 <LongLine />
                 <LittleBlank />
                 <Game />
+            </section>
+
+            {/* Other section */}
+            <section>
+                <Blank />
+                <LongLine />
+                <LongLine />
+                <LittleBlank />
+                <Other />
             </section>
 
             {/* Study section */}
