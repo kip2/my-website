@@ -1,5 +1,13 @@
 [
   {
+    "id": "practical-vim",
+    "title": "実践Vim",
+    "caption": "vim、開眼。",
+    "path": "/pages/Influenced/page/practical-vim/practical-vim.md",
+    "genre": "book",
+    "published": "2024/05/19"
+  },
+  {
     "id": "test-driven-development",
     "title": "テスト駆動開発",
     "caption": "細かく確認しながら、確実に先に進むことを学んだ",
