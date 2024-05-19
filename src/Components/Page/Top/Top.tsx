@@ -2,7 +2,7 @@ import Blank from "../../UI/Blanks/Blank"
 import Footer from "../../UI/Footer"
 import Header from "../../UI/Header/Header"
 import LongLine from "../../UI/Lines/LongLine"
-import Quotes from "../../UI/Quotes"
+import Maxim from "../../UI/Maxim"
 import RecentCreation from "../Products/Genre/RecentCreation"
 import Profile from "./Profile"
 
@@ -11,7 +11,7 @@ const Top = () => {
         <>
             <Header/>
             <Blank />
-            <Quotes />
+            <Maxim />
             <Blank />
 
             <Profile />
