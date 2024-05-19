@@ -19,7 +19,7 @@ RecursionCSユーザー向けの解説記事は別に作成していますので
 
 ## How to use  
 
-こちらにアクセスして閲覧してください。  
+[こちら](https://www.kip2.dev/)にアクセスして閲覧してください。  
 
 ## About this site  
 
@@ -37,8 +37,8 @@ RecursionCSユーザー向けの解説記事は別に作成していますので
 
 ## License  
 
-こちらを参照してください。  
+[こちら](https://www.kip2.dev/about-site#License)を参照してください。  
 
 ## Special Thanks  
 
-こちらを参照してください。  
+[こちら](https://www.kip2.dev/about-site#SpecialThanks)を参照してください。  
