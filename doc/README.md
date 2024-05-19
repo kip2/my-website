@@ -62,14 +62,17 @@ Tailwind CSSいいよTailwind CSS。
 当サイトはPCサイズの表示においては、サイトのメニューボタンをHeaderに全て横並びで配置しており、ボタンを押すことで各ページにアクセスできるようになっています。
 
 編集点:ヘッダーのボタンの画像を入れる
+![header](img/button-on-header.png)
 
 しかし、スマホの画面サイズでは表示領域が小さいため、ハンバーガーメニューにまとめることで対応しました。
 
 編集点:ハンバーガーメニュー時のヘッダーの表示画像を入れる
+![humberger menu](img/humberger-menu.png)
 
 ハンバーガーメニューをクリックすると、アコーディオンメニューが表示されるようになっており、そこから各ページにアクセスできるようにしました。
 
 編集点:アコーディオンメニューの画像を貼る
+![accordion menu](img/accordion-menu.png)
 
 ---
 ## 画面の一番上に戻るボタン
@@ -80,6 +83,7 @@ Tailwind CSSいいよTailwind CSS。
 そのため、画面の一番上に戻るボタンを設置しています。
 
 編集点:ボタンの画像を表示
+![scroll top button](img/scroll-top-button.png)
 
 
 ---
