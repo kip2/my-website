@@ -1,4 +1,4 @@
-# 🐈 my website 🐈  
+<h1 align="center">🐈 my website 🐈</h1>
 
 ## 概要  
 
