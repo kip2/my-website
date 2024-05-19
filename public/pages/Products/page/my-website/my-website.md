@@ -5,8 +5,6 @@
 
 ---    
 
-:::LittleBlank  
-
 使用言語 : HTML, CSS, TypeScript, ShellScritp(bash, zsh)  
 使用したフレームワークなど : vite, React.js, TailwindCSS  
 作成日 : 2024/05/19    
@@ -14,8 +12,6 @@
 総コミット数：421コミット(公開時点)    
 Access : [my website](https://www.kip2.dev/)  
 Github : [GitHub - my-website](https://github.com/kip2/my-website)    
-
-:::LittleBlank  
 
 ---    
 
