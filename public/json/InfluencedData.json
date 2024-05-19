@@ -1,5 +1,13 @@
 [
   {
+    "id": "test-driven-development",
+    "title": "テスト駆動開発",
+    "caption": "細かく確認しながら、確実に先に進むことを学んだ",
+    "path": "/pages/Influenced/page/test-driven-development/test-driven-development.md",
+    "genre": "book",
+    "published": "2024/05/19"
+  },
+  {
     "id": "The-Elements-of-Computer-Systems",
     "title": "コンピュータシステムの理論と実装",
     "caption": "コンピュータの動作を肌感覚として知ることができる本",
