@@ -7,10 +7,17 @@
 > 荒木飛呂彦  
 > --「ジョジョの奇妙な冒険」第1巻巻頭コメント より  
 
+https://youtu.be/BW4H15rK6iI?si=7NZ6FACMEs4ubvci
 
 ## 魂の作品  
 
 自分にとっての魂の作品。  
+
+:::LittleBlank
+
+---
+
+:::LittleBlank
 
 ## 人格の形成に大きな影響  
 
