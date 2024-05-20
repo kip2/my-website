@@ -33,7 +33,7 @@ const Profile = () => {
                             ">
                                 <FontAwesomeIcon icon={faGithub} />
                             </a>
-                            <a href="https://twitter.com/kip2_ret_0" className="text-4xl px-2 mx-1 border-2 border-gray-700 rounded-xl 
+                            <a href="https://x.com/__kip2" className="text-4xl px-2 mx-1 border-2 border-gray-700 rounded-xl 
                                 hover:text-black hover:bg-slate-100 duration-300
                             ">
                                 <FontAwesomeIcon icon={faXTwitter} />
