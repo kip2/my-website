@@ -1,6 +1,7 @@
 **公式サイト**  
 
-[「実践Vim 思考のスピードで編集しよう！」ＤｒｅｗＮｅｉｌ [ＰＣ・理工科学書] - KADOKAWA](https://www.kadokawa.co.jp/product/311865500011/)  
+[「実践Vim 思考のスピードで編集しよう！」ＤｒｅｗＮｅｉｌ [ＰＣ・理工科学書] - KADOKAWA](https://www.kadokawa.co.jp/product/311865500010/)  
+
 
 ## vimに目覚めた思い出の書  
 
@@ -25,7 +26,7 @@
 :::LittleBlank  
 
 キャッチコピーに惹かれて即購入。  
-牛に惹かれて善光寺参り。  
+牛に引かれて善光寺参り。  
 
 :::LittleBlank  
 
@@ -35,7 +36,7 @@
 
 なお、vimとはこれ以前に「まんがでわかるLinux」で出会っていて、扱いの難しいLinuxのエディタという印象だった。  
 
-[まんがでわかるLinux シス管系女子 | 日経クロステック（xTECH）](https://xtech.nikkei.com/atcl/learning/column/20/00014/)  
+[まんがでわかるLinux シス管系女子 | 日経クロステック（xTECH）](https://xtech.nikkei.com/atcl/learning/column/19/00014/)  
 
 
 :::LittleBlank  
