@@ -229,12 +229,15 @@ markdownバージョン
 ### markdownに独自の記法を追加
 
 markdownの変換においては、githubのmarkdownの形式に対応しています。
+
 [基本的な書き方とフォーマットの構文 - GitHub Docs](https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
 しかし、githubのmarkdown形式では、空行を間に挟むような書き方ができません(あるいは自分が知らないだけかも。知っている人いたら教えて)。
 
 そのため、Reactのコンポーネントを用意し、独自の記法をした場合にそれらが挿入されるように対応しています。
 
 拡張した構文は以下になります。
+
 - youtubeのリンクを貼ると、プレイヤー埋め込みのコンポーネントに変換する。
 - ブランク行を追加するための記法を、ブランクの間隔の差の違いで2種類用意しています。
 
@@ -252,7 +255,7 @@ https://www.youtube.com/watch?v=KKKKKKKKKKK
 ```
 
 なお、これらの独自記法は拡張で増やすことも可能となっています。
-この辺りに興味のある方は、[こちら](src/Components/Functions/MarkdownViewer/MarkdownViewer.tsx)のソースコードを読んでみてください。
+この辺りに興味のある方は、[こちら](https://github.com/kip2/my-website/blob/main/src/Components/Functions/MarkdownViewer/MarkdownViewer.tsx)のソースコードを読んでみてください。
 
 ### markdownから生成される記事のデザインについて
 
