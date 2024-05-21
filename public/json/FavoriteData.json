@@ -1,5 +1,21 @@
 [
   {
+    "id": "Meroncholinista",
+    "title": "メロンコリニスタ",
+    "caption": "発想の勝利しかない、何度読んでも笑える傑作4コマ漫画",
+    "path": "/pages/Favorites/page/Meroncholinista/Meroncholinista.md",
+    "genre": "manga",
+    "published": "2024/05/21"
+  },
+  {
+    "id": "After-the-memories",
+    "title": "青春のアフター",
+    "caption": "幾重にも重なる青春の後始末。切ない後味に胸がしめつけられる漫画",
+    "path": "/pages/Favorites/page/After-the-memories/After-the-memories.md",
+    "genre": "manga",
+    "published": "2024/05/21"
+  },
+  {
     "id": "VA-11_HALL-A",
     "title": "VA-11 HALL-A",
     "caption": "どこか懐かしい、近未来が舞台のバーテンゲーム",
