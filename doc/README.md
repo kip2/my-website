@@ -298,7 +298,7 @@ jqはJSONを気軽に扱えるので、とてもおすすめです。
 
 インストール等は公式ページを参照してください。
 
-[jq](https://jqlang.github.io/jq/)
+[jq公式サイト](https://jqlang.github.io/jq/)
 
 ---
 
