@@ -47,7 +47,7 @@ https://youtu.be/iqV8RNM2H4c?si=hfIT64eeVUI3RA08
 
 :::LittleBlank  
 
-エンディングの場面などを、人生の指針とするに至りましたとさ。  
+エンディングの場面などを、人生の指針とするに至った。  
 
 :::LittleBlank  
 
