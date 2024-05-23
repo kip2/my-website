@@ -7,8 +7,8 @@ const FavoriteCard: React.FC<{data: FavoritePageData}> = ({ data }) => {
         <>
             <Link to={`/favorite/${data.id}`} className=" h-40 rounded-md border-2 border-slate-500 overflow-hidden 
                     hover:bg-slate-200/10 duration-500 hover:border-slate-200
-                    max-[640px]:max-w-[368px] max-[640px]:min-w-[368px]
-                    max-[390px]:min-w-[260px]
+                    max-sm:max-w-[368px] max-sm:min-w-[368px]
+                    max-[390px]:min-w-[260px] max-[390px]:max-w-[260px]
                 ">
                 <div className="h-full flex flex-col items-center px-3 pt-3 pb-4 bg-slate-300/10
                     max-[380px]:pb-2 max-[380px]:pt-2
