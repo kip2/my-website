@@ -46,8 +46,14 @@
 
 ## ウィトゲンシュタインとの最初の出会い
 
+ウィトゲンシュタインとは、
+
+[ウィトゲンシュタイン - 平凡社](https://www.heibonsha.co.jp/book/b160457.html)
+
 
 ## ゲームで再び出会う
+
+[【公式】素晴らしき日々 〜不連続存在〜 OPムービー【ケロQ】 - YouTube](https://youtu.be/fxoQ-8K-90U?si=u1dMYQbuj7k4wwIR)
 
 ## 葉が立たないので解説本しか読んでない
 
@@ -55,4 +61,3 @@
 
 
 
-[【公式】素晴らしき日々 〜不連続存在〜 OPムービー【ケロQ】 - YouTube](https://youtu.be/fxoQ-8K-90U?si=u1dMYQbuj7k4wwIR)
