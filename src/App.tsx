@@ -21,7 +21,7 @@ const App = () => {
           <meta property="og:title" content="kip2 Home Page"/>
           <meta property="og:description" content="kip2がいろいろなものを虫干しするホームページ"/>
           <meta property="og:image" content="https://www.kip2.dev/img/myimage.png" />
-          <meta property="og:url" content="https://www.kip2.dev/"/>
+          <meta property="og:url" content="https://kip2.dev/"/>
           <meta property="og:type" content="website"/>
 
           {/* Twitter Card meta tags */}
