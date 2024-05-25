@@ -12,7 +12,8 @@ import FavoriteDetail from './Components/Page/Favorite/FavoriteDetail'
 import InfluencedDetail from './Components/Page/Influenced/InfluencedDetail'
 import AboutSite from './Components/Page/AboutSite/AboutSite'
 import { HelmetProvider } from 'react-helmet-async'
-import Ogp from './Components/UI/OGP'
+import Ogp from './Components/UI/Ogp'
+
 
 const App = () => {
   return (
