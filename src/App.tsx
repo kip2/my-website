@@ -20,16 +20,16 @@ const App = () => {
         <Helmet>
           <meta property="og:title" content="kip2 Home Page"/>
           <meta property="og:description" content="kip2がいろいろなものを虫干しするホームページ"/>
-          <meta property="og:image" content="/img/myimage.png"/>
+          <meta property="og:image" content="https://www.kip2.dev/img/myimage.png" />
           <meta property="og:url" content="https://www.kip2.dev"/>
           <meta property="og:type" content="wewbsite"/>
 
           {/* Twitter Card meta tags */}
-          <meta name="twitter:card" content="/img/myimage.png" />
+          <meta name="twitter:card" content="https://www.kip2.dev/img/myimage.png" />
           <meta name="twitter:site" content="https://www.kip2.dev" />
           <meta name="twitter:title" content="kip2 Home Page" />
           <meta name="twitter:description" content="kip2がいろいろなものを虫干しするホームページ" />
-          <meta name="twitter:image" content="/img/myimage.png" />
+          <meta name="twitter:image" content="https://www.kip2.dev/img/myimage.png" />
         </Helmet>
         <Router>
           <Routes>
