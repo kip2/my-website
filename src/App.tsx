@@ -11,26 +11,14 @@ import Influenced from './Components/Page/Influenced/Influenced'
 import FavoriteDetail from './Components/Page/Favorite/FavoriteDetail'
 import InfluencedDetail from './Components/Page/Influenced/InfluencedDetail'
 import AboutSite from './Components/Page/AboutSite/AboutSite'
-import { HelmetProvider, Helmet } from 'react-helmet-async'
+import { HelmetProvider } from 'react-helmet-async'
+import Ogp from './Components/UI/OGP'
 
 const App = () => {
   return (
     <HelmetProvider>
       <div className=' bg-neutral-800 min-h-screen md:h-auto text-white max-w-2x1 px-10 m-auto box-inherit block'>
-        <Helmet>
-          <meta property="og:title" content="kip2 Home Page"/>
-          <meta property="og:description" content="kip2がいろいろなものを虫干しするホームページ"/>
-          <meta property="og:image" content="https://www.kip2.dev/img/myimage.png" />
-          <meta property="og:url" content="https://kip2.dev/"/>
-          <meta property="og:type" content="website"/>
-
-          {/* Twitter Card meta tags */}
-          <meta name="twitter:card" content="summary" />
-          <meta name="twitter:site" content="@_kip2" />
-          <meta name="twitter:title" content="kip2 Home Page" />
-          <meta name="twitter:description" content="kip2がいろいろなものを虫干しするホームページ" />
-          <meta name="twitter:image" content="https://www.kip2.dev/img/myimage.png" />
-        </Helmet>
+        <Ogp />
         <Router>
           <Routes>
             <Route path="/" element={<Top />}/>
