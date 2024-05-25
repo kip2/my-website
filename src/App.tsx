@@ -12,14 +12,12 @@ import FavoriteDetail from './Components/Page/Favorite/FavoriteDetail'
 import InfluencedDetail from './Components/Page/Influenced/InfluencedDetail'
 import AboutSite from './Components/Page/AboutSite/AboutSite'
 import { HelmetProvider } from 'react-helmet-async'
-import Ogp from './Components/UI/Ogp'
 
 
 const App = () => {
   return (
     <HelmetProvider>
       <div className=' bg-neutral-800 min-h-screen md:h-auto text-white max-w-2x1 px-10 m-auto box-inherit block'>
-        <Ogp />
         <Router>
           <Routes>
             <Route path="/" element={<Top />}/>
