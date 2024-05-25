@@ -6,7 +6,7 @@ const Ogp = () => {
             <Helmet>
                 <meta property="og:title" content="kip2 Home Page"/>
                 <meta property="og:description" content="kip2がいろいろなものを虫干しするホームページ"/>
-                <meta property="og:image" content="https://www.kip2.dev/img/myimage.png" />
+                <meta property="og:image" content="https://www.kip2.dev/img/ogpimage.jpg" />
                 <meta property="og:url" content="https://www.kip2.dev/"/>
                 <meta property="og:type" content="website"/>
 
@@ -15,7 +15,7 @@ const Ogp = () => {
                 <meta name="twitter:site" content="@_kip2" />
                 <meta name="twitter:title" content="kip2 Home Page" />
                 <meta name="twitter:description" content="kip2がいろいろなものを虫干しするホームページ" />
-                <meta name="twitter:image" content="https://www.kip2.dev/img/myimage.png" />
+                <meta name="twitter:image" content="https://www.kip2.dev/img/ogpimage.jpg" />
             </Helmet>
         </>
     )
