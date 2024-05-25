@@ -1,5 +1,14 @@
 #!/bin/bash
 
+THRESHOLD=16
+
+USED_DISK=$(df --output=used / | tail -n 1 | awk '{print $1 / 1024 / 1024}')
+
+if (( $(echo "$USED_DISK > $THRESHOLD" | bc -l) )); then
+    echo "Disk usage is above ${THRESHOLD}GB, running docker system prune -a"
+    yes | docker system prune -a
+fi
+
 git pull origin main 
 if [ $? -ne 0 ]; then
     echo "Error: Git pull failed"
