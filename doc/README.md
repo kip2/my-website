@@ -245,10 +245,10 @@ markdownの変換においては、githubのmarkdownの形式に対応してい�
 実例を挙げます。
 
 ```markdown
-広めの空白を挟む書き方
+広い空白を挟む書き方
 :::Blank
 
-広めの空白を挟む書き方
+狭い空白を挟む書き方
 :::LittleBlank
 
 youtubeリンクはそのまま貼ったらOK(アドレスはダミーです)
