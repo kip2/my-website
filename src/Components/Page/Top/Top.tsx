@@ -14,6 +14,7 @@ const Top = () => {
             <Maxim />
             <Blank />
 
+
             <Profile />
 
             <section>

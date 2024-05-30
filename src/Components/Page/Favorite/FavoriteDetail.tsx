@@ -8,6 +8,7 @@ import MarkdownViewer from "../../Functions/MarkdownViewer/MarkdownViewer"
 import ReturnButton from "../../UI/ReturnButton"
 import LongLine from "../../UI/Lines/LongLine"
 import LittleBlank from "../../UI/Blanks/LittleBlank"
+import Loading from "../../UI/Loading/Loading"
 
 const FavoriteDetail = () => {
     const {id} = useParams<{ id?: string }>()
@@ -28,8 +29,10 @@ const FavoriteDetail = () => {
 
 
     if (!favoriteData) {
-        return <div>No data favorite ...</div>
+        return <Loading />
+        
     }
+
     return (
         <div>
             <Header />

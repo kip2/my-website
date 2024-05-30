@@ -8,6 +8,7 @@ import MarkdownViewer from "../../Functions/MarkdownViewer/MarkdownViewer"
 import ReturnButton from "../../UI/ReturnButton"
 import LongLine from "../../UI/Lines/LongLine"
 import LittleBlank from "../../UI/Blanks/LittleBlank"
+import Loading from "../../UI/Loading/Loading"
 
 const InfluencedDetail = () => {
     const {id} = useParams<{ id?: string }>()
@@ -28,7 +29,7 @@ const InfluencedDetail = () => {
 
 
     if (!influencedData) {
-        return <div>No data influenced ...</div>
+        return <Loading />
     }
     return (
         <div>

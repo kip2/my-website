@@ -6,6 +6,7 @@ import Blank from "../../../UI/Blanks/Blank"
 import ReturnButton from "../../../UI/ReturnButton"
 import { useEffect, useState } from "react"
 import MarkdownViewer from "../../../Functions/MarkdownViewer/MarkdownViewer"
+import Loading from "../../../UI/Loading/Loading"
 
 const HistoryDetail = () => {
     const {id} = useParams<{ id?: string }>()
@@ -26,7 +27,7 @@ const HistoryDetail = () => {
 
 
     if (!historyData) {
-        return <div>No data ...</div>
+        return <Loading />
     }
 
     return (
