@@ -3,7 +3,7 @@ import "./LoadingMaxim.css"
 const LoadingMaxim = () => {
     return (
         <>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center my-16">
                 <div aria-label="Loading..." role="status" className="loader">
                     <svg className="icon" viewBox="0 0 256 256">
                         <line x1="128" y1="32" x2="128" y2="64" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line>
