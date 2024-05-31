@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import LoadingMaxim from './LoadingMaxim'
 
 interface Maxim {
     content: string,
@@ -32,7 +33,7 @@ const Maxim = () => {
                     <footer className='flex justify-end mr-10'>{maxim.author}</footer>
                 </blockquote>
             ) : (
-                <p className=' font-thin mx-auto w-144 text-center text-2xl my-10'>Loading quote...</p>
+                <LoadingMaxim />
             )}
         </div>
         <div className="border-t border-white my-5 w-80 mx-auto"></div>

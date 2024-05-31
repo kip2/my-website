@@ -2,7 +2,7 @@ import Blank from "../../UI/Blanks/Blank"
 import Footer from "../../UI/Footer"
 import Header from "../../UI/Header/Header"
 import LongLine from "../../UI/Lines/LongLine"
-import Maxim from "../../UI/Maxim"
+import Maxim from "../../UI/Maxim/Maxim"
 import RecentCreation from "../Products/Genre/RecentCreation"
 import Profile from "./Profile"
 
