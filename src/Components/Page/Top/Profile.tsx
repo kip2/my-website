@@ -14,7 +14,7 @@ const Profile = () => {
         <>
             <div className="mx-auto flex justify-center gap-5 max-md:flex-col max-md:items-center">
                 <div className="grid place-content-center">
-                    <img className={`rounded-full w-60 h-60 ${isRotating ? 'animate-rotateY' : ''}`}
+                    <img className={`rounded-full w-60 h-60 ${isRotating ? 'animate-spinAndSlow' : ''}`}
                             src="/img/myimage.png"
                             alt="my image"
                             onClick={handleClick}

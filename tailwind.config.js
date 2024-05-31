@@ -42,8 +42,16 @@ export default {
           '0%, 100%': { borderColor: 'white' },
           '50%': { borderColor: 'transparent' }
         },
+        spinAndSlow: {
+          '0%': { transform: 'rotateY(0deg)' },
+          '20%': { transform: 'rotateY(720deg)' },
+          '50%': { transform: 'rotateY(1080deg)' },
+          '80%': { transform: 'rotateY(1260deg)' },
+          '100%': { transform: 'rotateY(1440deg)' },
+        },
       },
       animation: {
+        spinAndSlow: 'spinAndSlow 2s ease-out',
         rotateY: 'rotateY 0.6s linear',
         typing: 'typing 1s steps(8) forwards, blink 0.2s step-end infinite alternate',
       },
