@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub, faXTwitter } from "@fortawesome/free-brands-svg-icons"
+import "../../Top/Profile.css"
 
 const IntroductionProfile = () => {
     return (
@@ -17,17 +18,23 @@ const IntroductionProfile = () => {
                     ">
                     <p className="text-md font-serif mb-2"><span>[kʲippɯ]</span></p>
                     <h2 className=" text-5xl mb-3 mx-auto italic font-serif max-md:text-4xl">kip2</h2>
-                    <div className="mt-5">
-                            <a href="https://github.com/kip2" className="text-4xl mx-1 px-2 border-2 border-gray-700 rounded-xl 
-                                hover:text-black hover:bg-slate-100 duration-300
-                            ">
-                                <FontAwesomeIcon icon={faGithub} />
-                            </a>
-                            <a href="https://twitter.com/kip2_ret_0" className="text-4xl px-2 mx-1 border-2 border-gray-700 rounded-xl 
-                                hover:text-black hover:bg-slate-100 duration-300
-                            ">
-                                <FontAwesomeIcon icon={faXTwitter} />
-                            </a>
+                    <div className="pt-7 flex">
+                            <div className="icon-content">
+                                <a href="https://github.com/kip2" className="text-4xl mx-2 px-2 border-2 border-gray-700 rounded-xl 
+                                    hover:text-black hover:bg-slate-100 duration-300
+                                ">
+                                    <FontAwesomeIcon icon={faGithub} />
+                                </a>
+                                <div className="tooltip">Github</div>
+                            </div>
+                            <div className="icon-content">
+                                <a href="https://x.com/_kip2" className="text-4xl px-2 mx-2 border-2 border-gray-700 rounded-xl 
+                                    hover:text-black hover:bg-slate-100 duration-300
+                                ">
+                                    <FontAwesomeIcon icon={faXTwitter} />
+                                </a>
+                                <div className="tooltip">X</div>
+                            </div>
                     </div>
                 </div>
             </div>
