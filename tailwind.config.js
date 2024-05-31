@@ -1,3 +1,5 @@
+import { transform } from 'typescript';
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -28,6 +30,10 @@ export default {
         '210': '54rem',
       },
       keyframes: {
+        rotateY: {
+          '0%': { transform: 'rotateY(0deg)' },
+          '100%': { transform: 'rotateY(360deg)' },
+        },
         typing: {
           from: { width: '0'},
           to: { width: '8ch'}
@@ -38,6 +44,7 @@ export default {
         },
       },
       animation: {
+        rotateY: 'rotateY 0.6s linear',
         typing: 'typing 1s steps(8) forwards, blink 0.2s step-end infinite alternate',
       },
       borderWidth: {

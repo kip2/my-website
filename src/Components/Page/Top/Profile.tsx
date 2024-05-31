@@ -1,13 +1,24 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub, faXTwitter } from "@fortawesome/free-brands-svg-icons"
+import { useState } from "react"
 
 const Profile = () => {
+    const [ isRotating, setIsRotating ] = useState(false)
+
+    const handleClick = () => {
+        setIsRotating(true)
+        setTimeout(() => setIsRotating(false), 1000)
+    }
+
     return (
         <>
             <div className="mx-auto flex justify-center gap-5 max-md:flex-col max-md:items-center">
                 <div className="grid place-content-center">
-                    <img className="rounded-full w-60 h-60"
-                            src="/img/myimage.png" alt="my image"/>
+                    <img className={`rounded-full w-60 h-60 ${isRotating ? 'animate-rotateY' : ''}`}
+                            src="/img/myimage.png"
+                            alt="my image"
+                            onClick={handleClick}
+                            />
                 </div>
                 <div className="flex flex-col items-center w-100 
                         max-lg:w-100 
