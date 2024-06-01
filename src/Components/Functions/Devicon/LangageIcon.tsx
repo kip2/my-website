@@ -7,7 +7,20 @@ interface LanguageIconProps  {
 const LanguageIcon:React.FC<LanguageIconProps> = ({ language }) => {
     const iconClass = iconMap[language.toLowerCase()]
 
-    return <i className={iconClass}/>
+    if (!iconClass) {
+        return <></>
+    }
+
+    return (
+        <div className="icon-content">
+            <i className={`${iconClass}
+                text-xl mx-2 p-1 border-2 border-gray-700 rounded-xl 
+                bg-gray-800
+            `}>
+            </i>
+            <div className="tooltip">{language}</div>
+        </div>
+    )
 }
 
 export default LanguageIcon

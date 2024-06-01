@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub, faXTwitter } from "@fortawesome/free-brands-svg-icons"
 import { useState } from "react"
-import LanguageIcon from "../../Functions/Devicon/LangageIcon"
 
 const Profile = () => {
     const [ isRotating, setIsRotating ] = useState(false)
