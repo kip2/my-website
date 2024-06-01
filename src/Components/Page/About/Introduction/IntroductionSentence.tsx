@@ -17,42 +17,54 @@ const IntroductionSentense = () => {
                 <Blank />
                 <hr/>
                 <h2>使える技術など</h2>
-                <p>技術としては以下のものが使える。<br/>
-                大体は調べながら使えるくらいにはなっていると思う。<br/>
-                (分類が間違っていたらご指摘ください)</p>
+                <p>以下のものが使える。それぞれ調べながら使えるくらいにはなっていると思う。<br/></p>
                 <h4>フロントエンド</h4>
-                <ul>
-                <LanguageIcons iconsData={["html5", "css3"]}/>
-                <li>HTML/CSS</li>
-                <li>JavaScript
-                <ul>
-                <li>React.js</li>
-                </ul>
-                </li>
-                <li>TypeScript</li>
-                </ul>
+                <LanguageIcons iconsData={["html5", "css3", "javascript", "typescript", "react", "vitejs", "tailwindcss"]}/>
                 <h4>バックエンド</h4>
-                <ul>
-                <li>Rust</li>
-                <li>python</li>
-                <li>PHP</li>
-                <li>Java</li>
-                </ul>
+                <LanguageIcons iconsData={["Rust", "python", "PHP", "Java"]}/>
                 <h4>インフラ</h4>
-                <ul>
-                <li>AWS</li>
-                <li>NGINX</li>
-                <li>Docker</li>
-                </ul>
+                <LanguageIcons iconsData={["AmazonWebServices", "NGINX", "Docker"]}/>
+                <h4>ツール</h4>
+                <LanguageIcons iconsData={["vscode", "vim", "neovim", "eclipse"]}/>
                 <h4>OS</h4>
-                <ul>
-                <li>Windows</li>
-                <li>Mac</li>
-                <li>Linux</li>
-                </ul>
+                <LanguageIcons iconsData={["apple", "windows11", "linux"]}/>
+                <h4>その他</h4>
+                <LanguageIcons iconsData={["markdown", "bash", "powershell", "git", "github", "spring"]}/>
                 <h3>その他触ったことのあるもの</h3>
-                <p>箇条書きにすると長すぎるので、一文にまとめる。</p>
-                <p>C, C++, C#, VBA, GO, Haskell, CommonLisp, Scheme, Clojure, scala, zig, elm<br/>
+                <p>触ったことはあるけれど、自信を持って使いこなせるとはまでは言えないもの。</p>
+                <br></br>
+                <p>アイコンがあるもの</p>
+                <LanguageIcons iconsData={[
+                    "c", 
+                    "cplusplus",
+                    "csharp",
+                    "go",
+                    "haskel",
+                    "scala",
+                    "zig",
+                    "elm",
+                    "clojure",
+                    "perl",
+                    "mysql",
+                    "mongodb",
+                    "graphql",
+                    "postgresql",
+                    "processing",
+                    "awk",
+                    "cmake",
+                    "figma",
+                    "gcc",
+                    "maven",
+                    "hibernate" ,
+                    "intellij",
+                    "latex",
+                    "unity",
+                    "unrealengine",
+                    "wasm"]}/>
+                <br></br>
+                <p>アイコンがないもので触ったことのあるもの</p>
+                <p>VBA, CommonLisp, Scheme <br/>
+                <br></br>
                 increase more...</p>
                 <h3>触ってみたい言語・技術</h3>
                 <p>およそ、「プログラミング言語」と名のつくものならなんでも好き。<br/>

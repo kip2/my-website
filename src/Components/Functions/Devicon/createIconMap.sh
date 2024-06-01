@@ -6,7 +6,7 @@ echo "type IconMap = {\n\t[key: string]: string,\n}" > iconMap.tsx
 
 echo "const iconMap: IconMap = {" >> iconMap.tsx
 
-jq -r '.[] | .name as $name | .versions.font[] | " \"" + $name + "\": \"devicon-\($name)-plain colored\","' devicon.json | sort | uniq >> iconMap.tsx
+jq -r '.[] | .name as $name | .versions.font[] | " \"" + $name + "\": \"devicon-\($name)-plain \","' devicon.json | sort | uniq >> iconMap.tsx
 
 sed -i '$ s/,$//' iconMap.tsx
 

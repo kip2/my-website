@@ -7,7 +7,7 @@ interface LangageIconsProps {
 const LanguageIcons:React.FC<LangageIconsProps> = ({ iconsData }) => {
     return (
         <>
-            <div className="flex">
+            <div className="flex flex-wrap">
                 {iconsData.map((item, index) => (
                     <LanguageIcon key={index} language={item} />
                 ))}
