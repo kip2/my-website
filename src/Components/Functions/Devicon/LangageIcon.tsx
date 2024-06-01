@@ -18,7 +18,7 @@ const LanguageIcon:React.FC<LanguageIconProps> = ({ language }) => {
                 bg-gray-800
             `}>
             </i>
-            <div className="tooltip">{language}</div>
+            <div className=" text-sm tooltip">{language}</div>
         </div>
     )
 }
