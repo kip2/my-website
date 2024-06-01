@@ -1,16 +1,17 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import About from './Components/Page/About/About'
 import HistoryDetail from './Components/Page/About/History/HistoryDetail'
 import NotFoundPage from './Components/Page/Error/NotFoundPage'
 import Products from './Components/Page/Products/Products'
 import Top from './Components/Page/Top/Top'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import 'normalize.css'
 import ProductDetail from './Components/Page/Products/ProductDetail'
 import Favorite from './Components/Page/Favorite/Favorite'
 import Influenced from './Components/Page/Influenced/Influenced'
 import FavoriteDetail from './Components/Page/Favorite/FavoriteDetail'
 import InfluencedDetail from './Components/Page/Influenced/InfluencedDetail'
 import AboutSite from './Components/Page/AboutSite/AboutSite'
+import 'normalize.css'
+import 'devicon/devicon.min.css'
 
 
 const App = () => {

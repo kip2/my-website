@@ -2,7 +2,9 @@
 
 curl -s https://raw.githubusercontent.com/devicons/devicon/develop/devicon.json -o devicon.json
 
-echo "const iconMap = {" > iconMap.tsx
+echo "type IconMap = {\n\t[key: string]: string,\n}" > iconMap.tsx
+
+echo "const iconMap: IconMap = {" >> iconMap.tsx
 
 jq -r '.[] | .name as $name | .versions.font[] | " \"" + $name + "\": \"devicon-\($name)-plain colored\","' devicon.json | sort | uniq >> iconMap.tsx
 
