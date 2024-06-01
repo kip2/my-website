@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub, faXTwitter } from "@fortawesome/free-brands-svg-icons"
-import "../../Top/Profile.css"
 
 const IntroductionProfile = () => {
     return (
