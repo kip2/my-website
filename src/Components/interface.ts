@@ -12,6 +12,7 @@ export interface ProductPageData {
     caption: string,
     path: string,
     genre: string,
+    techStack: string[],
     created: string,
 }
 
