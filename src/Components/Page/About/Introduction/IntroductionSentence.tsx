@@ -19,7 +19,7 @@ const IntroductionSentense = () => {
                 <h2>使える技術など</h2>
                 <p>以下のものが使える。それぞれ調べながら使えるくらいにはなっていると思う。<br/></p>
                 <h4>フロントエンド</h4>
-                <LanguageIcons iconsData={["html5", "css3", "javascript", "typescript", "react", "vitejs", "tailwindcss"]}/>
+                <LanguageIcons iconsData={["html5", "css3", "javascript", "typescript", "react", "vitejs", "tailwindcss", "bootstrap"]}/>
                 <h4>バックエンド</h4>
                 <LanguageIcons iconsData={["Rust", "python", "PHP", "Java"]}/>
                 <h4>インフラ</h4>
