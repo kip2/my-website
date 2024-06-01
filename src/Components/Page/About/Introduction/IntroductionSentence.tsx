@@ -1,3 +1,4 @@
+import LanguageIcons from "../../../Functions/Devicon/LanguageIcons"
 import Blank from "../../../UI/Blanks/Blank"
 
 const IntroductionSentense = () => {
@@ -21,6 +22,7 @@ const IntroductionSentense = () => {
                 (分類が間違っていたらご指摘ください)</p>
                 <h4>フロントエンド</h4>
                 <ul>
+                <LanguageIcons iconsData={["html5", "css3"]}/>
                 <li>HTML/CSS</li>
                 <li>JavaScript
                 <ul>

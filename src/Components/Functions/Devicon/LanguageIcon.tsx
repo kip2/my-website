@@ -12,14 +12,15 @@ const LanguageIcon:React.FC<LanguageIconProps> = ({ language }) => {
     }
 
     return (
-        <div className="icon-content">
+        <>
             <i className={`${iconClass}
-                text-xl mx-2 p-1 border-2 border-gray-700 rounded-xl 
+                text-xl  p-1 
                 bg-gray-800
+                icon-content
             `}>
+                <div className="text-xs language-tooltip">{language}</div>
             </i>
-            <div className=" text-sm tooltip">{language}</div>
-        </div>
+        </>
     )
 }
 
