@@ -55,7 +55,7 @@ const Profile = () => {
                                 ">
                                     <FontAwesomeIcon icon={faXTwitter} />
                                 </a>
-                                <div className="tooltip">X</div>
+                                <div className="tooltip">Twitter</div>
                             </div>
                     </div>
                 </div>
