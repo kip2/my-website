@@ -17,7 +17,7 @@ const LanguageIcon:React.FC<LanguageIconProps> = ({ language }) => {
                 text-6xl  px-1 mx-1 my-1
                 icon-content
             `}>
-                <div className="text-xs language-tooltip">{language}</div>
+                <div className="language-tooltip">{language}</div>
             </i>
         </>
     )

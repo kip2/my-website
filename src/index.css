@@ -1,4 +1,3 @@
-/* src/styles.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -15,10 +14,33 @@
     @apply opacity-100 visible top-[-50px];
 }
 
+.icon-content .tooltip::before {
+    @apply absolute bottom-[-5px] left-1/2 transform -translate-x-1/2 border-x-8 border-x-transparent border-t-8 border-t-violet-600;
+    content: '';
+}
+
 .icon-content .language-tooltip {
-    @apply absolute top-[-30px] left-1/2 transform -translate-x-1/2 bg-violet-600 text-white px-3 py-1.5 rounded opacity-0 invisible text-sm transition-all duration-300 ease-in-out;
+    @apply absolute top-[-30px] left-1/2 transform -translate-x-1/2 bg-violet-600 text-white px-3 py-1.5 rounded opacity-0 invisible text-xl transition-all duration-300 ease-in-out;
 }
 
 .icon-content:hover .language-tooltip {
-    @apply opacity-100 visible top-[-50px];
+    @apply opacity-100 visible top-[-54px];
+}
+
+.icon-content .language-tooltip::before {
+    @apply absolute bottom-[-5px] left-1/2 transform -translate-x-1/2 border-x-8 border-x-transparent border-t-8 border-t-violet-600;
+    content: '';
+}
+
+.icon-content .language-small-tooltip {
+    @apply absolute top-[-30px] left-1/2 transform -translate-x-1/2 bg-violet-600 text-white px-3 py-1.5 rounded opacity-0 invisible text-xs transition-all duration-300 ease-in-out;
+}
+
+.icon-content:hover .language-small-tooltip {
+    @apply opacity-100 visible top-[-35px];
+}
+
+.icon-content .language-small-tooltip::before {
+    @apply absolute bottom-[-5px] left-1/2 transform -translate-x-1/2 border-x-8 border-x-transparent border-t-8 border-t-violet-600;
+    content: '';
 }
