@@ -9,6 +9,7 @@ import ReturnButton from "../../UI/ReturnButton"
 import LongLine from "../../UI/Lines/LongLine"
 import LittleBlank from "../../UI/Blanks/LittleBlank"
 import Loading from "../../UI/Loading/Loading"
+import LanguageIcons from "../../Functions/Devicon/LanguageIcons"
 
 const ProductDetail = () => {
     const {id} = useParams<{ id?: string }>()
@@ -43,6 +44,15 @@ const ProductDetail = () => {
                 ">
                     {productData.title}
                 </h1>
+                <LongLine/>
+                <LittleBlank />
+                <div className="flex justify-center
+                    mx-auto
+                    max-[640px]:max-w-80
+                ">
+                    <LanguageIcons iconsData={productData.techStack}/>
+                </div>
+                <LittleBlank />
                 <LongLine/>
                 <LongLine/>
                 <LittleBlank />
