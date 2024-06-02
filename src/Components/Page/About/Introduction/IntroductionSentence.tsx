@@ -2,39 +2,14 @@ import LanguageIcons from "../../../Functions/Devicon/LanguageIcons"
 import Blank from "../../../UI/Blanks/Blank"
 
 const IntroductionSentense = () => {
-    return (
-        <>
-            <section className="markdown-viewer">
-                <hr/>
-                <Blank />
-                <p>プログラミングに魅せられてしまい、沼に沈んだオタク。<br/>
-                なんでもすぐに手を出すためなんにも身についていない。<br/>
-                vimとコンソールとパソカタと、プログラミング言語と名の付くものならなんでも好き。<br/>
-                コンピュータそのものが最推し。<br/>
-                生涯をかけてコンピュータとお友達になりたい。<br/>
-                推し活 is (キーボード)押し活。<br/>
-                元引きこもり。現在も仕事以外は家にこもってキーボードを叩いているので、いまでも大体引きこもり。</p>
-                <Blank />
-                <hr/>
-                <h2>使える技術など</h2>
-                <p>以下のものが使える。それぞれ調べながら使えるくらいにはなっていると思う。<br/></p>
-                <h4>フロントエンド</h4>
-                <LanguageIcons iconsData={["html5", "css3", "javascript", "typescript", "react", "vitejs", "tailwindcss", "bootstrap"]}/>
-                <h4>バックエンド</h4>
-                <LanguageIcons iconsData={["Rust", "python", "PHP", "Java"]}/>
-                <h4>インフラ</h4>
-                <LanguageIcons iconsData={["AmazonWebServices", "NGINX", "Docker"]}/>
-                <h4>ツール</h4>
-                <LanguageIcons iconsData={["vscode", "vim", "neovim", "eclipse"]}/>
-                <h4>OS</h4>
-                <LanguageIcons iconsData={["apple", "windows11", "linux"]}/>
-                <h4>その他</h4>
-                <LanguageIcons iconsData={["markdown", "bash", "powershell", "git", "github", "spring"]}/>
-                <h3>その他触ったことのあるもの</h3>
-                <p>触ったことはあるけれど、自信を持って使いこなせるとはまでは言えないもの。</p>
-                <br></br>
-                <p>アイコンがあるもの</p>
-                <LanguageIcons iconsData={[
+    const frontend = ["html5", "css3", "javascript", "typescript", "react", "vitejs", "tailwindcss", "bootstrap"]
+    const backend = ["Rust", "python", "PHP", "Java"]
+    const infrastructure = ["AmazonWebServices", "NGINX", "Docker"]
+    const tools = ["vscode", "vim", "neovim", "eclipse"]
+    const os = ["apple", "windows11", "linux"]
+    const others = ["markdown", "bash", "powershell", "git", "github", "spring"]
+    const experienced = [
+                    "blender",
                     "c", 
                     "cplusplus",
                     "csharp",
@@ -60,7 +35,42 @@ const IntroductionSentense = () => {
                     "latex",
                     "unity",
                     "unrealengine",
-                    "wasm"]}/>
+                    "wasm"
+                ]
+
+    return (
+        <>
+            <section className="markdown-viewer">
+                <hr/>
+                <Blank />
+                <p>プログラミングに魅せられてしまい、沼に沈んだオタク。<br/>
+                なんでもすぐに手を出すためなんにも身についていない。<br/>
+                vimとコンソールとパソカタと、プログラミング言語と名の付くものならなんでも好き。<br/>
+                コンピュータそのものが最推し。<br/>
+                生涯をかけてコンピュータとお友達になりたい。<br/>
+                推し活 is (キーボード)押し活。<br/>
+                元引きこもり。現在も仕事以外は家にこもってキーボードを叩いているので、いまでも大体引きこもり。</p>
+                <Blank />
+                <hr/>
+                <h2>使える技術など</h2>
+                <p>以下のものが使える。それぞれ調べながら使えるくらいにはなっていると思う。<br/></p>
+                <h4>フロントエンド</h4>
+                <LanguageIcons iconsData={frontend}/>
+                <h4>バックエンド</h4>
+                <LanguageIcons iconsData={backend}/>
+                <h4>インフラ</h4>
+                <LanguageIcons iconsData={infrastructure}/>
+                <h4>ツール</h4>
+                <LanguageIcons iconsData={tools}/>
+                <h4>OS</h4>
+                <LanguageIcons iconsData={os}/>
+                <h4>その他</h4>
+                <LanguageIcons iconsData={others}/>
+                <h3>その他触ったことのあるもの</h3>
+                <p>触ったことはあるけれど、自信を持って使いこなせるとはまでは言えないもの。</p>
+                <br></br>
+                <p>アイコンがあるもの</p>
+                <LanguageIcons iconsData={experienced}/>
                 <br></br>
                 <p>アイコンがないもので触ったことのあるもの</p>
                 <p>VBA, CommonLisp, Scheme <br/>
