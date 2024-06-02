@@ -440,7 +440,7 @@ Productsページで使用している言語やツールを、アイコンで分
 
 一例として、reactの場合は以下のようになっています。
 
-```react
+```js
 <i className="devicon-react-original"></i>
 ```
 
@@ -448,7 +448,7 @@ Productsページで使用している言語やツールを、アイコンで分
 
 条件分岐なんていちいち書いていられないので、これをマップで持たせることにし、キーを指定するだけで取得できるようにしました。
 
-```react
+```js
 // マップ形式にすれば、keyから特定のクラス名を取得できる
 const iconMap = ["react": "devicon-react-original"]
 ```
