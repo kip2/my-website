@@ -409,8 +409,8 @@ cssアニメーションのUIコンポーネントがたくさん公開されて
 
 具体的に何に使用したかというと、
 
-- 個別記事の読み込み待ち時に、ローディングアニメーションを追加した。[具体的なソースコード](https://github.com/kip2/my-website/blob/main/src/Components/UI/Loading/Loading.tsx)
-- 格言コンポーネントの、フェッチ待ち時に、ローディングアニメーションを追加した。[具体的なソースコード](https://github.com/kip2/my-website/blob/main/src/Components/UI/Maxim/LoadingMaxim.tsx)
+- 個別記事の読み込み待ち時に、ローディングアニメーションを追加した。[ソースコードはこちら。](https://github.com/kip2/my-website/blob/main/src/Components/UI/Loading/Loading.tsx)
+- 格言コンポーネントの、フェッチ待ち時に、ローディングアニメーションを追加した。[ソースコードはこちら。](https://github.com/kip2/my-website/blob/main/src/Components/UI/Maxim/LoadingMaxim.tsx)
 
 ### UIverseの使い方
 
