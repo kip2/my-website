@@ -6,7 +6,7 @@
     "caption": "自分のホームページ",
     "path": "/pages/Products/page/my-website/my-website.md",
     "genre": "other",
-    "techStack": ["html5", "css3", "react", "typescript", "vitejs", "tailwindcss", "bash", "Docker"],
+    "techStack": ["html5", "css3", "React", "TypeScript", ["vite", "vitejs"], "TailwindCSS", "bash", "Docker"],
     "created": "2024/05/19"
   },
   {
@@ -16,7 +16,7 @@
     "caption": "RPCを学ぶための習作アプリ",
     "path": "/pages/Products/page/remote-procedure-call/remote-procedure-call.md",
     "genre": "study",
-    "techStack": ["javascript", "python"],
+    "techStack": ["JavaScript", "python"],
     "created": "2023/08/31"
   },
   {
@@ -26,7 +26,7 @@
     "caption": "Reactの習作モック2",
     "path": "/pages/Products/page/EC-site-product-list/EC-site-product-list.md",
     "genre": "study",
-    "techStack": ["react", "javascript", "python"],
+    "techStack": ["React", "JavaScript", "python"],
     "created": "2023/10/28"
   },
   {
@@ -36,7 +36,7 @@
     "caption": "sqlクエリを実行するアプリ",
     "path": "/pages/Products/page/sqcr/sqcr.md",
     "genre": "tool",
-    "techStack": ["rust", "mysql"],
+    "techStack": ["Rust", "mysql"],
     "created": "2024/03/25"
   },
   {
@@ -66,7 +66,7 @@
     "caption": "DBマイグレーションアプリ",
     "path": "/pages/Products/page/migrate/migrate.md",
     "genre": "tool",
-    "techStack": ["rust", "mysql", "postgresql"],
+    "techStack": ["Rust", "mysql", "postgresql"],
     "created": "2024/04/13"
   },
   {
@@ -106,7 +106,7 @@
     "caption": "Reactの習作モック1",
     "path": "/pages/Products/page/fruit-list/fruit-list.md",
     "genre": "study",
-    "techStack": ["react", "javascript"],
+    "techStack": ["React", "JavaScript"],
     "created": "2023/10/27"
   },
   {
@@ -116,7 +116,7 @@
     "caption": "コマンドアプリの実行アプリ",
     "path": "/pages/Products/page/consowrap/consowrap.md",
     "genre": "tool",
-    "techStack": ["rust"],
+    "techStack": ["Rust"],
     "created": "2024/04/13"
   },
   {
@@ -126,7 +126,7 @@
     "caption": "MySQLのバックアップ/復元アプリ",
     "path": "/pages/Products/page/db-wipe/db-wipe.md",
     "genre": "tool",
-    "techStack": ["rust", "mysql"],
+    "techStack": ["Rust", "mysql"],
     "created": "2024/03/25"
   },
   {
@@ -146,7 +146,7 @@
     "caption": "シンプルなカウントダウンタイマー",
     "path": "/pages/Products/page/countdown-timer/countdown-timer.md",
     "genre": "tool",
-    "techStack": ["css3","react", "javascript"],
+    "techStack": ["css3","React", "JavaScript"],
     "created": "2023/10/30"
   },
   {
@@ -166,7 +166,7 @@
     "caption": "マークダウンのhtml変換webアプリ",
     "path": "/pages/Products/page/markdown-to-html/markdown-to-html.md",
     "genre": "tool",
-    "techStack": ["html5","css3","react", "typescript"],
+    "techStack": ["html5","css3","React", "TypeScript"],
     "created": "2023/11/05"
   },
   {
@@ -176,7 +176,7 @@
     "caption": "夢十夜が元ネタのクリッカーゲーム",
     "path": "/pages/Products/page/yume-juya/yume-juya.md",
     "genre": "game",
-    "techStack": ["css3", "react", "typescript"],
+    "techStack": ["css3", "React", "TypeScript"],
     "created": "2023/12/23"
   },
   {
