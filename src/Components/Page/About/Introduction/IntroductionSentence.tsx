@@ -5,13 +5,13 @@ import { IconType } from "../../../types"
 const IntroductionSentense = () => {
     const frontend: IconType = ["html5", "css3", "javascript", "typescript", "react", "vitejs", "tailwindcss", "bootstrap"]
     const backend: IconType = ["Rust", "python", "PHP", "Java"]
-    const infrastructure: Array<string | [string, string]> = [
+    const infrastructure: IconType = [
         ["AWS", "AmazonWebServices"], 
         "NGINX", 
         "Docker"
     ]
     const tools: IconType = ["vscode", "vim", "neovim", "eclipse"]
-    const os: Array<string | [string, string]> = [["mac", "apple"], ["windows", "windows11"], "linux"]
+    const os: IconType = [["mac", "apple"], ["windows", "windows11"], "linux"]
     const others: IconType = ["markdown", "bash", "powershell", "git", "github", "spring"]
     const experienced: IconType = [
                     "blender",
