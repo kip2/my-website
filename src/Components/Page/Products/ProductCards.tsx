@@ -1,6 +1,7 @@
 import ProductCard from "./ProductCard"
-import producttData from "../../../../public/json/ProductsData.json"
+import productsData from "../../../../public/json/ProductsData.json"
 import React from "react"
+import { ProductPageData } from "../../types"
 
 interface ProductCardsProps {
     genre?: string,
@@ -8,11 +9,12 @@ interface ProductCardsProps {
 }
 
 const ProductCards:React.FC<ProductCardsProps> = ({ genre, limit }) => {
+    const products: ProductPageData[] = productsData as ProductPageData[]
 
     const filterProducts = genre ?
-                        producttData.filter(product => product.genre === genre)
+                        products.filter(product => product.genre === genre)
                         :
-                        producttData
+                        products
 
     const sortedProducts = filterProducts.sort((a, b) => {
         const dataA = new Date(a.created).getTime()
