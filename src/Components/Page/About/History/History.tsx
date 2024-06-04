@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { HistoryPageData} from "../../../interface"
+import { HistoryPageData} from "../../../types"
 
 const History: React.FC< {data: HistoryPageData}> = ({data}) => {
     

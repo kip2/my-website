@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { InfluencedPageData } from "../../interface"
+import { InfluencedPageData } from "../../types"
 
 const InfluencedCard: React.FC<{data: InfluencedPageData}> = ({ data }) => {
     return (

@@ -1,7 +1,7 @@
 import LanguageIcon from "./LanguageIcon"
 
 interface LangageIconsProps {
-    iconsData: string[]
+    iconsData: Array<string | [string, string]>
 }
 
 const LanguageIcons:React.FC<LangageIconsProps> = ({ iconsData }) => {

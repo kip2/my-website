@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { ProductPageData } from "../../interface"
+import { ProductPageData } from "../../types"
 import LanguageSmallIcons from "../../Functions/Devicon/LanguageSmallIcons"
 
 const ProductCard: React.FC<{data: ProductPageData}> = ({ data }) => {

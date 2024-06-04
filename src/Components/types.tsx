@@ -1,3 +1,5 @@
+export type IconType = Array<string | [string, string]>
+
 export interface HistoryPageData {
     id: string,
     age: string,

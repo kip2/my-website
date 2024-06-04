@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { FavoritePageData } from "../../interface"
+import { FavoritePageData } from "../../types"
 
 const FavoriteCard: React.FC<{data: FavoritePageData}> = ({ data }) => {
 

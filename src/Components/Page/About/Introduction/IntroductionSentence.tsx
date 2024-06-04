@@ -1,18 +1,19 @@
 import LanguageIcons from "../../../Functions/Devicon/LanguageIcons"
 import Blank from "../../../UI/Blanks/Blank"
+import { IconType } from "../../../types"
 
 const IntroductionSentense = () => {
-    const frontend = ["html5", "css3", "javascript", "typescript", "react", "vitejs", "tailwindcss", "bootstrap"]
-    const backend = ["Rust", "python", "PHP", "Java"]
+    const frontend: IconType = ["html5", "css3", "javascript", "typescript", "react", "vitejs", "tailwindcss", "bootstrap"]
+    const backend: IconType = ["Rust", "python", "PHP", "Java"]
     const infrastructure: Array<string | [string, string]> = [
         ["AWS", "AmazonWebServices"], 
         "NGINX", 
         "Docker"
     ]
-    const tools = ["vscode", "vim", "neovim", "eclipse"]
+    const tools: IconType = ["vscode", "vim", "neovim", "eclipse"]
     const os: Array<string | [string, string]> = [["mac", "apple"], ["windows", "windows11"], "linux"]
-    const others = ["markdown", "bash", "powershell", "git", "github", "spring"]
-    const experienced = [
+    const others: IconType = ["markdown", "bash", "powershell", "git", "github", "spring"]
+    const experienced: IconType = [
                     "blender",
                     "C", 
                     ["C++", "cplusplus"],

@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom"
 import { useEffect, useState } from "react"
-import { FavoritePageData } from "../../interface"
+import { FavoritePageData } from "../../types"
 import Header from "../../UI/Header/Header"
 import Footer from "../../UI/Footer"
 import Blank from "../../UI/Blanks/Blank"

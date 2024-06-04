@@ -1,7 +1,7 @@
 import LanguageSmallIcon from "./LanguageSmallIcon"
 
 interface LangageSmallIconsProps {
-    iconsData: string[]
+    iconsData: Array<string | [string, string]>
 }
 
 const LanguageSmallIcons:React.FC<LangageSmallIconsProps> = ({ iconsData }) => {
