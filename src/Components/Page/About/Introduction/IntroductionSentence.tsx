@@ -4,15 +4,19 @@ import Blank from "../../../UI/Blanks/Blank"
 const IntroductionSentense = () => {
     const frontend = ["html5", "css3", "javascript", "typescript", "react", "vitejs", "tailwindcss", "bootstrap"]
     const backend = ["Rust", "python", "PHP", "Java"]
-    const infrastructure = ["AmazonWebServices", "NGINX", "Docker"]
+    const infrastructure: Array<string | [string, string]> = [
+        ["AWS", "AmazonWebServices"], 
+        "NGINX", 
+        "Docker"
+    ]
     const tools = ["vscode", "vim", "neovim", "eclipse"]
-    const os = ["apple", "windows11", "linux"]
+    const os: Array<string | [string, string]> = [["mac", "apple"], ["windows", "windows11"], "linux"]
     const others = ["markdown", "bash", "powershell", "git", "github", "spring"]
     const experienced = [
                     "blender",
-                    "c", 
-                    "cplusplus",
-                    "csharp",
+                    "C", 
+                    ["C++", "cplusplus"],
+                    ["C#", "csharp"],
                     "go",
                     "haskel",
                     "scala",
@@ -35,7 +39,7 @@ const IntroductionSentense = () => {
                     "latex",
                     "unity",
                     "unrealengine",
-                    "wasm"
+                    "WASM"
                 ]
 
     return (

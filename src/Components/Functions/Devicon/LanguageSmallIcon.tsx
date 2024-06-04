@@ -1,11 +1,21 @@
 import iconMap from "./iconMap"
 
 interface LanguageSmallIconProps  {
-    language: string
+    language: string | [string, string]
 }
 
 const LanguageSmallIcon:React.FC<LanguageSmallIconProps> = ({ language }) => {
-    const iconClass = iconMap[language.toLowerCase()]
+    let displayName
+    let iconKey
+
+    if (Array.isArray(language)) {
+        [displayName, iconKey] = language
+    } else {
+        displayName = language
+        iconKey = language
+    }
+
+    const iconClass = iconMap[iconKey.toLowerCase()]
 
     if (!iconClass) {
         return <></>
@@ -17,7 +27,7 @@ const LanguageSmallIcon:React.FC<LanguageSmallIconProps> = ({ language }) => {
                 text-md  px-1 icon-content
                 max-[368px]:pb-2
             `}>
-                <div className="text-xs language-small-tooltip">{language}</div>
+                <div className="text-xs language-small-tooltip">{displayName}</div>
             </i>
         </>
     )
