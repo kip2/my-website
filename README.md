@@ -31,8 +31,6 @@ RecursionCSユーザー向けの解説記事は別に作成していますので
     </tr>
     <tr>
       <td rowspan=3>フロントエンド</td>
-    </tr>
-    <tr>
       <td>TypeScript</td>
     </tr>
     <tr>
