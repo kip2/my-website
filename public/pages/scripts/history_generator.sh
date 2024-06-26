@@ -1,7 +1,7 @@
 #!/bin/zsh
 
-COPY_PATH="./History/page/"
-JSON_FILE="../json/HistoryData.json"
+COPY_PATH="./public/pages/History/page/"
+JSON_FILE="./public/json/HistoryData.json"
 
 read "new_id?Please enter new article id: "
 

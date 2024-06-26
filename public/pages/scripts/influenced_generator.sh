@@ -1,7 +1,7 @@
 #!/bin/zsh
 
-COPY_PATH="./Influenced/page/"
-JSON_FILE="../json/InfluencedData.json"
+COPY_PATH="./public/pages/Influenced/page/"
+JSON_FILE="./public/json/InfluencedData.json"
 
 read "new_name?Please enter new article name: "
 

@@ -1,7 +1,7 @@
 #!/bin/zsh
 
-COPY_PATH="./Favorites/page/"
-JSON_FILE="../json/FavoriteData.json"
+COPY_PATH="./public/pages/Favorites/page/"
+JSON_FILE="./public/json/FavoriteData.json"
 
 read "new_name?Please enter new article name: "
 

@@ -1,8 +1,8 @@
 #!/bin/zsh
 
-COPY_SOURCE_PATH="./Products/sample"
-COPY_PATH="./Products/page/"
-JSON_FILE="../json/ProductsData.json"
+COPY_SOURCE_PATH="./public/pages/Products/sample"
+COPY_PATH="./public/pages/Products/page/"
+JSON_FILE="./public/json/ProductsData.json"
 
 read "new_name?Please enter new article name: "
 
