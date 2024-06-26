@@ -26,12 +26,11 @@ RecursionCSユーザー向けの解説記事は別に作成していますので
 
 <table>
     <tr>
-      <th>ジャンル</th>
+      <th>カテゴリー</th>
       <th>使用している技術</th>
     </tr>
     <tr>
       <td rowspan=3>フロントエンド</td>
-      <td>使用している技術</td>
     </tr>
     <tr>
       <td>React.js</td>
