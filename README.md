@@ -24,15 +24,36 @@ RecursionCSユーザー向けの解説記事は別に作成していますので
 
 このサイトは以下の技術スタックを使用して作成されています。  
 
-| ジャンル    | 使用している技術         |  
-| ------- | ---------------- |  
-| フロントエンド | TypeScript       |  
-|         | React.js         |  
-|         | TailwindCSS      |  
-| バックエンド  | AWS              |  
-|         | NGINX            |  
-|         | Docker           |  
-| その他     | ShellScript(zsh) |  
+<table>
+    <tr>
+      <th>ジャンル</th>
+      <th>使用している技術</th>
+    </tr>
+    <tr>
+      <td rowspan=3>フロントエンド</td>
+      <td>使用している技術</td>
+    </tr>
+    <tr>
+      <td>React.js</td>
+    </tr>
+    <tr>
+      <td>Tailwind CSS</td>
+    </tr>
+    <tr>
+      <td rowspan=3>バックエンド</td>
+      <td>AWS</td>
+    </tr>
+    <tr>
+      <td>NGINX</td>
+    </tr>
+    <tr>
+      <td>Docker</td>
+    </tr>
+    <tr>
+      <td>その他</td>
+      <td>ShellScript(zsh, bash)</td>
+    </tr>
+</table>
 
 ## License  
 
