@@ -33,6 +33,9 @@ RecursionCSユーザー向けの解説記事は別に作成していますので
       <td rowspan=3>フロントエンド</td>
     </tr>
     <tr>
+      <td>TypeScript</td>
+    </tr>
+    <tr>
       <td>React.js</td>
     </tr>
     <tr>
