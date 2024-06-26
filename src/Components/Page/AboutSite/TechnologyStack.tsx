@@ -2,7 +2,7 @@ const TechnologyStack = () => {
     const technologyStacks = {
         frontend: ["TypeScript", "React.js", "TailwindCSS"],
         backend: ["AWS", "NGINX", "Docker"],
-        other: ["ShellScript(zsh)"] 
+        other: ["ShellScript(zsh, bash)"] 
     }
 
     return (
