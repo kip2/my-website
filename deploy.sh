@@ -1,6 +1,6 @@
 #!/bin/bash
 
-THRESHOLD=16
+THRESHOLD=13
 
 USED_DISK=$(df --output=used / | tail -n 1 | awk '{print $1 / 1024 / 1024}')
 
