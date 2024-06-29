@@ -44,3 +44,34 @@
     @apply absolute bottom-[-5px] left-1/2 transform -translate-x-1/2 border-x-8 border-x-transparent border-t-8 border-t-violet-600;
     content: '';
 }
+
+.image-icon-content {
+    @apply relative;
+}
+
+.image-icon-content .tooltip {
+    @apply absolute top-[-30px] left-1/2 transform -translate-x-1/2 bg-gray-500 text-white px-3 py-1.5 rounded opacity-0 invisible text-sm transition-all duration-300 ease-in-out;
+}
+
+.image-icon-content:hover .tooltip {
+    @apply opacity-100 visible top-[-50px];
+}
+
+.image-icon-content .tooltip::before {
+    @apply absolute bottom-[-5px] left-1/2 transform -translate-x-1/2 border-x-8 border-x-transparent border-t-8 border-t-gray-500;
+    content: '';
+}
+
+.image-icon-content .language-tooltip {
+    @apply absolute top-[-30px] left-1/2 transform -translate-x-1/2 bg-gray-500 text-white 
+    px-3 py-1.5 rounded opacity-0 invisible text-xl transition-all duration-300 ease-in-out;
+}
+
+.image-icon-content:hover .language-tooltip {
+    @apply opacity-100 visible top-[-54px];
+}
+
+.image-icon-content .language-tooltip::before {
+    @apply absolute bottom-[-5px] left-1/2 transform -translate-x-1/2 border-x-8 border-x-transparent border-t-8 border-t-gray-500;
+    content: '';
+}

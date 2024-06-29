@@ -14,12 +14,15 @@ const Profile = () => {
         <>
             <div className="mx-auto flex justify-center gap-5 max-md:flex-col max-md:items-center">
                 <div className="grid place-content-center">
-                    <img className={`rounded-full w-60 h-60 cursor-pointer 
-                            ${isRotating ? 'animate-spinAndSlow' : ''}`}
-                        src="/img/myimage.png"
-                        alt="my image"
-                        onClick={handleClick}
-                    />
+                    <div className="image-icon-content">
+                        <img className={`rounded-full w-60 h-60 cursor-pointer 
+                                ${isRotating ? 'animate-spinAndSlow' : ''}`}
+                            src="/img/myimage.png"
+                            alt="my image"
+                            onClick={handleClick}
+                        />
+                        <div className="language-tooltip">Click Me!</div>
+                    </div>
                 </div>
                 <div className="flex flex-col items-center w-100 
                         max-lg:w-100 
