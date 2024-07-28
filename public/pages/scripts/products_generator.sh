@@ -40,7 +40,7 @@ NEW_ENTRY=$(jq -n \
     --arg path "/pages/Products/page/$new_name/$new_name.md" \
     --arg genre "$genre" \
     --arg created "$(date +%Y/%m/%d)" \
-    '{id: $id, imgUrl: $imgUrl, title: $title, caption: $caption, path: $path, genre: $genre, created: $created}')
+    '{id: $id, imgUrl: $imgUrl, title: $title, caption: $caption, path: $path, genre: $genre, techStack: [], created: $created}')
 
 jq --argjson newEntry "$NEW_ENTRY" '. | [$newEntry] + .' "$JSON_FILE" > tmp.json && mv tmp.json "$JSON_FILE"
 
