@@ -28,7 +28,7 @@ Github : [GitHub - NoteSnip](https://github.com/kip2/notesnip)
 :::LittleBlank
 
 今回はUIとしてYamadaUIを採用。  
-エディター部分に関してはCodeMirrorを採用している。  
+エディター部分に関してはCodeMirrorを採用しています。  
 
 :::LittleBlank
 
@@ -77,8 +77,6 @@ RecursionCSのバックエンドプロジェクトで、コードスニペット
 
 作成の過程については別記事を作成しています。  
 [こちら](https://github.com/kip2/NoteSnip/blob/main/doc/README.md)を御覧ください。  
-
-があればどうぞお読みください。  
 
 :::LittleBlank
 
