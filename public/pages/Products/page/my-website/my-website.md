@@ -5,7 +5,7 @@
 
 ---    
 
-使用言語 : HTML, CSS, TypeScript, ShellScritp(bash, zsh)  
+使用言語 : HTML, CSS, TypeScript, ShellScript(bash, zsh)  
 使用したフレームワークなど : vite, React.js, TailwindCSS  
 作成日 : 2024/05/19    
 作成期間：35日(概算で120時間くらい)  

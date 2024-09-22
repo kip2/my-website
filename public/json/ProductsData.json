@@ -1,5 +1,26 @@
 [
   {
+    "id": "notesnip",
+    "imgUrl": "/pages/Products/page/notesnip/img/notesnip_t.jpg",
+    "title": "notesnip",
+    "caption": "ちょっとしたコードをURLで共有できるサービス",
+    "path": "/pages/Products/page/notesnip/notesnip.md",
+    "genre": "tool",
+    "techStack": [
+      "Rust",
+      "TypeScript",
+      "React",
+      "postgresql",
+      [
+        "vite",
+        "vitejs"
+      ],
+      "bash",
+      "Docker"
+    ],
+    "created": "2024/09/22"
+  },
+  {
     "id": "seeder",
     "imgUrl": "/pages/Products/page/seeder/img/seeder_t.jpg",
     "title": "seeder",
