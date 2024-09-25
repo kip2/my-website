@@ -1,8 +1,7 @@
 const TechnologyStack = () => {
     const technologyStacks = {
         frontend: ["TypeScript", "React.js", "TailwindCSS"],
-        backend: ["AWS", "NGINX", "Docker"],
-        other: ["ShellScript(zsh, bash)"] 
+        infrastructture: ["Cloudflare Pages"],
     }
 
     return (
@@ -21,15 +20,11 @@ const TechnologyStack = () => {
                             <td className="border border-slate-300 px-4 py-2">{tech}</td>
                         </tr>
                     ))}
-                    {technologyStacks.backend.map((tech, index) => (
+                </tbody>
+                <tbody>
+                    {technologyStacks.infrastructture.map((tech, index) => (
                         <tr key={index}>
-                            {index === 0 && <td rowSpan={technologyStacks.backend.length} className="border border-slate-300 px-4 py-2">Backend</td>}
-                            <td className="border border-slate-300 px-4 py-2">{tech}</td>
-                        </tr>
-                    ))}
-                    {technologyStacks.other.map((tech, index) => (
-                        <tr key={index}>
-                            {index === 0 && <td rowSpan={technologyStacks.other.length} className="border border-slate-300 px-4 py-2">Other</td>}
+                            {index === 0 && <td rowSpan={technologyStacks.infrastructture.length} className="border border-slate-300 px-4 py-2">Infrastructure</td>}
                             <td className="border border-slate-300 px-4 py-2">{tech}</td>
                         </tr>
                     ))}
