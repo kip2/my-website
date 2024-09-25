@@ -40,6 +40,36 @@ RecursionCSユーザー向けの解説記事は別に作成していますので
       <td>Tailwind CSS</td>
     </tr>
     <tr>
+      <td>サーバー</td>
+    <td>Cloudflare Pages</td>
+    </tr>
+</table>
+
+
+### Old technology stack
+
+~~このサイトは以下の技術スタックを使用して作成されています。  ~~
+
+Cloudflare移管に伴い、以下の技術スタックは変更になりました。  
+
+以前はこのような構成であったということで、参考に技術構成の記載は残しておきます。  
+
+<table>
+    <tr>
+      <th>カテゴリー</th>
+      <th>移管前に使用していた技術</th>
+    </tr>
+    <tr>
+      <td rowspan=3>フロントエンド</td>
+      <td>TypeScript</td>
+    </tr>
+    <tr>
+      <td>React.js</td>
+    </tr>
+    <tr>
+      <td>Tailwind CSS</td>
+    </tr>
+    <tr>
       <td rowspan=3>バックエンド</td>
       <td>AWS</td>
     </tr>
