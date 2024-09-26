@@ -75,3 +75,4 @@
     @apply absolute bottom-[-5px] left-1/2 transform -translate-x-1/2 border-x-8 border-x-transparent border-t-8 border-t-gray-500;
     content: '';
 }
+
