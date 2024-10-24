@@ -4,7 +4,7 @@ import { IconType } from "../../../types"
 
 const IntroductionSentense = () => {
     const frontend: IconType = ["html5", "css3", "javascript", "typescript", "react", "vitejs", "tailwindcss", "bootstrap"]
-    const backend: IconType = ["Rust", "python", "PHP", "Java"]
+    const backend: IconType = ["Rust", "Go", "python", "PHP", "Java"]
     const infrastructure: IconType = [
         ["AWS", "AmazonWebServices"], 
         "NGINX", 
@@ -18,7 +18,6 @@ const IntroductionSentense = () => {
                     "C", 
                     ["C++", "cplusplus"],
                     ["C#", "csharp"],
-                    "go",
                     "haskel",
                     "scala",
                     "zig",
@@ -72,7 +71,7 @@ const IntroductionSentense = () => {
                 <h4>その他</h4>
                 <LanguageIcons iconsData={others}/>
                 <h3>その他触ったことのあるもの</h3>
-                <p>触ったことはあるけれど、自信を持って使いこなせるとはまでは言えないもの。</p>
+                <p>触ったことはあるけれど、自信を持って使えるとは言えないもの。</p>
                 <br></br>
                 <p>アイコンがあるもの</p>
                 <LanguageIcons iconsData={experienced}/>
