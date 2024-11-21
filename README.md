@@ -18,7 +18,7 @@ RecursionCSユーザー向けの解説記事は別に作成していますので
 
 ## How to use  
 
-[こちら](https://www.kip2.dev/)にアクセスしてサイトを閲覧してください。  
+[こちら](https://kip2.dev/)にアクセスしてサイトを閲覧してください。  
 
 ## About this site  
 
@@ -87,8 +87,8 @@ Cloudflare移管に伴い、以下の技術スタックは変更になりまし�
 
 ## License  
 
-[こちら](https://www.kip2.dev/about-site#License)を参照してください。  
+[こちら](https://kip2.dev/about-site#License)を参照してください。  
 
 ## Special Thanks  
 
-[こちら](https://www.kip2.dev/about-site#SpecialThanks)を参照してください。  
+[こちら](https://kip2.dev/about-site#SpecialThanks)を参照してください。  
