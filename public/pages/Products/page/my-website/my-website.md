@@ -10,7 +10,7 @@
 作成日 : 2024/05/19    
 作成期間：35日(概算で120時間くらい)  
 総コミット数：421コミット(公開時点)    
-Access : [my website](https://www.kip2.dev/)  
+Access : [my website](https://kip2.dev/)  
 Github : [GitHub - my-website](https://github.com/kip2/my-website)    
 
 ---    
@@ -23,7 +23,7 @@ Github : [GitHub - my-website](https://github.com/kip2/my-website)
 
 ### 使い方  
 
-[ここにアクセス](https://www.kip2.dev/)して、閲覧してください。  
+[ここにアクセス](https://kip2.dev/)して、閲覧してください。  
 
 ### 目的  
 
