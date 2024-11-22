@@ -9,13 +9,20 @@ const Top = () => {
     return (
         <>
             <Header/>
-            <Blank />
+
+            <section>
+                <Blank />
+                <Profile />
+                <Blank />
+                <LongLine />
+                <Blank/>
+            </section>
+
+            <section>
                 <RecentCreation />
                 <Blank/>
-                <LongLine />
-            <Blank />
+            </section>
 
-            <Profile />
             <Footer/>
         </>
     )
