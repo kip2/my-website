@@ -6,7 +6,7 @@
 
 ---  
 
-使用言語：JavaScript(React.js) TypeScript  
+使用言語：HTML CSS JavaScript(React.js) TypeScript  
 作成日 : 2023/12/23  
 作成期間：1ヶ月  
 総コミット数：248コミット  
