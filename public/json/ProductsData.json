@@ -288,6 +288,7 @@
     "path": "/pages/Products/page/yume-juya/yume-juya.md",
     "genre": "game",
     "techStack": [
+      "html5",
       "css3",
       "React",
       "TypeScript"
