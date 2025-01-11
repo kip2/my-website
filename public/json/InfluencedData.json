@@ -1,5 +1,13 @@
 [
   {
+    "id": "read-ten-books-at-the-same-time",
+    "title": "read-ten-books-at-the-same-time",
+    "caption": "Caption of read-ten-books-at-the-same-time",
+    "path": "/pages/Influenced/page/read-ten-books-at-the-same-time/read-ten-books-at-the-same-time.md",
+    "genre": "book",
+    "published": "2025/01/11"
+  },
+  {
     "id": "practical-vim",
     "title": "実践Vim",
     "caption": "vim、開眼。",
