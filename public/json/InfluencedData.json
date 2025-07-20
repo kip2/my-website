@@ -1,13 +1,5 @@
 [
   {
-    "id": "read-ten-books-at-the-same-time",
-    "title": "本は10冊同時に読め",
-    "caption": "読書の仕方、読書の楽しみを教えてくれた本",
-    "path": "/pages/Influenced/page/read-ten-books-at-the-same-time/read-ten-books-at-the-same-time.md",
-    "genre": "book",
-    "published": "2025/01/11"
-  },
-  {
     "id": "practical-vim",
     "title": "実践Vim",
     "caption": "vim、開眼。",
